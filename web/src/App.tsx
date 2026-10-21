@@ -41,6 +41,7 @@ function App() {
             className="bg-white border rounded-lg p-3 flex items-center justify-between gap-3">
             <div>
               <div className="font-medium">{i + 1}. {titleCase(r.role.title)}</div>
+              <div className="text-xs text-slate-500">{r.role.group}</div>
               <div className="mt-1 flex gap-1">
                 {r.role.sdgs.map((n) => <SdgChip key={n} n={n} />)}
               </div>
