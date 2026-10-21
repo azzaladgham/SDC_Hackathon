@@ -1,5 +1,6 @@
-import type { MatchResult, Profile } from "../../shared/types";
-import { MOCK_MATCHES, MOCK_PROFILES, SNAPSHOT_DATES } from "./mocks/data";
+import type { MatchResult, Pathway, Profile } from "../../shared/types";
+import { MOCK_MATCHES, MOCK_PROFILES, SNAPSHOT_DATES, mockPathway } from "./mocks/data";
+
 // Flip to false on Day 2 when Role B's API is ready
 export const USE_MOCK = true;
 
@@ -20,5 +21,14 @@ export async function getMatches(profileId: string, snapshot: string): Promise<M
 }export async function getProfiles(): Promise<Profile[]> {
   if (USE_MOCK) return MOCK_PROFILES;
   const res = await fetch("/profiles");
+  return res.json();
+}
+export async function getPathway(gapSkills: string[], sdgs: number[]): Promise<Pathway> {
+  if (USE_MOCK) return mockPathway(gapSkills, sdgs);
+  const res = await fetch("/pathway", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ gapSkills }),
+  });
   return res.json();
 }

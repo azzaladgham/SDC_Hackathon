@@ -1,4 +1,7 @@
-import type { MatchResult, Scenario } from "../../../shared/types";
+import { useEffect, useState } from "react";
+import type { MatchResult, Pathway, Scenario } from "../../../shared/types";
+import { getPathway } from "../api";
+import PathwayView from "./PathwayView";
 import BreakdownBar from "./BreakdownBar";
 import ScoreRange from "./ScoreRange";
 import SdgChip from "./SdgChip";
@@ -9,6 +12,12 @@ type Props = { match: MatchResult; scenario: Scenario; onBack: () => void };
 
 export default function RoleDetail({ match, scenario, onBack }: Props) {
   const { role, score, breakdown, haveSkills, gapSkills, snapshotDate } = match;
+  const [pathway, setPathway] = useState<Pathway | null>(null);
+
+useEffect(() => {
+  setPathway(null);
+  getPathway(gapSkills, role.sdgs).then(setPathway);
+}, [match]);
 
   return (
     <div>
@@ -67,7 +76,10 @@ export default function RoleDetail({ match, scenario, onBack }: Props) {
           <div className="flex gap-1">{role.sdgs.map((n) => <SdgChip key={n} n={n} />)}</div>
         )}
       </section>
-
+        <section className="mt-3 rounded-lg border bg-white p-4">
+            <h3 className="mb-2 font-semibold">Your reskilling pathway</h3>
+            {pathway ? <PathwayView pathway={pathway} /> : <p className="text-sm text-slate-400">Loading pathway...</p>}
+      </section>
       <div className="mt-3">
         <SourceBadge source="mock data" date={snapshotDate} />
       </div>
