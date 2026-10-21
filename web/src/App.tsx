@@ -7,6 +7,7 @@ import SourceBadge from "./components/SourceBadge";
 import SdgChip from "./components/SdgChip";
 import RoleDetail from "./components/RoleDetail";
 import ProfilePicker from "./components/ProfilePicker";
+import IntakeForm from "./components/IntakeForm";
 import { titleCase } from "./utils";
 
 function App() {
@@ -31,7 +32,10 @@ function App() {
       <h1 className="text-2xl font-bold text-emerald-600">Future Skills Navigator</h1>
 
       {!profile ? (
-        <div className="mt-6"><ProfilePicker profiles={profiles} onPick={setProfile} /></div>
+        <div className="mt-6 space-y-4">
+          <ProfilePicker profiles={profiles} onPick={setProfile} />
+          <IntakeForm onSubmit={setProfile} />
+        </div>
       ) : (
         <>
           <div className="mt-3 flex items-center justify-between text-sm">
