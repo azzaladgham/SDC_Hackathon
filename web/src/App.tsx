@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import type { MatchResult, Profile, Scenario } from "../../shared/types";
-import { getMatches, getProfiles, getSnapshots } from "./api";
+import type { MatchResult, Profile, Scenario, SkillTrend } from "../../shared/types";
+import { getMatches, getProfiles, getSnapshots, getTrends } from "./api";
 import ScoreRange from "./components/ScoreRange";
 import SourceBadge from "./components/SourceBadge";
 import SdgChip from "./components/SdgChip";
 import RoleDetail from "./components/RoleDetail";
 import ProfilePicker from "./components/ProfilePicker";
+import TrendChart from "./components/TrendChart";
 import IntakeForm from "./components/IntakeForm";
 import { titleCase } from "./utils";
 
@@ -19,11 +20,13 @@ function App() {
   const [profiles, setProfiles] = useState<Profile[]>([]);
   const [profile, setProfile] = useState<Profile | null>(null);
   const [sdgWeight, setSdgWeight] = useState(0);
+  const [trends, setTrends] = useState<SkillTrend[]>([]);
 
   useEffect(() => { getSnapshots().then(setDates); getProfiles().then(setProfiles); }, []);
   useEffect(() => {
     if (profile) getMatches(profile.id, snapshot).then(setMatches);
   }, [profile, snapshot]);
+  useEffect(() => { getTrends(snapshot).then(setTrends); }, [snapshot]);
 
   const adjusted = (m: MatchResult) => m.score[scenario] + sdgWeight * m.breakdown.sdgBoost;
   const ranked = [...matches].sort((a, b) => adjusted(b) - adjusted(a));
@@ -57,6 +60,10 @@ function App() {
               className="ml-auto border rounded px-2 py-1 bg-white">
               {dates.map((d) => <option key={d}>{d}</option>)}
             </select>
+          </div>
+          <div className="mt-4 rounded-lg border bg-white p-3">
+            <h3 className="mb-2 text-sm font-semibold">Future Skills Radar</h3>
+            <TrendChart trends={trends} date={snapshot} />
           </div>
                       <div className="mt-4 rounded-lg border bg-white p-3">
             <label className="flex items-center justify-between text-sm font-medium">

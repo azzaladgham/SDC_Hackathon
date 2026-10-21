@@ -1,4 +1,4 @@
-import type { Course, MatchResult, Pathway, Profile } from "../../../shared/types";
+import type { Course, MatchResult, Pathway, Profile, SkillTrend } from "../../../shared/types";
 
 export const SNAPSHOT_DATES = ["2026-09-20", "2026-10-20"];
 
@@ -82,3 +82,33 @@ export function mockPathway(gapSkills: string[], sdgs: number[]): Pathway {
     totalHours: chosen.reduce((sum, c) => sum + c.hours, 0),
   };
 }
+// PLACEHOLDER trends. Replace with Role A's snapshot data in data/snapshots/.
+// Momentum = recent 3-month mentions vs the prior 3 months (e.g. 0.42 = +42%).
+const trend = (label: string, momentum: number, recent: number, prior: number, date: string): SkillTrend => ({
+  escoUri: "mock:" + label, label, momentum,
+  mentionsRecent: recent, mentionsPrior: prior,
+  sources: [{ name: "mock (arXiv + HN placeholder)", url: "https://example.com", fetchedAt: date }],
+});
+
+export const MOCK_TRENDS: Record<string, SkillTrend[]> = {
+  "2026-09-20": [
+    trend("Machine learning", 0.31, 131, 100, "2026-09-20"),
+    trend("Python", 0.12, 112, 100, "2026-09-20"),
+    trend("Risk assessment", 0.18, 118, 100, "2026-09-20"),
+    trend("Cloud deployment", 0.09, 109, 100, "2026-09-20"),
+    trend("Forecasting", -0.04, 96, 100, "2026-09-20"),
+    trend("Data visualisation", -0.08, 92, 100, "2026-09-20"),
+    trend("Bookkeeping", -0.22, 78, 100, "2026-09-20"),
+    trend("Payroll software", -0.3, 70, 100, "2026-09-20"),
+  ],
+  "2026-10-20": [
+    trend("Machine learning", 0.42, 142, 100, "2026-10-20"),
+    trend("Risk assessment", 0.27, 127, 100, "2026-10-20"),
+    trend("Python", 0.15, 115, 100, "2026-10-20"),
+    trend("Cloud deployment", 0.06, 106, 100, "2026-10-20"),
+    trend("Forecasting", -0.1, 90, 100, "2026-10-20"),
+    trend("Data visualisation", -0.16, 84, 100, "2026-10-20"),
+    trend("Bookkeeping", -0.35, 65, 100, "2026-10-20"),
+    trend("Payroll software", -0.48, 52, 100, "2026-10-20"),
+  ],
+};
