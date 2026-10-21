@@ -53,8 +53,8 @@
     "escoUri": "http://data.europa.eu/esco/skill/2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1",
     "label": "debug software",
     "keywords": [
-      "debugging",
-      "observability"
+      "automated debugging",
+      "fault localization"
     ]
   },
   {
@@ -208,16 +208,16 @@
     "escoUri": "http://data.europa.eu/esco/skill/21c5790c-0930-4d74-b3b0-84caf5af12ea",
     "label": "manage budgets",
     "keywords": [
-      "FP&A",
-      "budgeting"
+      "budget forecasting",
+      "financial planning and analysis"
     ]
   },
   {
     "escoUri": "http://data.europa.eu/esco/skill/04dfd9fb-e0cf-40f6-96c6-9d2280c4347e",
     "label": "provide technical documentation",
     "keywords": [
-      "technical writing",
-      "documentation"
+      "software documentation",
+      "API documentation"
     ]
   },
   {
