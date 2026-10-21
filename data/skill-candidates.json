@@ -1,0 +1,4205 @@
+[
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/d9e5349e-8791-49c2-8ba4-839fdd1606c2",
+    "label": "define technical requirements",
+    "occupations": 5,
+    "groups": [
+      "Business",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/66db424f-2abe-420d-8e5b-186607266b61",
+    "label": "corporate social responsibility",
+    "occupations": 4,
+    "groups": [
+      "Admin",
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/5f1d1319-7954-4a9b-90c7-57668e3a0d4b",
+    "label": "interpret financial statements",
+    "occupations": 4,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8d4271ca-c9fd-40b3-875f-15f78332a49e",
+    "label": "quality standards",
+    "occupations": 4,
+    "groups": [
+      "Admin",
+      "Business",
+      "Engineering",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+    "label": "statistics",
+    "occupations": 4,
+    "groups": [
+      "Finance",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/2d6d4784-0992-48e7-b100-22d7229b3f0a",
+    "label": "translate requirement concepts into visual design",
+    "occupations": 4,
+    "groups": [
+      "Creative",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/08371fe9-c658-4f6a-966f-71dbb0ab683d",
+    "label": "accounting department processes",
+    "occupations": 3,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/99b163e8-7815-43e2-83f3-a47f3076354c",
+    "label": "accounting entries",
+    "occupations": 3,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/880c54f9-866e-4f37-b5fa-25ef8a7d49b6",
+    "label": "accounting techniques",
+    "occupations": 3,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/96d549bb-3e62-4c45-92a7-f114df089581",
+    "label": "analyse supply chain strategies",
+    "occupations": 3,
+    "groups": [
+      "Admin",
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/b7e57889-a84f-440c-9e60-459aa69979e9",
+    "label": "analyse supply chain trends",
+    "occupations": 3,
+    "groups": [
+      "Admin",
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/0ee94af1-b445-4973-9c3f-459fab250342",
+    "label": "apply conflict management",
+    "occupations": 3,
+    "groups": [
+      "Admin",
+      "Business",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/dc72ad0a-c5dc-4abd-bc0d-ca43e82162e1",
+    "label": "build business relationships",
+    "occupations": 3,
+    "groups": [
+      "Business",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5",
+    "label": "data models",
+    "occupations": 3,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/4a460161-eaea-4fe2-bd0e-164ccc635be1",
+    "label": "financial statements",
+    "occupations": 3,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/f5f5b244-6cea-4fbc-8a50-8f712791bc09",
+    "label": "follow company standards",
+    "occupations": 3,
+    "groups": [
+      "Admin",
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/0e0c9c11-b39e-43cf-ba95-2fe646f5de64",
+    "label": "identify customer requirements",
+    "occupations": 3,
+    "groups": [
+      "Business",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/b9bf9e17-ae47-417b-bbb1-e8b7c263ccac",
+    "label": "identify legal requirements",
+    "occupations": 3,
+    "groups": [
+      "Business",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/43b13058-68d0-40c6-8031-caf5a7b7d20c",
+    "label": "keep task records",
+    "occupations": 3,
+    "groups": [
+      "Admin",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/f14ff4b7-be1e-4b55-b39b-520005f8a97e",
+    "label": "liaise with managers",
+    "occupations": 3,
+    "groups": [
+      "Admin",
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+    "label": "listen actively",
+    "occupations": 3,
+    "groups": [
+      "Admin",
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/2239694b-771a-4586-8b54-2794e361a9ae",
+    "label": "maintain relationship with customers",
+    "occupations": 3,
+    "groups": [
+      "Admin",
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/21c5790c-0930-4d74-b3b0-84caf5af12ea",
+    "label": "manage budgets",
+    "occupations": 3,
+    "groups": [
+      "Admin",
+      "Business",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/1dd23dba-dd00-45ab-abf4-642902538317",
+    "label": "perform risk analysis",
+    "occupations": 3,
+    "groups": [
+      "Business",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/48b68726-0fd6-4e03-a5eb-82236516ee7a",
+    "label": "provide cost benefit analysis reports",
+    "occupations": 3,
+    "groups": [
+      "Business",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9cf681c7-89ec-470c-b651-7fe03786f586",
+    "label": "query languages",
+    "occupations": 3,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/99207709-d076-4cce-ba38-e90d3bb28806",
+    "label": "resource description framework query language",
+    "occupations": 3,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/2a2fa8e8-aaf3-4abf-a60b-af6415f1c6d4",
+    "label": "strive for company growth",
+    "occupations": 3,
+    "groups": [
+      "Admin",
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/f929c89e-c363-4132-a918-e021d57b307c",
+    "label": "supply chain management",
+    "occupations": 3,
+    "groups": [
+      "Admin",
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/ecc18804-a466-40d9-98b4-fba5cd67dd4b",
+    "label": "accounting",
+    "occupations": 2,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/ce5b1446-b5e3-4f05-a5ac-83f2ee142a44",
+    "label": "analyse external factors of companies",
+    "occupations": 2,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/eb8babfb-ab91-4937-a032-6a79f82e9b7f",
+    "label": "analyse financial risk",
+    "occupations": 2,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/91816e1a-d026-4d21-9b1c-59ca5cf488de",
+    "label": "analyse internal factors of companies",
+    "occupations": 2,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/5d26851b-270a-4fbe-abeb-2bfd6eba3e2d",
+    "label": "analyse logistic changes",
+    "occupations": 2,
+    "groups": [
+      "Admin",
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/f28617ad-afdd-4041-814c-216153a38998",
+    "label": "analyse software specifications",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/0a43729f-2a79-4dae-9faa-95520daae79f",
+    "label": "apply company policies",
+    "occupations": 2,
+    "groups": [
+      "Admin",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/96ec2d53-4f41-4172-8ef2-70742c4bb540",
+    "label": "assess supplier risks",
+    "occupations": 2,
+    "groups": [
+      "Admin",
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/e9030465-13c5-46d2-bdae-c2c1a9dbec86",
+    "label": "attach accounting certificates to accounting transactions",
+    "occupations": 2,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/2ff405ec-f59c-4a7b-84b6-9776a49582c4",
+    "label": "bookkeeping regulations",
+    "occupations": 2,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/5f1ebff6-98ec-411f-a1d4-0bf04bd03bdf",
+    "label": "check accounting records",
+    "occupations": 2,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/79e29b8b-47d1-470d-b7b1-32506bfe7d9a",
+    "label": "collect ICT data",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/d63c2bad-817d-4116-b4d8-b927cb01212d",
+    "label": "commercial law",
+    "occupations": 2,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/0da516ee-e70e-4384-be13-f5ff80be8127",
+    "label": "communicate with customers",
+    "occupations": 2,
+    "groups": [
+      "Admin",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/f75b740c-b36c-495e-bc67-efe347bbc6b5",
+    "label": "company policies",
+    "occupations": 2,
+    "groups": [
+      "Admin",
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97",
+    "label": "computer programming",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/d41262ae-eca1-4ede-89a8-46d2d99a7a31",
+    "label": "consider economic criteria in decision making",
+    "occupations": 2,
+    "groups": [
+      "Business",
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/901105f8-3a08-453e-b1dc-23619e317fd3",
+    "label": "create flowchart diagram",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/21fecc8a-392e-49ce-ac26-fb0696ccfead",
+    "label": "create project specifications",
+    "occupations": 2,
+    "groups": [
+      "Business",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/25f0ea33-b4a2-4f31-b7b4-7d20e827b180",
+    "label": "data mining",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/cc7370dd-69fa-4c67-a96f-d4d135d38700",
+    "label": "data quality assessment",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1",
+    "label": "debug software",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/64be6a06-52e8-4f5c-b64d-caa516cfa291",
+    "label": "depreciation",
+    "occupations": 2,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/6c08403c-a5bb-4868-b8c2-b7d039c0e511",
+    "label": "design database scheme",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/f058bf62-70d1-4f5e-be2a-8b26fac24a96",
+    "label": "design graphics",
+    "occupations": 2,
+    "groups": [
+      "Creative",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8c4c49d4-9708-433f-8ca7-bf2c5211ee49",
+    "label": "develop creative ideas",
+    "occupations": 2,
+    "groups": [
+      "Creative",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/797a4416-0b8d-44f3-8fcd-eb10bd0be6b4",
+    "label": "develop software prototype",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa",
+    "label": "economics",
+    "occupations": 2,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/209a5498-3449-4689-8ed9-bd08cab4fd78",
+    "label": "engineering principles",
+    "occupations": 2,
+    "groups": [
+      "Engineering",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/72a74f69-5cf1-43c5-99b9-62a444578919",
+    "label": "engineering processes",
+    "occupations": 2,
+    "groups": [
+      "Engineering",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/2daec0e6-f0c1-43e8-8178-aedba99130ec",
+    "label": "establish data processes",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/d1724ca5-ebd3-472a-bea9-fad9fe9004bf",
+    "label": "estimate costs of required supplies",
+    "occupations": 2,
+    "groups": [
+      "Admin",
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/e207163b-7963-4c3e-9494-7a4bb000211b",
+    "label": "estimate duration of work",
+    "occupations": 2,
+    "groups": [
+      "Business",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c",
+    "label": "execute analytical mathematical calculations",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/39e43f7c-a95e-4583-be76-bb134ccce1ae",
+    "label": "financial department processes",
+    "occupations": 2,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/83e97138-899a-4af8-9187-47823e875841",
+    "label": "follow the statutory obligations",
+    "occupations": 2,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/00e53a0a-c0ba-4c9f-a2ed-4706d5832a00",
+    "label": "guarantee customer satisfaction",
+    "occupations": 2,
+    "groups": [
+      "Admin",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/4a193795-fa63-414e-9f2e-bfdb3924571e",
+    "label": "handle data samples",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/d15ce60f-ddab-41ce-ba56-398451b77b60",
+    "label": "have computer literacy",
+    "occupations": 2,
+    "groups": [
+      "Admin",
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/6014921e-1d25-4039-adc2-04852d61880e",
+    "label": "ICT debugging tools",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/7814e88f-c133-4c3b-b27f-857afa145d42",
+    "label": "ICT security legislation",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8a326ee1-169c-4c44-b38b-8f1bb20ec79b",
+    "label": "identify accounting errors",
+    "occupations": 2,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/68698869-c13c-4563-adc7-118b7644f45d",
+    "label": "identify customer's needs",
+    "occupations": 2,
+    "groups": [
+      "Creative",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/e5635e02-2d34-4a8c-b8ca-556d45e9b20e",
+    "label": "identify potential markets for companies",
+    "occupations": 2,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/713fb616-118e-40bc-9366-4a69879a49d5",
+    "label": "implement data quality processes",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/93aaf65c-5aad-4e6f-a7ba-ce9bf7c0e6e6",
+    "label": "information categorisation",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/696e3b5b-8b61-45af-ae4c-3ab700f197ec",
+    "label": "information extraction",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/03ff0d53-573a-47a0-a0ad-1995815a4339",
+    "label": "information structure",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/aa7eac5f-dc9d-401a-b197-c9c455d78c95",
+    "label": "integrate marketing strategies with the global strategy",
+    "occupations": 2,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/925463a7-d51f-4d5b-9f79-4d28cf30acde",
+    "label": "integrated development environment software",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/a8797f21-1af0-4c5e-98ca-bf1442929363",
+    "label": "interact with users to gather requirements",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/0daaf096-1639-461c-bf1a-bbeea77e6b67",
+    "label": "internal risk management policy",
+    "occupations": 2,
+    "groups": [
+      "Business",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/1e77e42a-181f-4b48-8e74-201ce50ffc29",
+    "label": "interpret current data",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/85c11255-469f-41bd-a6d1-382bc4a87783",
+    "label": "interpret technical texts",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/3cd35f5d-ce6d-4f14-9a09-53d7a28d834c",
+    "label": "maintain relationship with suppliers",
+    "occupations": 2,
+    "groups": [
+      "Admin",
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/ab6265f2-a9bf-49e8-a9a5-67cbab4de38b",
+    "label": "manage inventory",
+    "occupations": 2,
+    "groups": [
+      "Admin",
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/22902bf9-cc3f-495b-811a-c441e28e23f6",
+    "label": "manage project information",
+    "occupations": 2,
+    "groups": [
+      "Business",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/339ac029-066a-4985-9f9d-b3d7c8fea0bb",
+    "label": "manage staff",
+    "occupations": 2,
+    "groups": [
+      "Business",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/020b3c27-bae1-4b85-9d6f-eccee0f5ed99",
+    "label": "manage supplies",
+    "occupations": 2,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/d5111703-c344-484d-bef1-9565a278166a",
+    "label": "market pricing",
+    "occupations": 2,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/d3e585e9-3a73-4511-b533-90f095e5aa09",
+    "label": "marketing mix",
+    "occupations": 2,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/07889c08-7220-47c8-96f7-6068fbea00dc",
+    "label": "normalise data",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8d202e22-85e9-47b1-a1e0-3296d17244cd",
+    "label": "observe confidentiality",
+    "occupations": 2,
+    "groups": [
+      "Admin",
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/71ae4f64-6505-4b6f-91b9-5acfa5721798",
+    "label": "obtain financial information",
+    "occupations": 2,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/210827e3-3129-45a2-8683-70399f3f561f",
+    "label": "order supplies",
+    "occupations": 2,
+    "groups": [
+      "Admin",
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/585ed991-fdab-4f3c-9187-a32bfb7ab822",
+    "label": "perform balance sheet operations",
+    "occupations": 2,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/0839eea4-c57b-4c14-b19b-923fbedb5d88",
+    "label": "perform business research",
+    "occupations": 2,
+    "groups": [
+      "Admin",
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/50b100ea-74fd-4706-99db-3e4ca55e51b8",
+    "label": "perform data cleansing",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/fe39d4db-4cb5-4299-bb9f-896c8fd6ab13",
+    "label": "perform market research",
+    "occupations": 2,
+    "groups": [
+      "Business",
+      "Creative"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/cd5efa8c-e44d-4cbc-91c6-796018dbed68",
+    "label": "perform project management",
+    "occupations": 2,
+    "groups": [
+      "Business",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/f5dd06b8-5d17-4932-9d03-957d0c4f5051",
+    "label": "perform resource planning",
+    "occupations": 2,
+    "groups": [
+      "Business",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/4fabca9a-7435-4f33-b1da-3cdb00340fdc",
+    "label": "perform scientific research",
+    "occupations": 2,
+    "groups": [
+      "Engineering",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/08fd2839-670c-4f16-8024-97437f2035ab",
+    "label": "plan marketing strategy",
+    "occupations": 2,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/60f51172-37c0-4933-a27a-cbf55dcd7580",
+    "label": "prepare financial statements",
+    "occupations": 2,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/eaa9727c-df1e-407a-85d3-48cc71508bc2",
+    "label": "prepare trial accounting balances",
+    "occupations": 2,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/1c460d2d-90c6-4fc9-ad49-febb6e15605a",
+    "label": "pricing strategies",
+    "occupations": 2,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388",
+    "label": "project management",
+    "occupations": 2,
+    "groups": [
+      "Business",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/debb8d81-ed7f-447d-853a-5d107fda6fcf",
+    "label": "provide customer follow-up services",
+    "occupations": 2,
+    "groups": [
+      "Admin",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/04dfd9fb-e0cf-40f6-96c6-9d2280c4347e",
+    "label": "provide technical documentation",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/171eee55-19b9-46d6-aded-33193ba8ccf1",
+    "label": "study sales levels of products",
+    "occupations": 2,
+    "groups": [
+      "Admin",
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/fe1ec582-d63b-466c-9149-e7fc4fe93e22",
+    "label": "supplier management",
+    "occupations": 2,
+    "groups": [
+      "Admin",
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/cf579543-272b-43c8-b942-555836ae4241",
+    "label": "supply chain principles",
+    "occupations": 2,
+    "groups": [
+      "Admin",
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/d669af41-756c-48d9-a286-1443253f54b1",
+    "label": "tax legislation",
+    "occupations": 2,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9d2e926f-53d9-41f5-98f3-19dfaa687f3f",
+    "label": "tools for software configuration management",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/e54ff029-1ce9-447d-a5b2-eb7283a23e6e",
+    "label": "train employees",
+    "occupations": 2,
+    "groups": [
+      "Business",
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/0af062de-eb43-41e9-9b96-249e2cd22d26",
+    "label": "use markup languages",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/2b7a79e5-84d8-4880-be66-3d9bb05bea17",
+    "label": "use software design patterns",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8b94aa1e-89c9-459d-b3b4-1dfab8dec2df",
+    "label": "use software libraries",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/348b74cd-49ce-4844-8bdf-ec188b497213",
+    "label": "visual presentation techniques",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/69bbd53f-fbb0-4476-b4b2-ef7844464e28",
+    "label": "web programming",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8696aff0-18c0-4ba6-a4d0-9a21861b3e5e",
+    "label": "World Wide Web Consortium standards",
+    "occupations": 2,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/f90d4810-8bac-4e5e-b870-3e35a4138ff7",
+    "label": "accept own accountability",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9b9244b4-6f62-4834-839b-19e9eba0a407",
+    "label": "acute care",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/79c012c7-4b09-497e-8152-e73e5d1d3384",
+    "label": "adapt leadership styles in healthcare",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/573d3f91-c81c-407e-a56d-0f3a63272b43",
+    "label": "adapt teaching to student's capabilities",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/7378b8c3-3b62-46de-9d67-1c9528954615",
+    "label": "adapt to type of media",
+    "occupations": 1,
+    "groups": [
+      "Creative"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/b9f16465-56a9-426b-a047-0f9f1f95ec92",
+    "label": "address problems critically",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/aa238394-8126-4ada-be2f-9dfe065cf314",
+    "label": "adhere to organisational guidelines",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/933e7ccf-5d56-46ba-aca4-857f826a6b3a",
+    "label": "administer appointments",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/0868eef3-2213-4572-9343-74931345a7d3",
+    "label": "administer ICT system",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/52047630-b880-4939-bb19-6700187af031",
+    "label": "adolescence medicine",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/102b6ba8-452c-4f6b-8b3f-1ab5a2d02ffe",
+    "label": "advise on credit rating",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/79c36c91-28a5-44b7-ab9b-7093b2d4b21e",
+    "label": "advise on financial matters",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8232979d-6aa4-40c9-a12b-5152a52a76b8",
+    "label": "advise on healthcare users' informed consent",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/78de3e5f-e3ea-4da2-aa09-3704d03ba622",
+    "label": "advise on healthy lifestyles",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/0efbe2dc-2770-47ec-b8f4-d1bdff6ac0a4",
+    "label": "advise on risk management",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/ee7f90cc-922e-4da7-a7ae-83c2688fed10",
+    "label": "align efforts towards business development",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/47a49cd6-097d-457a-9f7b-c290c14930d5",
+    "label": "analyse big data",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/56042303-972b-41be-9310-58467599ff7e",
+    "label": "analyse business processes",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/b04f377b-ee80-4b38-aca1-19d266a23b17",
+    "label": "analyse business requirements",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/750caee5-12a0-46ba-b8aa-1e56370deaf9",
+    "label": "analyse consumer buying trends",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/c5d018ca-f6fa-4cc0-b209-43df46e56d48",
+    "label": "analyse customer service surveys",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8a43795b-bb38-4f29-91df-a6c92ad4643c",
+    "label": "analyse financial performance of a company",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/7adb8473-bcc6-4ff8-9850-76d945d40092",
+    "label": "analyse ICT system",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/12d93356-78e7-4857-99a6-f00b4ae2ec77",
+    "label": "analyse loans",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/6e16f998-7648-4ed0-8232-1b03722d1a53",
+    "label": "analyse problems for opportunities",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/ae965e49-06f1-442f-87bf-e48fc1e1d8b6",
+    "label": "analyse the care quality",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9714735d-6f60-440b-bdbc-aaf45ebcbe78",
+    "label": "analyse the context of an organisation",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/afe9c5d2-e8bd-4377-9d2d-49b9589f05f9",
+    "label": "analyse the credit history of potential customers",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/b8316819-feca-403d-902f-a86562fd91e9",
+    "label": "analyse transport business networks",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/ff862044-d49e-4417-bf65-1ae2c0a47e5a",
+    "label": "analyse work-related written reports",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/c4b626c1-e71c-44ec-9f88-042766f37fcc",
+    "label": "application usability",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/3c03ee71-4a23-448f-b79e-81fd75d27dca",
+    "label": "apply change management",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/e18a6a3c-4f26-4141-8c72-4b4f01d77914",
+    "label": "apply context specific clinical competences",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/009db49b-fcf5-4409-b4a5-232d059f3597",
+    "label": "apply credit risk policy",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/a49fdda1-abd1-40e0-a824-3c545d98f32e",
+    "label": "apply health sciences",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/e3ef4981-2cba-4b34-b273-728c3a33d04f",
+    "label": "apply intercultural teaching strategies",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/a0e23745-6ba4-45e2-9510-df6e71ed1230",
+    "label": "apply knowledge of human behaviour",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/a28e8141-89ee-4b24-a3bb-1aebcc56c72d",
+    "label": "apply nursing care in long-term care",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/d3eccb86-f02d-4950-bfbd-20b9510774a1",
+    "label": "apply organisational techniques",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/7a63f944-6948-4ae4-9c1f-d08e492535c9",
+    "label": "apply person-centred care",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/382c11ed-20d5-4ae7-b60e-15fec527fa6c",
+    "label": "apply statistical analysis techniques",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/e6bf6e73-230a-434c-97b2-a0c042a8b7ac",
+    "label": "apply sustainability principles in health care",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/59eb177a-2f30-4943-8b30-5f87dd51a80d",
+    "label": "apply teaching strategies",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/925cb6fb-9506-48a5-9106-400088a4a436",
+    "label": "arrange audit",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/786a74d6-7ecd-44d5-ae4f-87ff02fe3dbf",
+    "label": "assess character",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/6fe019dd-027f-45f3-b19c-d27f7ae00980",
+    "label": "assess students",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/465e7c78-cd26-4503-a5ca-40009e807705",
+    "label": "assess users' interaction with ICT applications",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/128f0b4c-8da7-467b-9196-7c691e067a1e",
+    "label": "assign homework",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/61970f8b-099c-4e7e-82e0-9ccdced0baf3",
+    "label": "assist customers",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/d5e1e30e-44ab-4aba-abab-b8263e801b7a",
+    "label": "assist students in their learning",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9ba8fd27-275d-4bad-8c48-f668aa99a578",
+    "label": "balance database resources",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/1d4b74b0-1a48-48ec-a3cd-26cca0c212a3",
+    "label": "biological chemistry",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9242ad54-dc3d-41b3-9cfe-142fa8582511",
+    "label": "brand marketing techniques",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/505e4ef3-7ce4-437d-b7b4-5c608f71c258",
+    "label": "build recommender systems",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/143769cb-b61e-47d8-a61e-eedfbec1016c",
+    "label": "business intelligence",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/98301d4a-2cc3-439d-8d7f-0b6ac76302bb",
+    "label": "business process modelling",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9e84a506-df06-4be3-874a-fa01293e3dd5",
+    "label": "business processes",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/0ee94c0a-3716-494a-95a2-dcbab9e58be2",
+    "label": "business requirements techniques",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/2ecf90f1-c511-464b-b26f-598d69182c70",
+    "label": "calculate tax",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/207f87c4-ac68-4987-990c-636ca19c2626",
+    "label": "calculate wages",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/4e756773-ae14-4981-838b-9fe27e81c0af",
+    "label": "carry out financial transactions",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/0aa02c52-077d-45f8-8c2d-7132c11ac16e",
+    "label": "carry out strategic research",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/1585fc98-bfe4-461f-97fc-734055a2c3ce",
+    "label": "characteristics of products",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/fb3bc9b5-2297-4bba-85b1-60f696a92db8",
+    "label": "characteristics of services",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/631f70b6-d431-456d-8262-cb8c79fdb2f2",
+    "label": "check paper quality",
+    "occupations": 1,
+    "groups": [
+      "Engineering"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/734187e4-650e-4a0a-a7f8-826cd4757229",
+    "label": "check payment",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/a93011ca-e6ab-4182-8a05-4d4b282cff27",
+    "label": "check quality of raw materials",
+    "occupations": 1,
+    "groups": [
+      "Engineering"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/572c3e87-61ed-4271-9c95-148837deae5e",
+    "label": "citizen involvement in healthcare",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/0cc9c234-f817-4f4c-908a-4d28fe3b0f4a",
+    "label": "coach employees",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/b679ef35-eebf-4da8-8e45-fee6841c3214",
+    "label": "collaborate in the development of marketing strategies",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/71746a0b-e58d-4dc4-ad03-bd84082eae21",
+    "label": "collect customer feedback on applications",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/de2f0ce8-f8d6-48c5-a213-4d065251cecf",
+    "label": "communicate by telephone",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/7110bf9f-b245-4adc-9159-5081013fd64d",
+    "label": "communicate effectively in healthcare",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/2f0a426f-3b95-455b-a872-ef6dee168114",
+    "label": "compile course material",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9fcf9918-fdef-49c3-aedc-518eb1e7e1f5",
+    "label": "comply with legislation related to health care",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/98eb1f3b-3480-416b-bd4b-811946f7e347",
+    "label": "comply with quality standards related to healthcare practice",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/89ff28d6-342c-435d-83aa-83e71dbbbc96",
+    "label": "conduct financial audits",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/896563fc-6255-4419-89c2-ffed30159ad6",
+    "label": "conduct research interview",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/e74f4f21-8d45-412c-b5c3-652e6167ee32",
+    "label": "content development processes",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/b0560439-14eb-41d1-aa53-1938efc24123",
+    "label": "content marketing strategy",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/13724e7d-b946-4773-915e-9621340237bc",
+    "label": "contribute to continuity of health care",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/2d008d5a-b7bd-46f7-bbb1-5d70a0af9c84",
+    "label": "control financial resources",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/e1f5c539-7c93-49ee-917d-a24e0d887686",
+    "label": "control of expenses",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/7abf5b24-8f18-49c5-a64b-5a5870a03a56",
+    "label": "convert scribbles into virtual sketches",
+    "occupations": 1,
+    "groups": [
+      "Creative"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/71480db1-a706-47f9-952f-bdc5036e3df3",
+    "label": "coordinate care",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/90398aca-82b7-4f56-8e0f-814d949162b4",
+    "label": "coordinate marketing plan actions",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/650f44e2-cb4c-41ba-9095-581fe6bea4b1",
+    "label": "coordinate purchasing activities",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/e2103a1d-4a84-47a9-b4f7-774787573449",
+    "label": "copyright legislation",
+    "occupations": 1,
+    "groups": [
+      "Creative"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/d77d7685-04fb-43a4-a1ac-09a10811f646",
+    "label": "corporate law",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/dd7c9dfd-6e2c-46fd-aefc-369402d0200c",
+    "label": "create a financial report",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/660060e4-c418-4049-836b-beade5f8a4a8",
+    "label": "create annual marketing budget",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/6a7792a9-888a-46ad-afc9-2c0d94c8fde6",
+    "label": "create business process models",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/fbafa41f-cd05-4109-a649-8b44d306d779",
+    "label": "create data models",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/03b9b491-fc9b-4868-914a-bf7cd47b5041",
+    "label": "create solutions to problems",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/f0f5bb34-71df-4715-9c9e-03567b76ec8f",
+    "label": "create website wireframe",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/edff6d20-660d-4d33-b412-9a5b664a14be",
+    "label": "curriculum objectives",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/15a33d76-4640-438d-ae64-fdc0c1d3eebc",
+    "label": "customer service",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/5898d99a-62a4-4e10-a2e3-0d815ce44248",
+    "label": "cyber attack counter-measures",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/a7f0fbe0-c546-4f30-8e41-34a58c64567e",
+    "label": "data storage",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9ef0f3a0-9ce2-4ef1-a987-0366b5cb2dbe",
+    "label": "database development tools",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/ab1e97ed-2319-4293-a8b7-072d2648822f",
+    "label": "database management systems",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/51e79cb4-fab3-404c-88f3-cd4a1bd5879e",
+    "label": "deal with emergency care situations",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/5c2a951c-9eb3-45a7-af45-39f3bf3a095d",
+    "label": "debt classification",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/54c9c155-9293-4329-8ed2-2e76e8b519d4",
+    "label": "define data quality criteria",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/022dc430-872a-473a-9cf4-fed4895e58ad",
+    "label": "define database physical structure",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/7a986287-84f2-4e5d-9ab4-fd7ec424ecf3",
+    "label": "define measurable marketing objectives",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/37bc4dc0-1233-4008-98db-1116d0c1cfcc",
+    "label": "define security policies",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/b00e948c-19be-4951-8cff-60f88f1046e9",
+    "label": "delegate activities",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/c3e36d05-8ae8-447f-bb2b-6f9409f85389",
+    "label": "deliver visual presentation of data",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/b32e593b-cc7f-4f38-bf50-e69431ec7ada",
+    "label": "demonstrate when teaching",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/ab67fbfb-0ca7-4345-8bf6-af8f59480212",
+    "label": "design database backup specifications",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/2c28fc20-8a60-4311-8899-5ef8729c05b3",
+    "label": "design process",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/bacbfc27-4b5d-47de-8bfd-af5fa27562a2",
+    "label": "design prototypes",
+    "occupations": 1,
+    "groups": [
+      "Creative"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/fd33c66c-70c4-40e6-b87c-5495bd3bf26e",
+    "label": "design user interface",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/c46cf6f9-8b1e-44b9-a529-f5774c9167dd",
+    "label": "desktop publishing",
+    "occupations": 1,
+    "groups": [
+      "Creative"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/92e4064a-a93c-4e22-a63b-8da91757b90c",
+    "label": "detect bottlenecks",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/1954f68c-74be-4727-b127-1025ab39bfcc",
+    "label": "determine charges for customer services",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/d93f9e29-9740-4231-8486-13d377b99f05",
+    "label": "develop a collaborative therapeutic relationship",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/ed0718f6-5823-4c74-9749-2936c9c06203",
+    "label": "develop audit plan",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/0b0335f3-0aa1-491e-895e-81fc8774a300",
+    "label": "develop automated migration methods",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/ead58f22-0af5-467c-ac1e-b750e4e1ac6a",
+    "label": "develop business plans",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/f0699875-51da-48d2-bc92-54b0749baef1",
+    "label": "develop course outline",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/f9670490-8aa4-4540-b121-d440a8294aab",
+    "label": "develop data processing applications",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/f672b7a0-698e-45f1-a102-51adeaf89200",
+    "label": "develop efficiency plans for logistics operations",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/3579208e-49b3-4ce4-98e7-20e41b1ce8d4",
+    "label": "develop information security strategy",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/46003629-a579-4d0a-b3ea-80ef890699d6",
+    "label": "diagnose nursing care",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/f190355a-cea5-4cd0-b6cd-a5c3d9a14985",
+    "label": "dietetics",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/54411e8e-d62f-46d8-b87b-fce23f8e3bc8",
+    "label": "disability care",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/5436f06d-4cc0-42a6-8e5b-63b842cce03b",
+    "label": "disseminate general corporate information",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/1f6eac42-e5aa-4fa7-a75d-a4eea12c618e",
+    "label": "disseminate internal communications",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/81dc035c-921b-4fea-a453-94538e86097c",
+    "label": "disseminate messages to people",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/897b393f-e7e0-4248-a40d-d77119694e83",
+    "label": "distributed computing",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/e1f09038-b493-4771-ae29-a2d3e7ea013a",
+    "label": "document interviews",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/4d38b095-6730-4157-9807-8049dd7b43b8",
+    "label": "document project progress",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/327d15c8-29ff-4ad4-a4fe-6536d777a45f",
+    "label": "documentation types",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/b5cb259e-83e7-48f5-950e-245d5b5fd6d0",
+    "label": "draft accounting procedures",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/ec0bbf39-0edd-4015-a2c3-82ad563ce3a8",
+    "label": "draft corporate emails",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/fc4fcb4b-993f-4f2c-b158-c2171ec18ed8",
+    "label": "draw design sketches",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/6aef2baa-5fa7-4c16-bd28-3e070ec4e4df",
+    "label": "educate on data confidentiality",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac",
+    "label": "educate on the prevention of illness",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/2475cd27-8d6c-4318-a364-21395b23acba",
+    "label": "empathise with the healthcare user",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/441707bb-9ad3-406c-9975-a6bec96f537b",
+    "label": "empower individuals, families and groups",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8add048c-4d51-41c5-8aa2-f57412c4a637",
+    "label": "enhance production workflow",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/d6e78d9a-deca-4bcb-b08d-011b2616758d",
+    "label": "ensure compliance with accounting conventions",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/1dae8445-12e5-423a-bb26-824010e299b9",
+    "label": "ensure compliance with legal requirements",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/233be639-bdb5-4099-ab40-96d537d6c1f3",
+    "label": "ensure compliance with safety legislation",
+    "occupations": 1,
+    "groups": [
+      "Engineering"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/13e93abd-618c-46df-abbe-1af38ecd1aa2",
+    "label": "ensure customer focus",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/69f23426-9279-4fe6-a283-24c2aa4c855d",
+    "label": "ensure equipment availability",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/c927ec6e-9082-4b22-afd3-0c4e219eaf73",
+    "label": "ensure equipment maintenance",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/c241f5a5-e23f-47bf-ad24-d83ea0010166",
+    "label": "ensure proper document management",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/ce0d6a42-59c1-433e-ab62-adfc969c46bb",
+    "label": "ensure safety of healthcare users",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/65ca5e3c-940c-46b2-b277-aff394cfdd4c",
+    "label": "establish daily priorities",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/3d96dc4c-d812-4015-b1f9-8307c086c595",
+    "label": "evaluate marketing content",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/e98a5096-de98-46d2-88c8-951f4029c038",
+    "label": "evaluate nursing care",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/b729d6bc-326b-46cd-aa63-ea280024b116",
+    "label": "evidence-based nursing care",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/16f61a5b-23ba-4268-8517-82c77c4041a1",
+    "label": "examine budgets",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/7e1f9657-ab4e-407c-842f-b846197060e3",
+    "label": "execute ICT audits",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/913e7e83-b8f8-4574-b1ca-1b38f3fd974a",
+    "label": "execute software tests",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/cb059032-dd34-4761-a786-98cfb9d0efe3",
+    "label": "explain accounting records",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/3d427a49-4f85-42cd-8a92-62d4a34f41a1",
+    "label": "file documents",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8d49f760-3765-4612-8d40-a2bdd50738fe",
+    "label": "fill out forms",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/99571e68-801f-49af-a897-5f75996642e1",
+    "label": "financial analysis",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/450054eb-ccdb-42a7-baf0-371aba515fe7",
+    "label": "financial engineering",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/52e53619-fa77-4f72-b237-5e4aae784dc2",
+    "label": "financial management",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/7d092d81-d1e2-4c34-b3cb-c1c9f2e68b7d",
+    "label": "finish project within budget",
+    "occupations": 1,
+    "groups": [
+      "Creative"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/f7464f30-662b-4177-85a0-3df9693e9e58",
+    "label": "first aid",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/906c9e66-bdee-4f8e-93d7-88d9fcf39a0a",
+    "label": "fix meetings",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/25f4c955-e429-44a6-98a7-7d8cb3b6b690",
+    "label": "follow a brief",
+    "occupations": 1,
+    "groups": [
+      "Creative"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/76395873-7fe2-4f9a-b4b6-9932f8cbd0b4",
+    "label": "follow clinical guidelines",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/541cdc23-1eec-4520-81fc-3392eaf538ed",
+    "label": "fraud detection",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/4f7b14d8-f09c-49f7-abae-231e8c210e07",
+    "label": "general medicine",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/52c19dc8-651f-4095-98fe-dcb2799d702e",
+    "label": "geriatrics",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/b9bb1f03-15e2-4079-943e-7e483b21725b",
+    "label": "give constructive feedback",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/7fb699d9-182a-430e-b7a0-6d8ed05c284b",
+    "label": "graphic design",
+    "occupations": 1,
+    "groups": [
+      "Creative"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/a71577b2-7550-4222-88ee-dcbd2d881516",
+    "label": "graphics editor software",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/97902800-f9e0-4a73-8826-6cc42f874a18",
+    "label": "green logistics",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/11f536f5-b0e2-46a6-95c1-bd765946604c",
+    "label": "guarantee students' safety",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/76f22707-8d30-453f-9eb7-3376e2960311",
+    "label": "handle mail",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/1709f408-9965-489b-9805-8e1e5d9e483b",
+    "label": "health care legislation",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9ec4252d-cbe8-4134-88fa-549dee1883f3",
+    "label": "human anatomy",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/51e53aff-6f8a-42ca-9cb9-47335130f4d7",
+    "label": "human physiology",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9136cbf1-7916-4f1c-bc9a-0318ee1d6016",
+    "label": "human-computer interaction",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/0450eaee-1a00-4622-8f4e-5356fce816d2",
+    "label": "hygiene in a health care setting",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/3e23db60-0c3d-498a-a6ac-ffbed0ecb033",
+    "label": "ICT accessibility standards",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/94dd823c-148e-4614-a6e8-99249b16357d",
+    "label": "ICT project management",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/bec4359e-cb92-468f-a997-8fb28e32fba9",
+    "label": "ICT project management methodologies",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/3ff589b7-68df-4ea5-ae41-b395bdb2378f",
+    "label": "ICT security standards",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/ca73ac82-867a-4afa-9732-834aebe896ff",
+    "label": "ICT system user requirements",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/fe1c2b32-7fe9-4668-affa-07ff658a68cf",
+    "label": "identify ICT security risks",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/dad7e408-162f-46a4-8567-db560e19e2fc",
+    "label": "identify ICT system weaknesses",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/bf40aa7c-1e99-40bb-a718-1e1492aaf00f",
+    "label": "identify market niches",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/11747665-0e98-4f27-bd0d-536862cd5746",
+    "label": "identify suppliers",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/fc54bd7f-0c03-4fdd-af8c-5eb4021e716d",
+    "label": "identify with the company's goals",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/27a638bc-6362-45f8-afce-5596a606269b",
+    "label": "impact of social contexts on health",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/a9c205ef-365a-4ae4-b905-cb48ba761ff0",
+    "label": "impart business plans to collaborators",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/50181a4b-1cfd-4fbd-ac9a-c1a494b9c5d0",
+    "label": "implement customer follow-up",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/c4b1f326-224a-420a-b8b3-814a8f13b6cb",
+    "label": "implement front-end website design",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/516e324b-03fc-4d3b-9986-e46e9834cd43",
+    "label": "implement fundamentals of nursing",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/69cfc5ed-6569-4aca-a4cc-fd782ba51d9c",
+    "label": "implement ICT risk management",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/f98e06f5-a09a-4356-b6a8-d55a7d3c5356",
+    "label": "implement nursing care",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8e0bfbba-6e9d-48e0-b152-2cc949e5022a",
+    "label": "implement scientific decision making in healthcare",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/f7b5d916-52f0-4865-b6a6-e1a3b711cb5e",
+    "label": "implement strategic planning",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/6d13053b-ee35-492c-8976-8178420df398",
+    "label": "infection control",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/0b5aaee4-c948-4853-bf8d-b9cd6c4917ee",
+    "label": "inform policy makers on health-related challenges",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/a56dec32-05ef-45de-a256-ee6741f356db",
+    "label": "information confidentiality",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/11eebd42-44ab-401d-8a2c-bdb9fc9beb50",
+    "label": "information security strategy",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/5cc97a45-69fc-4f37-a973-402d5ac561ac",
+    "label": "initiate life preserving measures",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/bc7a6b88-a279-4b6e-ac5e-21666bc51dae",
+    "label": "innovation in nursing",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/91003b4a-f2aa-4472-a9c1-4597abb518f2",
+    "label": "insolvency law",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/1883a1f5-f190-4ef3-8521-36d8cc6dbb47",
+    "label": "inspect tax returns",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/46ec0033-3c71-415e-bcff-b065675ba2dc",
+    "label": "integrate ICT data",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/089bab26-a854-40fb-8c04-5be4f693315a",
+    "label": "integrate strategic foundation in daily performance",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/c65aa043-98da-4136-9877-494e72d9e4cf",
+    "label": "interact with healthcare users",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/be48353d-25c7-4f86-bea9-7b9e248fbc6e",
+    "label": "interpret technical requirements",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/e3e42d54-78bd-4337-aa87-bb31a7670c9a",
+    "label": "issue sales invoices",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/38a5c459-c591-4f76-a358-37de342bb11d",
+    "label": "job market offers",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8b7409b0-e18e-4dfc-9ad9-8ddbcce38849",
+    "label": "keep records of customer interaction",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/01e7dee7-3ff1-4807-acad-058dbed91aba",
+    "label": "keep up to date on product knowledge",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/20c920d4-7ff7-4676-ba61-3f04490d9416",
+    "label": "keep up with the latest information systems solutions",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/cf6ca1fc-f2be-4deb-bb35-1fffe4099023",
+    "label": "leadership in nursing",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/731101d9-94bc-4805-bff4-9578d1bf03b5",
+    "label": "learning difficulties",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/a846cb9e-c152-41e7-bd34-45e7ff941e3b",
+    "label": "legal requirements of ICT products",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/ed57378a-2b27-4d80-8701-124e559cf17d",
+    "label": "liaise with educational staff",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/36fe44b2-af36-4467-9be8-601e64b3dbc7",
+    "label": "liaise with educational support staff",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/fc153ec6-1320-4f13-9158-ebde86c5303e",
+    "label": "liaise with logistics management teams",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/d1910ad7-0c87-4f38-8a41-7c193e5dc16d",
+    "label": "macroeconomics",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/24016006-c963-4135-a2c5-b1f7740782e2",
+    "label": "maintain client debt records",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/95fc86de-8e74-4753-9344-281179aa74b0",
+    "label": "maintain credit history of clients",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/d6cdef49-b669-4507-91d1-3f959cf98e47",
+    "label": "maintain database performance",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/ec85cc63-4e24-4631-bf92-8789db2605c0",
+    "label": "maintain database security",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/faf8943c-72ff-4736-a587-25508695d6f0",
+    "label": "maintain financial records",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/94758266-bb0f-4e41-bedb-349ecacfaf5c",
+    "label": "maintain freight rate databases",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/0af529ff-a95d-419b-ab2a-335f6894a966",
+    "label": "maintain logistics databases",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8ebb2c0a-0baa-43bf-95cf-094047c57427",
+    "label": "maintain professional administration",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/047fcf0a-2936-49fb-b4eb-97cdd8d09d0b",
+    "label": "maintain statutory books",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/5a42eaf5-93bb-4bca-8ebd-4d78e96e4929",
+    "label": "maintain students' discipline",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/e2e15494-65b9-4af5-8b86-53fb51e7e022",
+    "label": "manage accounts",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/92721092-fe7c-4689-96bd-4f02385bc0e7",
+    "label": "manage contracts",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9ff9db9d-d14b-426e-83f3-e7449af6c79f",
+    "label": "manage data",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/a80fb090-63f4-4b05-83a5-2f090deb7757",
+    "label": "manage data collection systems",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/29fb0fb5-dfc4-4098-ac9b-3a712000f48f",
+    "label": "manage database",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/64852ade-6ae1-4760-ba4a-976bf07ca255",
+    "label": "manage disaster recovery plans",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/6a899482-8bcf-40ca-ae67-579a1cc467ab",
+    "label": "manage engineering project",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/3c76296d-4bbd-44ba-8eaa-95bf275f79b7",
+    "label": "manage ICT project",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/6c3e28d6-e3cc-4b25-a5da-a0dce043cf17",
+    "label": "manage information in health care",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/06358891-8424-43c5-891e-d40f226bef40",
+    "label": "manage IT security compliances",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/953c0b65-537a-42fe-a90b-26cd36c64361",
+    "label": "manage logistics",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/caadb26a-f5a4-4bd1-a630-d508fb616ae2",
+    "label": "manage logistics pricing systems",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/c1f29568-f2bb-49d2-b6c2-28748bd1629b",
+    "label": "manage online content",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9d916d7c-89b3-4084-a6d9-e2b0b3091404",
+    "label": "manage payroll",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/3ee090a1-9d1c-44ed-bd93-f6b7c9b68a97",
+    "label": "manage payroll reports",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612",
+    "label": "manage personal professional development",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/4cfc7ef6-e251-4c93-bd5e-fd6936dee11c",
+    "label": "manage profitability",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/0e1fe34b-f4e7-4642-8c8b-5a05ac3438e5",
+    "label": "manage schedule of tasks",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/44da96fe-26a3-4a32-9a0f-c49614bb7298",
+    "label": "manage student relationships",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/dc417e19-edb4-4401-883a-2375f67a162f",
+    "label": "manage the general ledger",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/3786b61f-f22e-48d1-af8d-ad4c354534db",
+    "label": "manufacturing processes",
+    "occupations": 1,
+    "groups": [
+      "Engineering"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/b011c8b4-76e1-4bbc-8bb9-1d205e7b618a",
+    "label": "market analysis",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8770350e-746f-4adb-9556-18ca68104be6",
+    "label": "market research",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/de03f4fd-c147-4477-a048-7109e5ba2d6f",
+    "label": "marketing principles",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/4339176e-3acd-4f7f-a5d9-445bee3d23f2",
+    "label": "mathematics",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/7cacd304-996d-47d1-88ef-4ddb9ce102bd",
+    "label": "microeconomics",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8d5ee30c-4b1c-465f-84a1-7bb7a05aaca6",
+    "label": "monitor banking activities",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/23ac233d-84ad-4517-b0f5-8ca19ba2614e",
+    "label": "monitor developments in field of expertise",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9148c1e4-beae-433c-bd72-e4a009440744",
+    "label": "monitor production developments",
+    "occupations": 1,
+    "groups": [
+      "Engineering"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/695b888d-cdcf-4ba8-8425-53da04ebf063",
+    "label": "monitor pulp quality",
+    "occupations": 1,
+    "groups": [
+      "Engineering"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/1b8872bd-d869-4b08-b9b2-296d2b1c644c",
+    "label": "monitor student's behaviour",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9190d87f-9792-42e0-bb7f-64294a656bcd",
+    "label": "monitor system performance",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/fde186df-c9c4-49f5-b2a5-d66adc7c43a5",
+    "label": "negotiate buying conditions",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/71152876-b629-4a99-b9ea-0f25a0d07e4e",
+    "label": "negotiate sales contracts",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/5ff6f551-f2a4-4cef-a72d-e81116155a43",
+    "label": "newborn care",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8b3aefd2-5021-418f-b069-828fb7abc598",
+    "label": "nursing principles",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/d429b19a-132f-44d3-971b-bb0ccd94f979",
+    "label": "nursing science",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/3377f3b2-4ba2-457f-b29d-8df59e8cfba8",
+    "label": "observe student's progress",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/e3c7bd87-edc1-4d9a-a3d5-36415de1aac6",
+    "label": "offer financial services",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/b0a3bb25-a02f-43ed-ab1f-994fa66a424a",
+    "label": "online analytical processing",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/7369f779-4b71-4aab-8836-48b69c676eec",
+    "label": "operate relational database management system",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/798d427e-51b3-4cd4-8b24-1357015e9ae7",
+    "label": "optimise production",
+    "occupations": 1,
+    "groups": [
+      "Engineering"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/79f24a62-7718-46e1-9b41-37be0560a5ca",
+    "label": "organisational resilience",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/3e04e39d-9eb6-4167-ad2d-e3413f647e4e",
+    "label": "organise business documents",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/c58050e1-0774-4097-93d2-07dd7ba6a27a",
+    "label": "organise facilities for office personnel",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8671290a-ab17-42c2-9114-adcb741e7257",
+    "label": "paediatrics",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/c5a80bb0-31e6-4de0-868c-00a0f9b88b47",
+    "label": "palliative care",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/4f012a77-a344-467f-9f54-70f48e090095",
+    "label": "paper chemistry",
+    "occupations": 1,
+    "groups": [
+      "Engineering"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/608a5d9d-0007-4797-bd51-361e3aa51a48",
+    "label": "paper production processes",
+    "occupations": 1,
+    "groups": [
+      "Engineering"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/4be3c34e-47ba-4881-ac74-8bd244e0b04c",
+    "label": "participate in health personnel training",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/db8a9ba7-96ad-4c53-b552-d4f1570dfefb",
+    "label": "pathology",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/2b1ce548-4e16-45fb-bfb2-f3141c8efe8d",
+    "label": "patient autonomy",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/a117f32c-662b-4dd9-b739-1230dd04cb60",
+    "label": "pedagogy",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/cf3e976d-2c3e-495c-a874-f9e8a66d3b48",
+    "label": "perform backups",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/27ed854c-15b8-4ba2-90e9-ae888a219703",
+    "label": "perform business analysis",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/cedd0710-62ae-4ff4-89ae-ac52375f86ec",
+    "label": "perform classroom management",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/4216e465-7baa-4884-a241-54b197bb9278",
+    "label": "perform data mining",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9da22795-4383-4bea-9ac5-e80fdf16ece5",
+    "label": "perform debt investigation",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/946c1229-1171-40d4-82cc-fe3f483ca100",
+    "label": "perform escalation procedure",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/744442ac-c157-4350-8be0-ce454df4f5c5",
+    "label": "perform ICT troubleshooting",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/0b144726-21c2-46ed-8d13-c03d27f61604",
+    "label": "perform multiple tasks at the same time",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/7c3865d1-e5a9-4043-a7a4-2e9e30468c0b",
+    "label": "perform office routine activities",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/3f86173d-e101-4fcd-934f-ff9de29c081c",
+    "label": "perform system analysis",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8168333b-8257-48f6-82c5-6b5128c21ecc",
+    "label": "person centred care",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/60c544c9-0815-479c-bcec-93c7891815ea",
+    "label": "pharmacology",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/267b9417-9d05-4731-a877-bfb978fb50eb",
+    "label": "plan engineering activities",
+    "occupations": 1,
+    "groups": [
+      "Engineering"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/bb663409-5c88-4e3a-bc16-01aa1c8ce171",
+    "label": "plan health and safety procedures",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9c6e951f-aa88-4890-983d-e7a6ee49f5bb",
+    "label": "plan marketing campaign",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/6acf652c-33b2-4e28-8f79-1e553f255229",
+    "label": "plan nursing care",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8c4b7305-4b83-4586-9d42-2817f96c60ea",
+    "label": "pose questions referring to documents",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9cdec88a-fe17-4f9a-9247-1f1802ab7408",
+    "label": "post-secondary school procedures",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/3e9b580d-811b-48df-a5d1-a7bdd26f901f",
+    "label": "prepare financial auditing reports",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/d37bc902-f640-48d7-9db4-544db9aa65fa",
+    "label": "prepare financial projections",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/20f57a7f-b90e-4403-8c77-5ddd89b5835b",
+    "label": "prepare lesson content",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/af0f7625-b9fc-4f97-a71d-d7c7648bfc35",
+    "label": "prepare paychecks",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/22a173f5-868c-4d82-87e6-beed500ce070",
+    "label": "prepare tax returns forms",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/d0f2f8a7-d935-4a6d-8e54-dcc3e5e2cbeb",
+    "label": "present reports",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9c1e94ad-6c81-4fce-bc16-f7cf2e730cf0",
+    "label": "primary care",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/f642d7ed-e8d7-4355-a747-b85094d4e2e3",
+    "label": "prioritise requests",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/adf6bcb1-6fbb-4b77-8be4-65ce20ee04e2",
+    "label": "prioritise tasks",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/ec66b111-d8d0-4516-88ba-ee0b6fe6f695",
+    "label": "process customer orders",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50",
+    "label": "process data",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/e0607ffd-586e-4d70-ae88-5998bfa21dda",
+    "label": "process order forms with customer's information",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/a6d697d1-80ba-4175-82d4-43440ed04270",
+    "label": "process refunds",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/ff5e9b54-d141-4f5a-ad04-ddefd7d8843f",
+    "label": "procure time sheet approval",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/d6d3fee7-47e2-47f4-a0ec-6c75f28c6abd",
+    "label": "product comprehension",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/4913d0c0-133a-4c46-aac3-f5d4989a982e",
+    "label": "product usage risks analysis",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/e49c4d19-dea6-42a1-bde2-30d69dc0ca24",
+    "label": "profile people",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/1b3370df-c280-470c-ac35-951f42ca8b19",
+    "label": "promote a positive image of nursing",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/646d871b-4503-4dc8-a076-06d7085e4cde",
+    "label": "promote human rights",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/bcd2ce08-ba12-4d66-865f-f4ba36419707",
+    "label": "promote inclusion",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/07e51c60-763a-4335-b4ec-70a15f66d328",
+    "label": "propose ICT solutions to business problems",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/60b2dd49-c677-4f47-816e-aff3b577e113",
+    "label": "provide health education",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/283cbcd3-7101-4dbb-be37-56f3625515b1",
+    "label": "provide ICT consulting advice",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be",
+    "label": "provide ICT support",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/732cb4dd-af91-4c88-9a9f-5fc62144e500",
+    "label": "provide information",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/6063652e-22c4-472e-bb96-6e5ec1e7c5de",
+    "label": "provide nursing advice on healthcare",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/1023ac61-250f-4eef-b7a9-238cf071685f",
+    "label": "provide professional care in nursing",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/c82f9319-cf46-4257-a8ce-542d0a7fed8f",
+    "label": "provide treatment strategies for challenges to human health",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/f9f258e3-4728-4107-9e08-293d5d2ef65e",
+    "label": "psychiatry",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/bfe4f330-d595-48c7-ab3c-f309471d6953",
+    "label": "psychology",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9570e84e-6699-4c9f-9a12-7bc82d53a231",
+    "label": "public health",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/496932f1-0b6b-4f73-9432-d95c7ddcd43b",
+    "label": "recruit employees",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/c544a9f3-5945-4b54-afed-de0697852817",
+    "label": "report analysis results",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/561c2525-5bd8-4d86-8f45-820f4be7db93",
+    "label": "report test findings",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/07d3074b-f5cd-420a-bdf8-c8d643563ea5",
+    "label": "respect publication formats",
+    "occupations": 1,
+    "groups": [
+      "Creative"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/049c8caf-dd12-45fc-9bfa-b64051f32a19",
+    "label": "respond to changing situations in health care",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/87cadd76-4e3a-47e5-b66d-559fbc1e8993",
+    "label": "respond to enquiries",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8bd49d04-ab2f-4333-b5d9-12d716e4e2f6",
+    "label": "resuscitation",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9b9dc550-351e-4dde-ac2b-7bd411e80e23",
+    "label": "review distribution management procedures",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/2d6904db-9e16-42a5-bc12-c5acb8bfab18",
+    "label": "safe management of medicines",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/ed3f3dba-3a35-4ed5-b113-67f4d10ef4c8",
+    "label": "scientific research methodology",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/d04e4bde-05fa-499c-9237-1fe5e4560525",
+    "label": "secondary school procedures",
+    "occupations": 1,
+    "groups": [
+      "Education"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/c095e69a-dee5-4a58-afb0-3c330d2bb276",
+    "label": "sizes of paper",
+    "occupations": 1,
+    "groups": [
+      "Engineering"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8881a9c2-bd07-4954-bf27-c1f8acca9af0",
+    "label": "sociology",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/de0be6e8-644c-4cc9-9c8d-925dd98dda56",
+    "label": "software interaction design",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/1019423b-3368-4f83-b24f-19e5fa23e816",
+    "label": "software UI design patterns",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9e06bac6-6b91-48ca-8b7d-c1f48cdecd7c",
+    "label": "solve ICT system problems",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/a32e7fb1-af9e-4c09-8ea7-72b7442e9cda",
+    "label": "solve problems in healthcare",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/c2999f0c-eb37-4cdf-b9b0-82107b628794",
+    "label": "style sheet languages",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9013b46e-5a9b-4929-8918-fcadfdfd37ce",
+    "label": "supervise daily information operations",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/147170ba-0141-4337-89af-b4513d745afe",
+    "label": "support development of annual budget",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/db36f7f1-5900-45bd-9ffb-f2b19c4362ac",
+    "label": "support ICT system users",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/4bd6e2ad-bf69-4198-b3ac-3baabd9da46e",
+    "label": "support managers",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/508f3b4c-799a-4742-b3ae-75f2ff11153d",
+    "label": "surgery",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/5c99d21a-9d02-4638-9b52-a6ba840dcb0a",
+    "label": "synthesise financial information",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/47ca0da1-cae5-4395-ae6b-fd97b9ff48d3",
+    "label": "system backup best practice",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+    "label": "task algorithmisation",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532",
+    "label": "technical drawings",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/0625e737-2b29-4835-ac28-aeec4a8dc0f2",
+    "label": "test paper production samples",
+    "occupations": 1,
+    "groups": [
+      "Engineering"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/be64bb4c-84ac-4c83-8cc7-fc8593e15136",
+    "label": "test system accessibility for users with special needs",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/2abb7341-11a9-4799-9aef-7f2a83de0358",
+    "label": "theory of constraints",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/0295b2a4-fb86-495f-9547-d479532fc4c2",
+    "label": "trace financial transactions",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8dcbcabe-09f7-4d11-940d-125af57bbc40",
+    "label": "track key performance indicators",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/931d3046-8e66-4aca-bbf1-1dca032c8b15",
+    "label": "type of file",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/7dcda7b8-afa9-4504-b7d9-95a51e8ee96d",
+    "label": "types of paper",
+    "occupations": 1,
+    "groups": [
+      "Engineering"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/dc2a04ca-61b6-4e37-a8b1-ff9f6f208c49",
+    "label": "types of pulp",
+    "occupations": 1,
+    "groups": [
+      "Engineering"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/473a8b64-a05c-4d49-962d-b9d9219950bc",
+    "label": "understand supply chain improvements in relation to profit gains",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/c5e8abde-d2ba-4e8e-a65e-720b71180666",
+    "label": "unstructured data",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/a0d79341-8398-4019-ad1b-27888ec35aaa",
+    "label": "use accounting systems",
+    "occupations": 1,
+    "groups": [
+      "Finance"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337",
+    "label": "use communication techniques",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/414332e4-8347-4771-b947-65bd3801a620",
+    "label": "use consulting techniques",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/1bc718b6-ed90-4a9d-9fa7-8cec928a4581",
+    "label": "use creative suite software",
+    "occupations": 1,
+    "groups": [
+      "Creative"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9889b795-d755-41b2-8afd-2e3c87a65a38",
+    "label": "use customer relationship management software",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/415abd43-e8e5-4643-b5da-5f11307af57a",
+    "label": "use different communication channels",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/16636767-c215-4cf0-b126-e144fea20926",
+    "label": "use e-health and mobile health technologies",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/a46743b7-ff8c-49b6-99f7-7fa5bc241771",
+    "label": "use electronic health records in nursing",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/6430eb0d-c6de-46b7-a7fc-3dd2e8e62a69",
+    "label": "use ICT ticketing system",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/6f993130-082b-4732-b62f-52cdf2096ad9",
+    "label": "use methods of logistical data analysis",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/f683ae1d-cb7c-4aa1-b9fe-205e1bd23535",
+    "label": "use microsoft office",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/71dde84c-0058-4c52-a556-523369333db8",
+    "label": "use office systems",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/5ef0c719-5bcb-49f8-b8eb-824388225333",
+    "label": "use scripting programming",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/c95c29fe-3971-46b7-80e9-1f7e75ba99b3",
+    "label": "use specific data analysis software",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/541561bc-510c-4a99-881c-2d8bf5a85462",
+    "label": "use technical drawing software",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/78482aac-638e-42da-a7a9-5eefe1bffdea",
+    "label": "use theoretical marketing models",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/172020d1-e151-445b-8173-e2a5fb16fe51",
+    "label": "utilise computer-aided software engineering tools",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/7364cc39-b9c0-449f-9416-57723e2fd9c4",
+    "label": "utilise methodologies for user centered design",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/ee3b1553-2dc5-434b-8dcf-4ae3a40b3a48",
+    "label": "verify formal ICT specifications",
+    "occupations": 1,
+    "groups": [
+      "ICT"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/b55f61a4-5f9e-4741-ba95-9ac04b64119b",
+    "label": "work in a multicultural environment in health care",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/03ae1add-eecd-46b1-8117-742b4d7666d4",
+    "label": "work in an economically efficient manner",
+    "occupations": 1,
+    "groups": [
+      "Business"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/eba85523-6ad2-4cd9-9b27-a0b6a39b8cfa",
+    "label": "work in multidisciplinary health teams",
+    "occupations": 1,
+    "groups": [
+      "Health"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/918f5211-b99f-4b29-9a34-6e475583ef55",
+    "label": "write work-related reports",
+    "occupations": 1,
+    "groups": [
+      "Admin"
+    ]
+  }
+]
