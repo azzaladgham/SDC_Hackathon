@@ -1,4 +1,4 @@
-import type { MatchResult } from "../../../shared/types";
+import type { MatchResult, Profile } from "../../../shared/types";
 
 export const SNAPSHOT_DATES = ["2026-09-20", "2026-10-20"];
 
@@ -49,3 +49,11 @@ export const MOCK_MATCHES: Record<string, MatchResult[]> = {
     m(O, "payroll clerk", "Finance", 36, 14, [8], ["Excel"], ["Payroll software"], [44, 0, 36, 0]),
   ],
 };
+export const MOCK_PROFILES: Profile[] = [
+  { id: "p1", name: "Aisha, fresh CS graduate",
+    skills: ["Python", "Git", "Statistics"], interests: ["AI", "Sustainability"] },
+  { id: "p2", name: "Raj, shared-services accountant",
+    skills: ["Excel", "Financial reporting", "Bookkeeping"], interests: ["Finance", "Automation"] },
+  { id: "p3", name: "Mei Ling, career switcher from teaching",
+    skills: ["Presentation", "Communication"], interests: ["Education", "Technology"] },
+];
