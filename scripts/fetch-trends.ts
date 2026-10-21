@@ -17,7 +17,7 @@ const TRACKED = path.resolve(process.cwd(), "../data/tracked-skills.json");
 const SNAP_DIR = path.resolve(process.cwd(), "../data/snapshots");
 const RAW_DIR = path.resolve(process.cwd(), "../data/raw");
 
-const MIN_VOLUME = 10; // a source needs at least this many mentions (recent + prior) to count toward momentum
+const MIN_VOLUME = 30; // a source needs at least this many mentions (recent + prior) to count toward momentum
 const ARXIV_DELAY_MS = 3100; // arXiv asks for ~1 request per 3 seconds
 const HN_DELAY_MS = 150;
 

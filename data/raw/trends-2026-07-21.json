@@ -1,6 +1,6 @@
 {
   "asOf": "2026-07-21",
-  "fetchedAt": "2026-10-21T16:28:00.932Z",
+  "fetchedAt": "2026-10-21T17:21:38.703Z",
   "windows": {
     "recent": [
       "2026-04-21",
@@ -143,18 +143,18 @@
     {
       "label": "debug software",
       "keywords": [
-        "debugging",
-        "observability"
+        "automated debugging",
+        "fault localization"
       ],
       "arxiv": {
-        "recent": 16826,
-        "prior": 14053
+        "recent": 32,
+        "prior": 27
       },
       "hn": {
-        "recent": 71,
-        "prior": 65
+        "recent": 0,
+        "prior": 0
       },
-      "momentum": 0.14
+      "momentum": 0.19
     },
     {
       "label": "design database scheme",
@@ -186,7 +186,7 @@
         "recent": 13,
         "prior": 15
       },
-      "momentum": 0.05
+      "momentum": 0.23
     },
     {
       "label": "analyse big data",
@@ -235,7 +235,7 @@
         "recent": 13,
         "prior": 9
       },
-      "momentum": 0.21
+      "momentum": 0.03
     },
     {
       "label": "information extraction",
@@ -317,7 +317,7 @@
         "recent": 1,
         "prior": 17
       },
-      "momentum": -0.55
+      "momentum": -0.16
     },
     {
       "label": "supply chain management",
@@ -333,7 +333,7 @@
         "recent": 9,
         "prior": 10
       },
-      "momentum": 0.09
+      "momentum": 0.28
     },
     {
       "label": "analyse supply chain trends",
@@ -381,7 +381,7 @@
         "recent": 10,
         "prior": 13
       },
-      "momentum": -0.2
+      "momentum": -0.17
     },
     {
       "label": "manage inventory",
@@ -397,7 +397,7 @@
         "recent": 0,
         "prior": 2
       },
-      "momentum": -0.33
+      "momentum": 0
     },
     {
       "label": "perform market research",
@@ -413,7 +413,7 @@
         "recent": 0,
         "prior": 2
       },
-      "momentum": -0.2
+      "momentum": 0
     },
     {
       "label": "pricing strategies",
@@ -450,34 +450,34 @@
     {
       "label": "manage budgets",
       "keywords": [
-        "FP&A",
-        "budgeting"
+        "budget forecasting",
+        "financial planning and analysis"
       ],
       "arxiv": {
-        "recent": 3261,
-        "prior": 2044
-      },
-      "hn": {
-        "recent": 3,
+        "recent": 0,
         "prior": 0
       },
-      "momentum": 0.6
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": 0
     },
     {
       "label": "provide technical documentation",
       "keywords": [
-        "technical writing",
-        "documentation"
+        "software documentation",
+        "API documentation"
       ],
       "arxiv": {
-        "recent": 2267,
-        "prior": 1833
+        "recent": 16,
+        "prior": 17
       },
       "hn": {
-        "recent": 10,
-        "prior": 16
+        "recent": 0,
+        "prior": 0
       },
-      "momentum": -0.07
+      "momentum": -0.06
     },
     {
       "label": "train employees",
@@ -493,7 +493,7 @@
         "recent": 0,
         "prior": 0
       },
-      "momentum": -0.5
+      "momentum": 0
     },
     {
       "label": "communicate with customers",

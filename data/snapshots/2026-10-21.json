@@ -11,12 +11,12 @@
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22data%20mining%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
@@ -30,31 +30,31 @@
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22SQL%22%20OR%20all%3A%22GraphQL%22%20OR%20all%3A%22SPARQL%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
     {
       "escoUri": "http://data.europa.eu/esco/skill/fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5",
       "label": "data models",
-      "momentum": -0.3,
+      "momentum": -0.02,
       "mentionsRecent": 586,
       "mentionsPrior": 607,
       "sources": [
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22data%20modeling%22%20OR%20all%3A%22knowledge%20graph%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
@@ -68,12 +68,12 @@
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22statistical%20modeling%22%20OR%20all%3A%22Bayesian%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
@@ -87,12 +87,12 @@
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22Python%22%20OR%20all%3A%22Rust%22%20OR%20all%3A%22TypeScript%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
@@ -106,31 +106,31 @@
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22React%22%20OR%20all%3A%22Next.js%22%20OR%20all%3A%22web%20development%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
     {
       "escoUri": "http://data.europa.eu/esco/skill/2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1",
       "label": "debug software",
-      "momentum": -0.02,
-      "mentionsRecent": 20100,
-      "mentionsPrior": 16897,
+      "momentum": -0.03,
+      "mentionsRecent": 31,
+      "mentionsPrior": 32,
       "sources": [
         {
           "name": "arXiv API (papers matching keywords)",
-          "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22debugging%22%20OR%20all%3A%22observability%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22automated%20debugging%22%20OR%20all%3A%22fault%20localization%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
@@ -144,50 +144,50 @@
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22PostgreSQL%22%20OR%20all%3A%22database%20schema%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
     {
       "escoUri": "http://data.europa.eu/esco/skill/2b7a79e5-84d8-4880-be66-3d9bb05bea17",
       "label": "use software design patterns",
-      "momentum": -0.47,
+      "momentum": -0.24,
       "mentionsRecent": 115,
       "mentionsPrior": 159,
       "sources": [
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22design%20patterns%22%20OR%20all%3A%22microservices%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
     {
       "escoUri": "http://data.europa.eu/esco/skill/47a49cd6-097d-457a-9f7b-c290c14930d5",
       "label": "analyse big data",
-      "momentum": -0.3,
+      "momentum": -0.07,
       "mentionsRecent": 164,
       "mentionsPrior": 182,
       "sources": [
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22big%20data%22%20OR%20all%3A%22Spark%22%20OR%20all%3A%22data%20lake%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
@@ -201,31 +201,31 @@
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22data%20quality%22%20OR%20all%3A%22data%20observability%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
     {
       "escoUri": "http://data.europa.eu/esco/skill/50b100ea-74fd-4706-99db-3e4ca55e51b8",
       "label": "perform data cleansing",
-      "momentum": -0.2,
+      "momentum": -0.16,
       "mentionsRecent": 41,
       "mentionsPrior": 50,
       "sources": [
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22data%20cleaning%22%20OR%20all%3A%22ETL%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
@@ -239,12 +239,12 @@
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22information%20extraction%22%20OR%20all%3A%22named%20entity%20recognition%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
@@ -258,12 +258,12 @@
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22Git%22%20OR%20all%3A%22infrastructure%20as%20code%22%20OR%20all%3A%22Terraform%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
@@ -277,12 +277,12 @@
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22AI%20coding%20assistant%22%20OR%20all%3A%22Copilot%22%20OR%20all%3A%22Cursor%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
@@ -296,12 +296,12 @@
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22GDPR%22%20OR%20all%3A%22cybersecurity%20compliance%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
@@ -315,31 +315,31 @@
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22generative%20design%22%20OR%20all%3A%22Figma%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
     {
       "escoUri": "http://data.europa.eu/esco/skill/f929c89e-c363-4132-a918-e021d57b307c",
       "label": "supply chain management",
-      "momentum": 0.05,
+      "momentum": -0.3,
       "mentionsRecent": 180,
       "mentionsPrior": 249,
       "sources": [
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22supply%20chain%22%20OR%20all%3A%22supply%20chain%20optimization%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
@@ -353,12 +353,12 @@
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22supply%20chain%20forecasting%22%20OR%20all%3A%22demand%20forecasting%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
@@ -372,69 +372,69 @@
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22risk%20analysis%22%20OR%20all%3A%22risk%20modelling%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
     {
       "escoUri": "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388",
       "label": "project management",
-      "momentum": -0.28,
+      "momentum": -0.17,
       "mentionsRecent": 147,
       "mentionsPrior": 179,
       "sources": [
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22project%20management%22%20OR%20all%3A%22agile%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
     {
       "escoUri": "http://data.europa.eu/esco/skill/ab6265f2-a9bf-49e8-a9a5-67cbab4de38b",
       "label": "manage inventory",
-      "momentum": 0.4,
+      "momentum": 0,
       "mentionsRecent": 14,
       "mentionsPrior": 10,
       "sources": [
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22inventory%20management%22%20OR%20all%3A%22inventory%20optimization%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
     {
       "escoUri": "http://data.europa.eu/esco/skill/fe39d4db-4cb5-4299-bb9f-896c8fd6ab13",
       "label": "perform market research",
-      "momentum": 0.2,
+      "momentum": 0,
       "mentionsRecent": 9,
       "mentionsPrior": 7,
       "sources": [
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22market%20research%22%20OR%20all%3A%22consumer%20insights%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
@@ -448,12 +448,12 @@
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22dynamic%20pricing%22%20OR%20all%3A%22pricing%20optimization%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
@@ -467,69 +467,69 @@
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22ESG%22%20OR%20all%3A%22sustainability%20reporting%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
     {
       "escoUri": "http://data.europa.eu/esco/skill/21c5790c-0930-4d74-b3b0-84caf5af12ea",
       "label": "manage budgets",
-      "momentum": 0.6,
-      "mentionsRecent": 5216,
-      "mentionsPrior": 3264,
+      "momentum": 0,
+      "mentionsRecent": 2,
+      "mentionsPrior": 0,
       "sources": [
         {
           "name": "arXiv API (papers matching keywords)",
-          "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22FP%26A%22%20OR%20all%3A%22budgeting%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22budget%20forecasting%22%20OR%20all%3A%22financial%20planning%20and%20analysis%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
     {
       "escoUri": "http://data.europa.eu/esco/skill/04dfd9fb-e0cf-40f6-96c6-9d2280c4347e",
       "label": "provide technical documentation",
-      "momentum": -0.23,
-      "mentionsRecent": 2582,
-      "mentionsPrior": 2277,
+      "momentum": 0,
+      "mentionsRecent": 9,
+      "mentionsPrior": 16,
       "sources": [
         {
           "name": "arXiv API (papers matching keywords)",
-          "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22technical%20writing%22%20OR%20all%3A%22documentation%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22software%20documentation%22%20OR%20all%3A%22API%20documentation%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
     {
       "escoUri": "http://data.europa.eu/esco/skill/e54ff029-1ce9-447d-a5b2-eb7283a23e6e",
       "label": "train employees",
-      "momentum": 0.5,
+      "momentum": 0,
       "mentionsRecent": 9,
       "mentionsPrior": 4,
       "sources": [
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22upskilling%22%20OR%20all%3A%22corporate%20training%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
@@ -543,12 +543,12 @@
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22customer%20support%20automation%22%20OR%20all%3A%22chatbot%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
@@ -562,12 +562,12 @@
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22financial%20risk%22%20OR%20all%3A%22credit%20risk%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
@@ -581,12 +581,12 @@
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22accounting%20automation%22%20OR%20all%3A%22bookkeeping%20automation%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
@@ -600,12 +600,12 @@
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22financial%20statement%20analysis%22%20OR%20all%3A%22financial%20reporting%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     },
@@ -619,12 +619,12 @@
         {
           "name": "arXiv API (papers matching keywords)",
           "url": "https://export.arxiv.org/api/query?search_query=(all%3A%22tax%20compliance%22%20OR%20all%3A%22tax%20automation%22)%20AND%20submittedDate%3A%5B202607210000%20TO%20202610212359%5D&start=0&max_results=1",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         },
         {
           "name": "Hacker News Who is hiring threads (Algolia API)",
           "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Ask%20HN%3A%20Who%20is%20hiring%22&tags=story%2Cauthor_whoishiring&numericFilters=created_at_i%3E%3D1784592000%2Ccreated_at_i%3C1792540800&hitsPerPage=50",
-          "fetchedAt": "2026-10-21T16:10:33.350Z"
+          "fetchedAt": "2026-10-21T17:11:42.260Z"
         }
       ]
     }
