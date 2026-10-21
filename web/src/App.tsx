@@ -18,13 +18,15 @@ function App() {
   const [selected, setSelected] = useState<string | null>(null);
   const [profiles, setProfiles] = useState<Profile[]>([]);
   const [profile, setProfile] = useState<Profile | null>(null);
+  const [sdgWeight, setSdgWeight] = useState(0);
 
   useEffect(() => { getSnapshots().then(setDates); getProfiles().then(setProfiles); }, []);
   useEffect(() => {
     if (profile) getMatches(profile.id, snapshot).then(setMatches);
   }, [profile, snapshot]);
 
-  const ranked = [...matches].sort((a, b) => b.score[scenario] - a.score[scenario]);
+  const adjusted = (m: MatchResult) => m.score[scenario] + sdgWeight * m.breakdown.sdgBoost;
+  const ranked = [...matches].sort((a, b) => adjusted(b) - adjusted(a));
   const selectedMatch = ranked.find((r) => r.role.title === selected);
 
   return (
@@ -56,7 +58,23 @@ function App() {
               {dates.map((d) => <option key={d}>{d}</option>)}
             </select>
           </div>
-
+                      <div className="mt-4 rounded-lg border bg-white p-3">
+            <label className="flex items-center justify-between text-sm font-medium">
+              <span>SDG priority</span>
+              <span className="text-xs font-normal text-slate-500">
+                {sdgWeight === 0 ? "Off" : `x${sdgWeight}`}
+              </span>
+            </label>
+            <input
+              type="range" min={0} max={3} step={1}
+              value={sdgWeight}
+              onChange={(e) => setSdgWeight(Number(e.target.value))}
+              className="mt-2 w-full accent-emerald-600"
+            />
+            <p className="mt-1 text-xs text-slate-500">
+              Move right to rank roles that contribute more to the UN SDGs higher.
+            </p>
+          </div>
           <div className="mt-4">
             {selectedMatch ? (
               <RoleDetail match={selectedMatch} scenario={scenario} onBack={() => setSelected(null)} />
