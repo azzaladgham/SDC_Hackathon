@@ -1,6 +1,5 @@
-import type { MatchResult } from "../../shared/types";
-import { MOCK_MATCHES, SNAPSHOT_DATES } from "./mocks/data";
-
+import type { MatchResult, Profile } from "../../shared/types";
+import { MOCK_MATCHES, MOCK_PROFILES, SNAPSHOT_DATES } from "./mocks/data";
 // Flip to false on Day 2 when Role B's API is ready
 export const USE_MOCK = true;
 
@@ -17,5 +16,9 @@ export async function getMatches(profileId: string, snapshot: string): Promise<M
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ profileId }),
   });
+  return res.json();
+}export async function getProfiles(): Promise<Profile[]> {
+  if (USE_MOCK) return MOCK_PROFILES;
+  const res = await fetch("/profiles");
   return res.json();
 }
