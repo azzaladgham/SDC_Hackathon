@@ -20,8 +20,8 @@ function m(
   };
 }
 
-const S = "2026-09-20";
-const O = "2026-10-20";
+const S = "2026-07-21";
+const O = "2026-10-21";
 
 export const MOCK_MATCHES: Record<string, MatchResult[]> = {
   [S]: [
