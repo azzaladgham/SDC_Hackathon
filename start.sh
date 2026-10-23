@@ -3,5 +3,5 @@
 # which also serves web/dist. The host sets PORT.
 set -e
 cd "$(dirname "$0")"
-(cd web && npm ci && npm run build)
-(cd server && npm ci && npm start)
+(cd web && npm ci --include=dev && npm run build)
+(cd server && npm ci --include=dev && npm start)
