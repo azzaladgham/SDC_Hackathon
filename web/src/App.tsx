@@ -74,21 +74,23 @@ function App() {
         </div>
       ) : (
         <>
-          <div className="mt-3 flex items-center justify-between text-sm">
-            <span className="text-slate-600">For: <b>{profile.name}</b></span>
+          <div className="mt-3 flex items-center justify-between text-lg">
+            <span className="text-teal-900/80">For: <b>{profile.name}</b></span>
             <button onClick={() => { setProfile(null); setSelected(null); }}
-              className="text-emerald-700 hover:underline">Change profile</button>
+              className="font-semibold text-teal-800 hover:underline">Change profile</button>
           </div>
 
-          <div className="mt-4 flex gap-3 items-center">
+          <div className="mt-4 flex flex-wrap items-center gap-3">
             {(["moderate", "fast"] as Scenario[]).map((s) => (
               <button key={s} onClick={() => setScenario(s)}
-                className={`px-3 py-1 rounded-full border ${scenario === s ? "bg-emerald-600 text-white" : "bg-white"}`}>
+                className={`rounded-full border-2 border-teal-900 px-5 py-2 text-lg capitalize ${
+                  scenario === s ? "bg-teal-900 text-white" : "bg-amber-50"
+                }`}>
                 {s}
               </button>
             ))}
             <select value={snapshot} onChange={(e) => setSnapshot(e.target.value)}
-              className="ml-auto border rounded px-2 py-1 bg-white">
+              className="ml-auto rounded-xl border-2 border-teal-900 bg-amber-50 px-4 py-2 text-lg">
               {dates.map((d) => <option key={d}>{d}</option>)}
             </select>
           </div>
