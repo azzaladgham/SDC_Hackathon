@@ -94,12 +94,12 @@ function App() {
               {dates.map((d) => <option key={d}>{d}</option>)}
             </select>
           </div>
-          <div className="mt-4 rounded-lg border bg-white p-3">
-            <h3 className="mb-2 text-sm font-semibold">Future Skills Radar</h3>
+          <div className="mt-6 rounded-2xl border-2 border-teal-900 bg-amber-50 p-5 shadow-md">
+            <h3 className="font-display mb-3 text-2xl text-teal-900">Future Skills Radar</h3>
             <TrendChart trends={trends} date={snapshot} />
           </div>
-                      <div className="mt-4 rounded-lg border bg-white p-3">
-            <label className="flex items-center justify-between text-sm font-medium">
+                    <div className="mt-4 rounded-2xl border-2 border-teal-900 bg-amber-50 p-5 shadow-md">
+            <label className="flex items-center justify-between text-lg font-bold">
               <span>SDG priority</span>
               <span className="text-xs font-normal text-slate-500">
                 {sdgWeight === 0 ? "Off" : `x${sdgWeight}`}
@@ -124,9 +124,9 @@ function App() {
                   {ranked.map((r, i) => (
                     <motion.li layout key={r.role.title}
                       onClick={() => setSelected(r.role.title)}
-                      className="bg-white border rounded-lg p-3 flex items-center justify-between gap-3 cursor-pointer hover:border-emerald-500">
+                      className="flex cursor-pointer items-center justify-between gap-3 rounded-2xl border-2 border-teal-900 bg-amber-50 p-4 shadow-md hover:bg-white">
                       <div>
-                        <div className="font-medium">{i + 1}. {titleCase(r.role.title)}</div>
+                        <div className="font-display text-xl text-teal-900">{i + 1}. {titleCase(r.role.title)}</div>
                         <div className="text-xs text-slate-500">{r.role.group}</div>
                         <div className="mt-1 flex gap-1">
                           {r.role.sdgs.map((n) => <SdgChip key={n} n={n} />)}
