@@ -33,9 +33,9 @@ export default function CountryScreen({ name, onNext, onBack }: Props) {
           <li key={c.code}>
             <button
               onClick={() => onNext(c.code)}
-              className="w-full rounded-2xl border-2 border-teal-900 bg-amber-50 p-6 text-left shadow-md transition hover:-translate-y-1 hover:bg-white"
+              className="w-full rounded-2xl border-2 border-emerald-400/50 bg-amber-50 p-6 text-left shadow-md transition hover:-translate-y-1 hover:bg-emerald-900"
             >
-              <div className="font-display text-3xl text-teal-900">{c.name}</div>
+              <div className="font-display text-3xl text-[#FFF78D]">{c.name}</div>
               <div className="mt-2 text-base text-teal-900/70">{c.note}</div>
             </button>
           </li>
