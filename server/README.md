@@ -16,7 +16,7 @@ score = 100 × overlap × (1 + w·momentum − p·exposure)      clamped to 0..1
 |---|---|---|
 | `overlap` | share of the role's essential skills the person has (0..1) | ESCO (`data/esco.json`) |
 | `momentum` | average trend of the role's tracked skills: mentions in the last 3 months vs the 3 before, capped to [-1, 1] | dated snapshots in `data/snapshots/` (arXiv API + HN "Who is hiring") |
-| `exposure` | how automatable the role is (0..1) | per role, cited in `role.source` |
+| `exposure` | GenAI exposure of the role's ISCO-08 occupation group (0..1) | ILO Working Paper 140 (Gmyrek et al., 2025), Table A1, via the ESCO→ISCO mapping (`server/data/automation-exposure.json`) |
 | `w`, `p` | scenario weights | `src/config.ts` |
 
 **Two scenarios instead of one prediction:**

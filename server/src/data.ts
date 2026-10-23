@@ -16,14 +16,25 @@ function loadRoles(): Role[] {
   const mock = readJson<{ source: Role["source"]; roles: Record<string, Partial<Role>> }>(
     path.join(MOCKS, "role-overrides.json"),
   );
-  // Use mock exposure/SDGs only where A and D haven't filled real values yet
+  const ilo = readJson<{ source: Role["source"]; roles: { escoUri: string; automationExposure: number }[] }>(
+    path.join(here, "../data/automation-exposure.json"),
+  );
+  const iloByUri = new Map(ilo.roles.map((r) => [r.escoUri, r.automationExposure]));
+
+  // Exposure: A's value in esco.json, else the cited ILO index, else mock.
+  // SDGs: D's tags, else mock until sdg-map.json exists.
   return esco.roles.map((r) => {
     const o = mock.roles[r.title] ?? {};
+    const fromIlo = iloByUri.get(r.escoUri);
+    const [exposure, source] =
+      r.automationExposure != null ? [r.automationExposure, r.source]
+      : fromIlo != null ? [fromIlo, ilo.source]
+      : [o.automationExposure ?? null, mock.source];
     return {
       ...r,
-      automationExposure: r.automationExposure ?? o.automationExposure ?? null,
+      automationExposure: exposure,
       sdgs: r.sdgs.length ? r.sdgs : (o.sdgs ?? []),
-      source: r.automationExposure == null ? mock.source : r.source,
+      source,
     };
   });
 }
