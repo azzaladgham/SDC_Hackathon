@@ -1,8 +1,13 @@
 import { useState } from "react";
+import type { Profile } from "../../../shared/types";
 
-type Props = { onNext: (name: string) => void };
+type Props = {
+  onNext: (name: string) => void;
+  profiles?: Profile[];
+  onSample?: (p: Profile) => void;
+};
 
-export default function NameScreen({ onNext }: Props) {
+export default function NameScreen({ onNext, profiles = [], onSample }: Props)  {
   const [name, setName] = useState("");
   const ready = name.trim().length > 0;
 
@@ -45,8 +50,40 @@ export default function NameScreen({ onNext }: Props) {
         </button>
       </div>
       <p className="mt-3 text-sm text-teal-900/70">
-        No account needed. Don't enter real personal data. Your profile stays in this browser tab.
+                No account needed. Don't enter real personal data. Your profile stays in this browser tab.
       </p>
+
+      {profiles.length > 0 && onSample && (
+        <section className="mt-12 rounded-2xl border-2 border-teal-900 bg-amber-50 p-6 shadow-md">
+          <div className="text-sm font-bold uppercase tracking-widest text-rose-600">
+            Curious? Try a character
+          </div>
+          <h2 className="font-display mt-1 text-3xl text-teal-900 md:text-4xl">
+            Take a peek at someone else's map.
+          </h2>
+          <p className="mt-2 text-lg text-teal-900/80">
+            Explore a sample profile before you make your own. These are synthetic, not real people.
+          </p>
+
+          <ul className="mt-5 grid gap-4 md:grid-cols-3">
+            {profiles.map((p) => (
+              <li key={p.id}>
+                <button
+                  onClick={() => onSample(p)}
+                  className="h-full w-full rounded-xl border-2 border-teal-900 bg-white p-5 text-left transition hover:-translate-y-1"
+                >
+                  <div className="font-display text-2xl text-teal-900">{p.name.split(",")[0]}</div>
+                  <div className="mt-1 text-base text-teal-900/80">
+                    {p.name.split(",").slice(1).join(",").trim()}
+                  </div>
+                  <div className="mt-3 text-sm text-teal-900/70">{p.skills.join(" · ")}</div>
+                  <div className="mt-4 text-base font-bold text-teal-900">Explore their path →</div>
+                </button>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
     </div>
   );
 }

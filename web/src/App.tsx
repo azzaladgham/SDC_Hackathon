@@ -38,7 +38,18 @@ function App() {
   const selectedMatch = ranked.find((r) => r.role.title === selected);
 
 
-  if (!name) return <NameScreen onNext={setName} />;
+    if (!name)
+    return (
+      <NameScreen
+        onNext={setName}
+        profiles={profiles}
+        onSample={(p) => {
+          setName(p.name.split(",")[0]);
+          setCountry("MY");
+          setProfile(p);
+        }}
+      />
+    );
   if (!country)
     return <CountryScreen name={name} onNext={setCountry} onBack={() => setName(null)} />;
     if (!profile)
