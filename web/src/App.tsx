@@ -62,8 +62,10 @@ function App() {
       />
     );
   return (
-    <div className="min-h-screen bg-slate-50 p-6 max-w-xl mx-auto">
-      <h1 className="font-display text-4xl text-teal-800">Future Skills Navigator</h1>
+      <div className="mx-auto max-w-3xl px-6 py-10">
+      <h1 className="font-display text-4xl text-teal-900 md:text-5xl">
+        {name}'s future map
+      </h1>
 
       {!profile ? (
         <div className="mt-6 space-y-4">
@@ -72,30 +74,32 @@ function App() {
         </div>
       ) : (
         <>
-          <div className="mt-3 flex items-center justify-between text-sm">
-            <span className="text-slate-600">For: <b>{profile.name}</b></span>
+          <div className="mt-3 flex items-center justify-between text-lg">
+            <span className="text-teal-900/80">For: <b>{profile.name}</b></span>
             <button onClick={() => { setProfile(null); setSelected(null); }}
-              className="text-emerald-700 hover:underline">Change profile</button>
+              className="font-semibold text-teal-800 hover:underline">Change profile</button>
           </div>
 
-          <div className="mt-4 flex gap-3 items-center">
+          <div className="mt-4 flex flex-wrap items-center gap-3">
             {(["moderate", "fast"] as Scenario[]).map((s) => (
               <button key={s} onClick={() => setScenario(s)}
-                className={`px-3 py-1 rounded-full border ${scenario === s ? "bg-emerald-600 text-white" : "bg-white"}`}>
+                className={`rounded-full border-2 border-teal-900 px-5 py-2 text-lg capitalize ${
+                  scenario === s ? "bg-teal-900 text-white" : "bg-amber-50"
+                }`}>
                 {s}
               </button>
             ))}
             <select value={snapshot} onChange={(e) => setSnapshot(e.target.value)}
-              className="ml-auto border rounded px-2 py-1 bg-white">
+              className="ml-auto rounded-xl border-2 border-teal-900 bg-amber-50 px-4 py-2 text-lg">
               {dates.map((d) => <option key={d}>{d}</option>)}
             </select>
           </div>
-          <div className="mt-4 rounded-lg border bg-white p-3">
-            <h3 className="mb-2 text-sm font-semibold">Future Skills Radar</h3>
+          <div className="mt-6 rounded-2xl border-2 border-teal-900 bg-amber-50 p-5 shadow-md">
+            <h3 className="font-display mb-3 text-2xl text-teal-900">Future Skills Radar</h3>
             <TrendChart trends={trends} date={snapshot} />
           </div>
-                      <div className="mt-4 rounded-lg border bg-white p-3">
-            <label className="flex items-center justify-between text-sm font-medium">
+                    <div className="mt-4 rounded-2xl border-2 border-teal-900 bg-amber-50 p-5 shadow-md">
+            <label className="flex items-center justify-between text-lg font-bold">
               <span>SDG priority</span>
               <span className="text-xs font-normal text-slate-500">
                 {sdgWeight === 0 ? "Off" : `x${sdgWeight}`}
@@ -120,9 +124,9 @@ function App() {
                   {ranked.map((r, i) => (
                     <motion.li layout key={r.role.title}
                       onClick={() => setSelected(r.role.title)}
-                      className="bg-white border rounded-lg p-3 flex items-center justify-between gap-3 cursor-pointer hover:border-emerald-500">
+                      className="flex cursor-pointer items-center justify-between gap-3 rounded-2xl border-2 border-teal-900 bg-amber-50 p-4 shadow-md hover:bg-white">
                       <div>
-                        <div className="font-medium">{i + 1}. {titleCase(r.role.title)}</div>
+                        <div className="font-display text-xl text-teal-900">{i + 1}. {titleCase(r.role.title)}</div>
                         <div className="text-xs text-slate-500">{r.role.group}</div>
                         <div className="mt-1 flex gap-1">
                           {r.role.sdgs.map((n) => <SdgChip key={n} n={n} />)}

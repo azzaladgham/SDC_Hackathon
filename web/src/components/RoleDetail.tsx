@@ -21,11 +21,11 @@ useEffect(() => {
 
   return (
     <div>
-      <button onClick={onBack} className="text-sm text-emerald-700 hover:underline">
+      <button onClick={onBack} className="text-lg font-semibold text-teal-800 hover:underline">        
         ← Back to ranked roles
       </button>
 
-      <h2 className="mt-3 text-2xl font-bold">{titleCase(role.title)}</h2>
+      <h2 className="font-display mt-3 text-4xl text-teal-900">{titleCase(role.title)}</h2>
       <div className="text-sm text-slate-500">{role.group}</div>
 
       <section className="mt-4 rounded-lg border bg-white p-4">
