@@ -29,7 +29,7 @@ function App() {
 
   useEffect(() => { getSnapshots().then(setDates); getProfiles().then(setProfiles); }, []);
   useEffect(() => {
-    if (profile) getMatches(profile.id, snapshot).then(setMatches);
+    if (profile) getMatches(profile.id, snapshot, profile.skills).then(setMatches);
   }, [profile, snapshot]);
   useEffect(() => { getTrends(snapshot).then(setTrends); }, [snapshot]);
 
