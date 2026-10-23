@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-slate-50 p-6 max-w-xl mx-auto">
-      <h1 className="text-2xl font-bold text-emerald-600">Future Skills Navigator</h1>
+      <h1 className="font-display text-4xl text-teal-800">Future Skills Navigator</h1>
 
       {!profile ? (
         <div className="mt-6 space-y-4">
