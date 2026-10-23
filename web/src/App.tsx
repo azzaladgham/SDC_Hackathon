@@ -62,8 +62,10 @@ function App() {
       />
     );
   return (
-    <div className="min-h-screen bg-slate-50 p-6 max-w-xl mx-auto">
-      <h1 className="font-display text-4xl text-teal-800">Future Skills Navigator</h1>
+      <div className="mx-auto max-w-3xl px-6 py-10">
+      <h1 className="font-display text-4xl text-teal-900 md:text-5xl">
+        {name}'s future map
+      </h1>
 
       {!profile ? (
         <div className="mt-6 space-y-4">
