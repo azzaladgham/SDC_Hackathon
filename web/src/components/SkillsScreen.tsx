@@ -40,15 +40,57 @@ export default function SkillsScreen({ name, country, onSubmit, onBack }: Props)
       <p className="mt-4 max-w-2xl text-xl text-teal-900/80">
         Pick your field, then tick the skills you already have.
       </p>
-            <div className="mt-8 rounded-2xl border-2 border-dashed border-teal-900 bg-white/60 p-5">
-        <div className="text-sm font-bold uppercase tracking-widest text-teal-800">
+       
+      <div className="mt-8 text-sm font-bold uppercase tracking-widest text-teal-800">Your field</div>
+      <div className="mt-2 flex flex-wrap gap-3">
+        {Object.keys(FIELDS).map((f) => (
+          <button key={f} onClick={() => setField(f)}
+            className={`rounded-full border-2 border-emerald-400/50 px-5 py-2 text-lg ${
+              field === f ? "bg-emerald-600 text-white" : "bg-amber-50"
+            }`}>
+            {f}
+          </button>
+        ))}
+      </div>
+
+      <div className="mt-8 text-sm font-bold uppercase tracking-widest text-teal-800">
+        Skills in {field}
+      </div>
+      <div className="mt-2 flex flex-wrap gap-3">
+        {FIELDS[field].map((s) => (
+          <button key={s} onClick={() => setSkills(toggle(skills, s))}
+            className={`rounded-xl border-2 border-emerald-400/50 px-4 py-2 text-lg ${
+              skills.includes(s) ? "bg-emerald-600 text-white" : "bg-amber-50"
+            }`}>
+            {skills.includes(s) ? "✓ " : "+ "}{s}
+          </button>
+        ))}
+      </div>
+
+      <div className="mt-8 text-sm font-bold uppercase tracking-widest text-teal-800">Your interests</div>
+      <div className="mt-2 flex flex-wrap gap-3">
+        {INTEREST_OPTIONS.map((i) => (
+          <button key={i} onClick={() => setInterests(toggle(interests, i))}
+            className={`rounded-full border-2 border-emerald-400/50 px-4 py-2 text-lg ${
+              interests.includes(i) ? "bg-emerald-600 text-white" : "bg-amber-50"
+            }`}>
+            {i}
+          </button>
+        ))}
+      </div>
+
+      <div className="mt-6 text-lg text-teal-900/80">
+        {skills.length} skill{skills.length === 1 ? "" : "s"} selected
+      </div>
+         <div className="mt-8 rounded-2xl border-2 border-dashed border-emerald-400/50 bg-teal-950/60 p-5">
+        <div className="text-sm font-bold uppercase tracking-widest text-[#FFF449]">
           Or upload a CV
         </div>
         <p className="mt-1 text-base text-teal-900/80">
           Upload a sample CV or paste its text, and we'll fill in your skills for you.
         </p>
 
-        <label className="mt-3 inline-block cursor-pointer rounded-xl border-2 border-teal-900 bg-amber-50 px-5 py-3 text-lg">
+        <label className="mt-3 inline-block cursor-pointer rounded-xl border-2 border-emerald-400/50 bg-amber-50 px-5 py-3 text-lg">
           Choose file
           <input
             type="file"
@@ -64,56 +106,14 @@ export default function SkillsScreen({ name, country, onSubmit, onBack }: Props)
           onChange={(e) => setCvText(e.target.value)}
           placeholder="...or paste your CV text here"
           rows={4}
-          className="mt-3 w-full rounded-xl border-2 border-teal-900 bg-amber-50 px-4 py-3 text-lg placeholder:text-teal-900/50"
+          className="mt-3 w-full rounded-xl border-2 border-emerald-400/50 bg-amber-50 px-4 py-3 text-lg placeholder:text-teal-900/50"
         />
 
         <p className="mt-2 text-sm text-teal-900/70">
           Use synthetic sample CVs only, never a real one. Automatic skill extraction is
-          coming soon, so for now please tick your skills below.
+          coming soon, so for now please tick your skills above.
         </p>
       </div>
-      <div className="mt-8 text-sm font-bold uppercase tracking-widest text-teal-800">Your field</div>
-      <div className="mt-2 flex flex-wrap gap-3">
-        {Object.keys(FIELDS).map((f) => (
-          <button key={f} onClick={() => setField(f)}
-            className={`rounded-full border-2 border-teal-900 px-5 py-2 text-lg ${
-              field === f ? "bg-teal-900 text-white" : "bg-amber-50"
-            }`}>
-            {f}
-          </button>
-        ))}
-      </div>
-
-      <div className="mt-8 text-sm font-bold uppercase tracking-widest text-teal-800">
-        Skills in {field}
-      </div>
-      <div className="mt-2 flex flex-wrap gap-3">
-        {FIELDS[field].map((s) => (
-          <button key={s} onClick={() => setSkills(toggle(skills, s))}
-            className={`rounded-xl border-2 border-teal-900 px-4 py-2 text-lg ${
-              skills.includes(s) ? "bg-emerald-600 text-white" : "bg-amber-50"
-            }`}>
-            {skills.includes(s) ? "✓ " : "+ "}{s}
-          </button>
-        ))}
-      </div>
-
-      <div className="mt-8 text-sm font-bold uppercase tracking-widest text-teal-800">Your interests</div>
-      <div className="mt-2 flex flex-wrap gap-3">
-        {INTEREST_OPTIONS.map((i) => (
-          <button key={i} onClick={() => setInterests(toggle(interests, i))}
-            className={`rounded-full border-2 border-teal-900 px-4 py-2 text-lg ${
-              interests.includes(i) ? "bg-teal-900 text-white" : "bg-amber-50"
-            }`}>
-            {i}
-          </button>
-        ))}
-      </div>
-
-      <div className="mt-6 text-lg text-teal-900/80">
-        {skills.length} skill{skills.length === 1 ? "" : "s"} selected
-      </div>
-
       <div className="mt-6 flex items-center gap-6">
         <button onClick={onBack} className="text-lg font-semibold text-teal-800 hover:underline">
           ← Back
@@ -121,7 +121,7 @@ export default function SkillsScreen({ name, country, onSubmit, onBack }: Props)
         <button
           disabled={skills.length === 0}
           onClick={() => onSubmit({ id: "custom", name, skills, interests, country } as Profile)}
-          className="rounded-xl bg-teal-900 px-8 py-4 text-xl text-white disabled:bg-slate-300">
+          className="rounded-xl bg-emerald-600 px-8 py-4 text-xl text-white transition enabled:hover:bg-[#FFF449] enabled:hover:text-teal-950 disabled:bg-slate-300">
           See my future roles →
         </button>
       </div>

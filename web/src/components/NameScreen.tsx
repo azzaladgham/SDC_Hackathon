@@ -50,7 +50,7 @@ export default function NameScreen({ onNext, profiles = [], onSample }: Props)  
         </motion.div>
       </div>
 
-      <label className="mt-6 block text-sm font-bold uppercase tracking-widest text-teal-800">
+      <label className="mt-6 block text-sm font-bold uppercase tracking-widest text-[#FFDE42]">
         What should we call you?
       </label>
       <div className="mt-2 flex max-w-xl gap-3">
@@ -64,7 +64,7 @@ export default function NameScreen({ onNext, profiles = [], onSample }: Props)  
         <button
           onClick={() => ready && onNext(name.trim())}
           disabled={!ready}
-          className="rounded-xl bg-teal-900 px-7 text-2xl text-white disabled:bg-slate-300"
+                    className="rounded-xl bg-emerald-600 px-7 text-2xl text-white transition enabled:hover:bg-[#FFF449] enabled:hover:text-teal-950 disabled:bg-slate-300"
           aria-label="Next"
         >
           →
@@ -91,14 +91,14 @@ export default function NameScreen({ onNext, profiles = [], onSample }: Props)  
               <li key={p.id}>
                 <button
                   onClick={() => onSample(p)}
-                  className="h-full w-full rounded-xl border-2 border-teal-900 bg-white p-5 text-left transition hover:-translate-y-1"
+                  className="h-full w-full rounded-xl border-2 border-emerald-400/50 bg-teal-950 p-5 text-left transition hover:-translate-y-1 hover:bg-emerald-900"
                 >
-                  <div className="font-display text-2xl text-teal-900">{p.name.split(",")[0]}</div>
+                  <div className="font-display text-2xl text-[#FFF78D]">{p.name.split(",")[0]}</div>
                   <div className="mt-1 text-base text-teal-900/80">
                     {p.name.split(",").slice(1).join(",").trim()}
                   </div>
                   <div className="mt-3 text-sm text-teal-900/70">{p.skills.join(" · ")}</div>
-                  <div className="mt-4 text-base font-bold text-teal-900">Explore their path →</div>
+                  <div className="mt-4 text-[#FFDE42]">Explore their path →</div>
                 </button>
               </li>
             ))}
