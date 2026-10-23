@@ -7,6 +7,9 @@ import SourceBadge from "./components/SourceBadge";
 import SdgChip from "./components/SdgChip";
 import RoleDetail from "./components/RoleDetail";
 import ProfilePicker from "./components/ProfilePicker";
+import NameScreen from "./components/NameScreen";
+import CountryScreen from "./components/CountryScreen";
+import SkillsScreen from "./components/SkillsScreen";
 import TrendChart from "./components/TrendChart";
 import IntakeForm from "./components/IntakeForm";
 import { titleCase } from "./utils";
@@ -20,6 +23,8 @@ function App() {
   const [profiles, setProfiles] = useState<Profile[]>([]);
   const [profile, setProfile] = useState<Profile | null>(null);
   const [sdgWeight, setSdgWeight] = useState(0);
+  const [name, setName] = useState<string | null>(null);
+  const [country, setCountry] = useState<string | null>(null);
   const [trends, setTrends] = useState<SkillTrend[]>([]);
 
   useEffect(() => { getSnapshots().then(setDates); getProfiles().then(setProfiles); }, []);
@@ -32,9 +37,22 @@ function App() {
   const ranked = [...matches].sort((a, b) => adjusted(b) - adjusted(a));
   const selectedMatch = ranked.find((r) => r.role.title === selected);
 
+
+  if (!name) return <NameScreen onNext={setName} />;
+  if (!country)
+    return <CountryScreen name={name} onNext={setCountry} onBack={() => setName(null)} />;
+    if (!profile)
+    return (
+      <SkillsScreen
+        name={name}
+        country={country}
+        onSubmit={setProfile}
+        onBack={() => setCountry(null)}
+      />
+    );
   return (
     <div className="min-h-screen bg-slate-50 p-6 max-w-xl mx-auto">
-      <h1 className="text-2xl font-bold text-emerald-600">Future Skills Navigator</h1>
+      <h1 className="font-display text-4xl text-teal-800">Future Skills Navigator</h1>
 
       {!profile ? (
         <div className="mt-6 space-y-4">
