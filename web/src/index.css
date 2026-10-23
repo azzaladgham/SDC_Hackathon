@@ -9,6 +9,6 @@ body {
   font-family: var(--font-body);
   font-size: 18px;
   color: #123b36;
-  background: linear-gradient(135deg, #b9e8d9 0%, #d9efe6 55%, #e8f3dc 100%);
+  background: linear-gradient(135deg, #092328 0%, #12544F 55%, #2A835F 100%);
   min-height: 100vh;
 }
