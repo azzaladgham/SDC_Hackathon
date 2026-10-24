@@ -38,8 +38,8 @@ The deployed prototype uses a custom matching engine rather than calling a gener
 | Replit Project | https://replit.com/join#t=affrgmxnruqoqrk-jarmxl |
 | Live Prototype | https://sdc-hackathon-jarmxl.replit.app |
 | Slide Deck | https://canva.link/tvpr171cn8gx1d7 |
-| Demo Video | TODO: Add demo video URL |
-| Pitching Video | TODO: Add pitching video URL |
+| Demo Video | https://youtu.be/P0Omx6hmkL0?is=5r_dHMQUgeH2SjVM |
+| Pitching Video | https://youtu.be/ARcQEMDXBCQ?is=O4ufKeImZ3O2UDqg |
 | RunPod Endpoint | Not applicable |
 
 ---
