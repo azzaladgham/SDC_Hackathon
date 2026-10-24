@@ -35,7 +35,7 @@ function App() {
   useEffect(() => {
   window.scrollTo({ top: 0, left: 0 });
   }, [name, country, profile, selected]);
-  const adjusted = (m: MatchResult) => m.score[scenario] + sdgWeight * m.breakdown.sdgBoost;
+  const adjusted = (m: MatchResult) => m.score[scenario] + sdgWeight * 3 * m.role.sdgs.length;
   const ranked = [...matches]
     .filter((m) => m.score.moderate > 0 || m.score.fast > 0)
     .sort((a, b) => adjusted(b) - adjusted(a));
