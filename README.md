@@ -3,7 +3,7 @@
 
 > **Discover Opportunities Beyond the Obvious.**
 
-**WorkWithin AI** is an AI-powered workforce intelligence platform designed to help students, graduates, and professionals discover emerging career opportunities, understand geographical workforce trends, and develop skills for the future of work.
+**CareerAtlas AI** is an AI-powered workforce intelligence platform designed to help students, graduates, and professionals discover emerging career opportunities, understand geographical workforce trends, and develop skills for the future of work.
 
 **SDC Hackathon 2026 | Future-Ready Workforce**
 
@@ -13,12 +13,12 @@
 
 | Field | Details |
 |---|---|
-| **Team Name** | [TEAM NAME] |
-| **Team Domain** | Future-Ready Workforce |
+| **Team Name** | [CareerAtlas AI] |
+| **Team Domain** | Domain 1 : Future-Ready Workforce |
 | **SDG Track (1–17)** | SDG 8 – Decent Work and Economic Growth |
 | **Team Leader** | [TEAM LEADER] |
 | **University** | Xiamen University Malaysia |
-| **Number of Members** | [NUMBER] |
+| **Number of Members** | [4] |
 
 ---
 
@@ -48,7 +48,7 @@ This creates uncertainty, skill mismatches, and a gap between global workforce i
 
 ### Solution
 
-**WorkWithin AI** aims to address these challenges by combining AI-powered workforce analysis, geographical intelligence, and personalized career guidance.
+**CareerAtlas AI** aims to address these challenges by combining AI-powered workforce analysis, geographical intelligence, and personalized career guidance.
 
 The platform is designed to analyze changing workforce trends, compare opportunities across countries, identify relevant career paths, and recommend actionable reskilling pathways.
 
@@ -347,7 +347,7 @@ Potential future enhancements include:
 
 | Team Member | Role | GitHub Username | Contribution |
 |---|---|---|---|
-| [MEMBER 1] | [ROLE] | [@USERNAME] | [CONTRIBUTION] |
+| [Azza Ladhgham] | [Leader] | [@USERNAME] | [frontend] |
 | [MEMBER 2] | [ROLE] | [@USERNAME] | [CONTRIBUTION] |
 | [MEMBER 3] | [ROLE] | [@USERNAME] | [CONTRIBUTION] |
 | [MEMBER 4] | [ROLE] | [@USERNAME] | [CONTRIBUTION] |
