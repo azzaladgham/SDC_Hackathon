@@ -46,6 +46,21 @@ const TRACKED: { label: string; keywords: string[] }[] = [
   { label: "accounting", keywords: ["accounting automation", "bookkeeping automation"] },
   { label: "interpret financial statements", keywords: ["financial statement analysis", "financial reporting"] },
   { label: "tax legislation", keywords: ["tax compliance", "tax automation"] },
+    // Shared services, HR, finance and business analysis (added to cover roles with no trend data)
+  { label: "manage payroll", keywords: ["payroll automation", "payroll software"] },
+  { label: "use microsoft office", keywords: ["Microsoft Copilot", "Microsoft 365"] },
+  { label: "ensure proper document management", keywords: ["document management", "intelligent document processing"] },
+  { label: "draft corporate emails", keywords: ["email automation", "AI email assistant"] },
+  { label: "perform office routine activities", keywords: ["robotic process automation"] },
+  { label: "manage payroll reports", keywords: ["HR analytics", "people analytics"] },
+  { label: "profile people", keywords: ["talent assessment", "AI recruiting"] },
+  { label: "job market offers", keywords: ["labor market", "job matching"] },
+  { label: "business process modelling", keywords: ["BPMN", "process mining"] },
+  { label: "analyse business requirements", keywords: ["requirements engineering", "user stories"] },
+  { label: "apply change management", keywords: ["change management", "digital transformation"] },
+  { label: "use accounting systems", keywords: ["accounting software", "enterprise resource planning"] },
+  { label: "identify accounting errors", keywords: ["accounting fraud", "financial fraud detection"] },
+  { label: "customer service", keywords: ["customer experience", "contact center"] },
 ];
 
 async function main() {
