@@ -1,0 +1,60 @@
+# .github/workflows/refresh-snapshot.yml
+# Refreshes the dated trend snapshot and opens a pull request with it (main is protected, so no direct push).
+# Runs every Monday at 02:00 UTC, and can be started by hand from the Actions tab ("Run workflow").
+
+name: Refresh trend snapshot
+
+on:
+  schedule:
+    - cron: "0 2 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: scripts/package-lock.json
+
+      - name: Install script dependencies
+        working-directory: scripts
+        run: npm ci
+
+      - name: Fetch trends (fails without writing if any request fails)
+        working-directory: scripts
+        run: npx tsx fetch-trends.ts
+
+      - name: Get today's date
+        id: date
+        run: echo "today=$(date -u +%F)" >> "$GITHUB_OUTPUT"
+
+      - name: Open pull request with the new snapshot
+        uses: peter-evans/create-pull-request@v7
+        with:
+          add-paths: |
+            data/snapshots/*.json
+            data/raw/trends-*.json
+          branch: auto/snapshot-${{ steps.date.outputs.today }}
+          delete-branch: true
+          commit-message: "Data: trend snapshot ${{ steps.date.outputs.today }}"
+          title: "Data: trend snapshot ${{ steps.date.outputs.today }}"
+          body: |
+            Automated refresh by the scheduled workflow.
+
+            - Windows: last 3 months vs the prior 3 months, as of ${{ steps.date.outputs.today }}
+            - Sources: arXiv API and Hacker News "Who is hiring" threads (Algolia API)
+            - Each skill carries its source URL and fetch time
+
+            Please glance at the numbers in `data/snapshots/` before merging.
