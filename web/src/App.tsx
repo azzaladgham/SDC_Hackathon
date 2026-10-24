@@ -39,7 +39,7 @@ function App() {
   const ranked = [...matches]
     .filter((m) => m.score.moderate > 0 || m.score.fast > 0)
     .sort((a, b) => adjusted(b) - adjusted(a));
-  const sdgActive = matches.some((m) => m.breakdown.sdgBoost > 0);
+  const sdgActive = matches.some((m) => m.role.sdgs.length > 0);
   const selectedMatch = ranked.find((r) => r.role.title === selected);
 
 
