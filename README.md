@@ -675,42 +675,135 @@ SDC_Hackathon/
 |       |-- refresh-snapshot.yml
 |
 |-- data/
-|   |-- esco.json
-|   |-- tracked-skills.json
-|   |-- exposure.json
-|   |-- countries.json
+|   |-- raw/
+|   |   |-- arxiv-cache.json
+|   |   |-- trends-2026-07-24.json
+|   |   |-- trends-2026-10-24.json
 |   |
 |   |-- snapshots/
-|   |   |-- YYYY-MM-DD.json
+|   |   |-- 2026-07-24.json
+|   |   |-- 2026-10-24.json
 |   |
-|   |-- raw/
-|   |   |-- trends-YYYY-MM-DD.json
+|   |-- snapshots 2/
 |   |
 |   |-- sources/
-|       |-- malaysia-dosm.json
+|   |   |-- malaysia-dosm.json
+|   |
+|   |-- countries.json
+|   |-- esco.json
+|   |-- exposure.json
+|   |-- skill-candidates.json
+|   |-- tracked-skills.json
 |
 |-- scripts/
-|   |-- fetch-esco.ts
-|   |-- swap-roles.ts
-|   |-- join-exposure.ts
-|   |-- fetch-trends.ts
-|   |-- build-tracked-skills.ts
 |   |-- build-country-data.ts
+|   |-- build-tracked-skills.ts
+|   |-- check-coverage.ts
+|   |-- fetch-esco.ts
+|   |-- fetch-trends.ts
+|   |-- join-exposure.ts
+|   |-- list-skill-candidates.ts
 |   |-- parse-ilo-exposure.ts
 |   |-- pdf-to-text.ts
-|   |-- check-coverage.ts
+|   |-- swap-roles.ts
 |   |-- validate-data.ts
+|   |-- package.json
+|   |-- package-lock.json
+|   |-- tsconfig.json
+|
+|-- server/
+|   |-- data/
+|   |   |-- automation-exposure.json
+|   |
+|   |-- mocks/
+|   |   |-- snapshots/
+|   |   |   |-- 2026-09-20.json
+|   |   |   |-- 2026-10-20.json
+|   |   |-- profiles.json
+|   |   |-- role-overrides.json
+|   |
+|   |-- src/
+|   |   |-- config.ts
+|   |   |-- data.ts
+|   |   |-- index.ts
+|   |   |-- pathway.test.ts
+|   |   |-- pathway.ts
+|   |   |-- realdata.test.ts
+|   |   |-- scoring.test.ts
+|   |   |-- scoring.ts
+|   |
+|   |-- package.json
+|   |-- package-lock.json
+|   |-- tsconfig.json
+|   |-- README.md
 |
 |-- shared/
 |   |-- types.ts
 |
 |-- web/
-|   |-- TODO: Confirm actual frontend files
-|   |-- TODO: Confirm actual backend files
+|   |-- public/
+|   |   |-- characters/
+|   |   |   |-- scout1.png
+|   |   |   |-- scout2.png
+|   |   |-- favicon.svg
+|   |   |-- icons.svg
+|   |
+|   |-- src/
+|   |   |-- assets/
+|   |   |   |-- hero.png
+|   |   |   |-- react.svg
+|   |   |   |-- vite.svg
+|   |   |
+|   |   |-- components/
+|   |   |   |-- BreakdownBar.tsx
+|   |   |   |-- CountryScreen.tsx
+|   |   |   |-- Disclaimer.tsx
+|   |   |   |-- IntakeForm.tsx
+|   |   |   |-- NameScreen.tsx
+|   |   |   |-- PathwayView.tsx
+|   |   |   |-- ProfilePicker.tsx
+|   |   |   |-- RoleDetail.tsx
+|   |   |   |-- ScoreRange.tsx
+|   |   |   |-- SdgChip.tsx
+|   |   |   |-- SkillsScreen.tsx
+|   |   |   |-- SourceBadge.tsx
+|   |   |   |-- TrendChart.tsx
+|   |   |
+|   |   |-- data/
+|   |   |   |-- 2026-07-24.json
+|   |   |   |-- 2026-10-24.json
+|   |   |   |-- countries.json
+|   |   |   |-- esco.json
+|   |   |   |-- exposure.json
+|   |   |
+|   |   |-- mocks/
+|   |   |   |-- data.ts
+|   |   |   |-- skills.ts
+|   |   |
+|   |   |-- api.ts
+|   |   |-- App.tsx
+|   |   |-- index.css
+|   |   |-- main.tsx
+|   |   |-- utils.ts
+|   |
+|   |-- .gitignore
+|   |-- eslint.config.js
+|   |-- index.html
+|   |-- package.json
+|   |-- package-lock.json
+|   |-- README.md
+|   |-- tsconfig.app.json
+|   |-- tsconfig.json
+|   |-- tsconfig.node.json
+|   |-- vite.config.ts
 |
+|-- .gitattributes
 |-- .gitignore
+|-- .replit
 |-- LICENSE
+|-- package-lock.json
 |-- README.md
+|-- start.sh
 ```
 
 
