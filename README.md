@@ -36,7 +36,7 @@ The deployed prototype uses a custom matching engine rather than calling a gener
 |---|---|
 | GitHub Repository | https://github.com/azzaladgham/SDC_Hackathon |
 | Replit Project | TODO: Add Replit project URL |
-| Live Prototype | TODO: Add deployed application URL |
+| Live Prototype | https://sdc-hackathon-jarmxl.replit.app |
 | Slide Deck | https://canva.link/tvpr171cn8gx1d7 |
 | Demo Video | TODO: Add demo video URL |
 | Pitching Video | TODO: Add pitching video URL |
@@ -964,8 +964,7 @@ Users do not need to install development tools to use the public prototype.
 | Provider | Replit |
 | Purpose | Frontend and backend hosting |
 | Plan | SDC Hackathon sponsor-provided credits |
-| Hosting Region | Not confirmed |
-| Deployment URL | TODO: Add URL |
+| Deployment URL | https://sdc-hackathon-jarmxl.replit.app |
 
 ---
 
