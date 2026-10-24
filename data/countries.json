@@ -1,0 +1,262 @@
+{
+  "generatedAt": "2026-10-24T06:34:14.745Z",
+  "note": "Employment by ISCO-08 major occupation group. A role's group is the first digit of its iscoCode in esco.json.",
+  "countries": {
+    "SGP": {
+      "name": "Singapore",
+      "year": 2025,
+      "unit": "thousand persons",
+      "totalEmployed": 2376.445,
+      "groups": {
+        "1": {
+          "name": "Managers",
+          "employed": 405.743,
+          "share": 0.1707
+        },
+        "2": {
+          "name": "Professionals",
+          "employed": 624.382,
+          "share": 0.2627
+        },
+        "3": {
+          "name": "Technicians and associate professionals",
+          "employed": 442.527,
+          "share": 0.1862
+        },
+        "4": {
+          "name": "Clerical support workers",
+          "employed": 197.519,
+          "share": 0.0831
+        },
+        "5": {
+          "name": "Service and sales workers",
+          "employed": 246.036,
+          "share": 0.1035
+        },
+        "6": {
+          "name": "Skilled agricultural, forestry and fishery workers",
+          "employed": 2.376,
+          "share": 0.001
+        },
+        "7": {
+          "name": "Craft and related trades workers",
+          "employed": 51.641,
+          "share": 0.0217
+        },
+        "8": {
+          "name": "Plant and machine operators, and assemblers",
+          "employed": 128.93,
+          "share": 0.0543
+        },
+        "9": {
+          "name": "Elementary occupations",
+          "employed": 167.698,
+          "share": 0.0706
+        },
+        "X": {
+          "name": "Not classifiable by occupation",
+          "employed": 109.594,
+          "share": 0.0461
+        }
+      },
+      "source": {
+        "name": "ILOSTAT, Employment by sex and occupation (EMP_TEMP_SEX_OCU_NB_A), national Labour Force Survey (source BA:5873), ISCO-08",
+        "url": "https://ilostat.ilo.org/data/bulk/",
+        "retrievedAt": "2026-10-24",
+        "note": "Sex: total. Occupation: ISCO-08 major groups (1-digit). Group X = not classifiable by occupation; shares are of total employment."
+      }
+    },
+    "PHL": {
+      "name": "Philippines",
+      "year": 2024,
+      "unit": "thousand persons",
+      "totalEmployed": 47524.318,
+      "groups": {
+        "0": {
+          "name": "Armed forces occupations",
+          "employed": 92.232,
+          "share": 0.0019
+        },
+        "1": {
+          "name": "Managers",
+          "employed": 1698.621,
+          "share": 0.0357
+        },
+        "2": {
+          "name": "Professionals",
+          "employed": 2731.584,
+          "share": 0.0575
+        },
+        "3": {
+          "name": "Technicians and associate professionals",
+          "employed": 2074.972,
+          "share": 0.0437
+        },
+        "4": {
+          "name": "Clerical support workers",
+          "employed": 3682.485,
+          "share": 0.0775
+        },
+        "5": {
+          "name": "Service and sales workers",
+          "employed": 11503.775,
+          "share": 0.2421
+        },
+        "6": {
+          "name": "Skilled agricultural, forestry and fishery workers",
+          "employed": 5336.21,
+          "share": 0.1123
+        },
+        "7": {
+          "name": "Craft and related trades workers",
+          "employed": 3477.362,
+          "share": 0.0732
+        },
+        "8": {
+          "name": "Plant and machine operators, and assemblers",
+          "employed": 4122.839,
+          "share": 0.0868
+        },
+        "9": {
+          "name": "Elementary occupations",
+          "employed": 12804.238,
+          "share": 0.2694
+        }
+      },
+      "source": {
+        "name": "ILOSTAT, Employment by sex and occupation (EMP_TEMP_SEX_OCU_NB_A), national Labour Force Survey (source BA:629), ISCO-08",
+        "url": "https://ilostat.ilo.org/data/bulk/",
+        "retrievedAt": "2026-10-24",
+        "note": "Sex: total. Occupation: ISCO-08 major groups (1-digit). Group X = not classifiable by occupation; shares are of total employment."
+      }
+    },
+    "VNM": {
+      "name": "Vietnam",
+      "year": 2024,
+      "unit": "thousand persons",
+      "totalEmployed": 55280.158,
+      "groups": {
+        "0": {
+          "name": "Armed forces occupations",
+          "employed": 308.608,
+          "share": 0.0056
+        },
+        "1": {
+          "name": "Managers",
+          "employed": 470.211,
+          "share": 0.0085
+        },
+        "2": {
+          "name": "Professionals",
+          "employed": 3859.843,
+          "share": 0.0698
+        },
+        "3": {
+          "name": "Technicians and associate professionals",
+          "employed": 1580.772,
+          "share": 0.0286
+        },
+        "4": {
+          "name": "Clerical support workers",
+          "employed": 1293.009,
+          "share": 0.0234
+        },
+        "5": {
+          "name": "Service and sales workers",
+          "employed": 10332.873,
+          "share": 0.1869
+        },
+        "6": {
+          "name": "Skilled agricultural, forestry and fishery workers",
+          "employed": 8165.687,
+          "share": 0.1477
+        },
+        "7": {
+          "name": "Craft and related trades workers",
+          "employed": 7188.578,
+          "share": 0.13
+        },
+        "8": {
+          "name": "Plant and machine operators, and assemblers",
+          "employed": 7635.87,
+          "share": 0.1381
+        },
+        "9": {
+          "name": "Elementary occupations",
+          "employed": 12909.261,
+          "share": 0.2335
+        },
+        "X": {
+          "name": "Not classifiable by occupation",
+          "employed": 1535.444,
+          "share": 0.0278
+        }
+      },
+      "source": {
+        "name": "ILOSTAT, Employment by sex and occupation (EMP_TEMP_SEX_OCU_NB_A), national Labour Force Survey (source BA:1788), ISCO-08",
+        "url": "https://ilostat.ilo.org/data/bulk/",
+        "retrievedAt": "2026-10-24",
+        "note": "Sex: total. Occupation: ISCO-08 major groups (1-digit). Group X = not classifiable by occupation; shares are of total employment."
+      }
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "year": 2024,
+      "unit": "thousand persons",
+      "totalEmployed": 16369.4,
+      "groups": {
+        "1": {
+          "name": "Managers",
+          "employed": 808.9,
+          "share": 0.0494
+        },
+        "2": {
+          "name": "Professionals",
+          "employed": 2175.3,
+          "share": 0.1329
+        },
+        "3": {
+          "name": "Technicians and associate professionals",
+          "employed": 1959.6,
+          "share": 0.1197
+        },
+        "4": {
+          "name": "Clerical support workers",
+          "employed": 1605.9,
+          "share": 0.0981
+        },
+        "5": {
+          "name": "Service and sales workers",
+          "employed": 3790.7,
+          "share": 0.2316
+        },
+        "6": {
+          "name": "Skilled agricultural, forestry and fishery workers",
+          "employed": 678.4,
+          "share": 0.0414
+        },
+        "7": {
+          "name": "Craft and related trades workers",
+          "employed": 1446.7,
+          "share": 0.0884
+        },
+        "8": {
+          "name": "Plant and machine operators, and assemblers",
+          "employed": 1734.8,
+          "share": 0.106
+        },
+        "9": {
+          "name": "Elementary occupations",
+          "employed": 2169.1,
+          "share": 0.1325
+        }
+      },
+      "source": {
+        "name": "Department of Statistics Malaysia (DOSM), Labour Force Report September 2025, Table D: Employed persons by occupation, Malaysia, 1982 - 2024 ('000)",
+        "url": "https://storage.dosm.gov.my/labour/lfs_month_2025-09_en.pdf",
+        "retrievedAt": "2026-10-24",
+        "note": "Occupation groups follow MASCO 2020 for 2022 onwards; its major group titles match the ISCO-08 major groups. Armed forces (group 0) is not reported in this table."
+      }
+    }
+  }
+}

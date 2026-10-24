@@ -1,0 +1,23 @@
+{
+  "country": "MYS",
+  "year": 2024,
+  "unit": "thousand persons",
+  "total": 16369.4,
+  "groups": {
+    "1": 808.9,
+    "2": 2175.3,
+    "3": 1959.6,
+    "4": 1605.9,
+    "5": 3790.7,
+    "6": 678.4,
+    "7": 1446.7,
+    "8": 1734.8,
+    "9": 2169.1
+  },
+  "source": {
+    "name": "Department of Statistics Malaysia (DOSM), Labour Force Report September 2025, Table D: Employed persons by occupation, Malaysia, 1982 - 2024 ('000)",
+    "url": "https://storage.dosm.gov.my/labour/lfs_month_2025-09_en.pdf",
+    "retrievedAt": "2026-10-24",
+    "note": "Occupation groups follow MASCO 2020 for 2022 onwards; its major group titles match the ISCO-08 major groups. Armed forces (group 0) is not reported in this table."
+  }
+}
