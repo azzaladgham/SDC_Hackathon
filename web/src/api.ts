@@ -48,10 +48,11 @@ export async function getMatches(profileId: string, snapshot: string, skills?: s
     body: JSON.stringify({ profileId, skills }),
   });
   return res.ok ? res.json() : [];
-}export async function getProfiles(): Promise<Profile[]> {
-  if (USE_MOCK) return MOCK_PROFILES;
-  const res = await fetch("/api/profiles");
-  return res.json();
+}
+
+export async function getProfiles(): Promise<Profile[]> {
+  // Sample profiles are synthetic and live in the frontend, no server needed
+  return MOCK_PROFILES;
 }
 export async function getPathway(gapSkills: string[], sdgs: number[]): Promise<Pathway> {
   if (USE_MOCK) return mockPathway(gapSkills, sdgs);
