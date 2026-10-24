@@ -16,7 +16,7 @@
 | **Team Name** | [CareerAtlas AI] |
 | **Team Domain** | Domain 1 : Future-Ready Workforce |
 | **SDG Track (1–17)** | SDG 8 – Decent Work and Economic Growth |
-| **Team Leader** | [TEAM LEADER] |
+| **Team Leader** | [Azza ladhgham] |
 | **University** | Xiamen University Malaysia |
 | **Number of Members** | [4] |
 
