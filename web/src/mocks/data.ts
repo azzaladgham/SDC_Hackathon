@@ -56,6 +56,8 @@ export const MOCK_PROFILES: Profile[] = [
     skills: ["Excel", "Financial reporting", "Bookkeeping"], interests: ["Finance", "Automation"] },
   { id: "p3", name: "Mei Ling, career switcher from teaching",
     skills: ["Presentation", "Communication"], interests: ["Education", "Technology"] },
+  { id: "p4", name: "Siti, customer service rep learning marketing",
+    skills: ["Communication", "CRM tools"], interests: ["Marketing", "Customer experience"] },
 ];
 // PLACEHOLDER courses. Replace with courses.json from Role D.
 export const MOCK_COURSES: Course[] = [
@@ -110,5 +112,6 @@ export const MOCK_TRENDS: Record<string, SkillTrend[]> = {
     trend("Data visualisation", -0.16, 84, 100, "2026-10-20"),
     trend("Bookkeeping", -0.35, 65, 100, "2026-10-20"),
     trend("Payroll software", -0.48, 52, 100, "2026-10-20"),
+  
   ],
 };

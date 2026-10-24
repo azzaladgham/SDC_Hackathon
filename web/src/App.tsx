@@ -36,7 +36,10 @@ function App() {
   window.scrollTo({ top: 0, left: 0 });
   }, [name, country, profile, selected]);
   const adjusted = (m: MatchResult) => m.score[scenario] + sdgWeight * m.breakdown.sdgBoost;
-  const ranked = [...matches].sort((a, b) => adjusted(b) - adjusted(a));
+  const ranked = [...matches]
+    .filter((m) => m.score.moderate > 0 || m.score.fast > 0)
+    .sort((a, b) => adjusted(b) - adjusted(a));
+  const sdgActive = matches.some((m) => m.breakdown.sdgBoost > 0);
   const selectedMatch = ranked.find((r) => r.role.title === selected);
 
 
@@ -113,9 +116,14 @@ function App() {
               onChange={(e) => setSdgWeight(Number(e.target.value))}
               className="mt-2 w-full accent-emerald-600"
             />
-            <p className="mt-1 text-xs text-slate-500">
+                        <p className="mt-1 text-xs text-slate-500">
               Move right to rank roles that contribute more to the UN SDGs higher.
             </p>
+            {!sdgActive && (
+              <p className="mt-2 text-sm text-[#FFDE42]">
+                SDG data for these roles is not loaded yet, so the slider has no effect.
+              </p>
+            )}
           </div>
           <div className="mt-4">
             {selectedMatch ? (
@@ -134,7 +142,11 @@ function App() {
                           {r.role.sdgs.map((n) => <SdgChip key={n} n={n} />)}
                         </div>
                       </div>
-                      <ScoreRange moderate={r.score.moderate} fast={r.score.fast} />
+                      <div className="text-right">
+                        <div className="text-3xl font-bold text-[#FFF449]">{r.score[scenario]}</div>
+                        <div className="mb-1 text-xs capitalize text-slate-500">{scenario} (estimate)</div>
+                        <ScoreRange moderate={r.score.moderate} fast={r.score.fast} />
+                      </div>
                     </motion.li>
                   ))}
                 </ul>
