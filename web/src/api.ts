@@ -1,7 +1,7 @@
 import type { MatchResult, Pathway, Profile, SkillTrend } from "../../shared/types";
 import { MOCK_MATCHES, MOCK_PROFILES, MOCK_TRENDS, SNAPSHOT_DATES, mockPathway } from "./mocks/data";
-import snap0721 from "./data/2026-07-21.json";
-import snap1021 from "./data/2026-10-21.json";
+import snap0724 from "./data/2026-07-24.json";
+import snap1024 from "./data/2026-10-24.json";
 
 import escoData from "./data/esco.json";
 import exposureData from "./data/exposure.json";
@@ -25,8 +25,8 @@ export function getExposure(title: string): number | null {
 export const USE_REAL_TRENDS = true;
 
 const REAL_SNAPSHOTS: Record<string, SkillTrend[]> = {
-  "2026-07-21": snap0721.skills as SkillTrend[],
-  "2026-10-21": snap1021.skills as SkillTrend[],
+  "2026-07-24": snap0724.skills as SkillTrend[],
+  "2026-10-24": snap1024.skills as SkillTrend[],
 };
 const REAL_DATES = Object.keys(REAL_SNAPSHOTS);
 // Flip to false on Day 2 when Role B's API is ready
