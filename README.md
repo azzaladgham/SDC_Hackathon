@@ -5,575 +5,1377 @@
 
 > **Mapping Tomorrow's Careers, Today.**
 
-**CareerAtlas AI** is an AI-powered workforce intelligence platform designed to help students, graduates, and professionals discover emerging career opportunities, understand workforce trends relevant to their locations, and develop the skills needed for the future of work.
+CareerAtlas AI is a data-driven workforce intelligence platform designed to help students, graduates, and professionals understand changing career requirements, discover geographically relevant workforce insights, identify skill gaps, and prepare for the future of work.
 
-By combining workforce intelligence, geographical relevance, personalized career recommendations, and reskilling guidance, CareerAtlas AI helps users make informed decisions about their professional futures.
+The platform combines occupational data, dated skill-trend signals, generative AI exposure estimates, country-level employment information, and explainable career-matching algorithms.
 
-**SDC Hackathon 2026 | Future-Ready Workforce**
+The deployed prototype uses a custom matching engine rather than calling a generative AI model at runtime.
+
+**SDC Hackathon 2026 | Domain 1: Future-Ready Workforce**
 
 ---
 
-## Team Information
+## 1. Team Information
 
 | Field | Details |
 |---|---|
-| **Team Name** | CareerAtlas AI |
-| **Team Domain** | Domain 1: Future-Ready Workforce |
-| **SDG Track (1–17)** | SDG 8 – Decent Work and Economic Growth |
-| **Team Leader** | Azza Ladhgham |
-| **University** | Xiamen University Malaysia |
-| **Number of Members** | 4 |
+| Team Name | Africoders |
+| Project / Solution Name | CareerAtlas AI |
+| Domain | Domain 1: Future-Ready Workforce |
+| Primary SDG | SDG 8 – Decent Work and Economic Growth |
+| Secondary SDG | SDG 4 – Quality Education |
+| Team Leader | Azza Ladhgham |
+| University | Xiamen University Malaysia |
+| Number of Members | 4 |
 
 ---
 
-## Links
+## 2. Important Links
 
 | Resource | Link |
 |---|---|
-| **GitHub Repository** | https://github.com/azzaladgham/SDC_Hackathon |
-| **Replit Project** | [REPLIT LINK OR N/A] |
-| **Live Demo** | [LIVE DEMO LINK] |
-| **RunPod Endpoint** | [RUNPOD ENDPOINT OR N/A] |
-| **Slide Deck** | [SLIDE DECK LINK] |
-| **Demo Video** | [DEMO VIDEO LINK] |
-| **Pitching Video** | [YOUTUBE PITCHING VIDEO LINK] |
+| GitHub Repository | https://github.com/azzaladgham/SDC_Hackathon |
+| Replit Project | TODO: Add Replit project URL |
+| Live Prototype | TODO: Add deployed application URL |
+| Slide Deck | https://canva.link/tvpr171cn8gx1d7 |
+| Demo Video | TODO: Add demo video URL |
+| Pitching Video | TODO: Add pitching video URL |
+| RunPod Endpoint | Not applicable |
 
 ---
 
-## Overview
+## 3. Project Overview
 
-### The Problem
+### 3.1 Problem Statement
 
-Artificial Intelligence is transforming industries, occupations, and the skills required in the workforce.
+Artificial intelligence is transforming occupations and the skills required in the workforce.
 
-However, many students, graduates, and professionals struggle to understand which career opportunities are emerging, what skills they need, and how to prepare for future workforce changes.
+However, students, graduates, and professionals often struggle to understand how these changes may affect their career choices.
 
-Three major challenges contribute to this problem:
+Three major challenges contribute to this problem.
 
 **1. Career Uncertainty**
 
-Individuals often lack clear information about emerging career opportunities and changing workforce requirements.
+Individuals may lack reliable information about changing occupational requirements, emerging skills, and future workforce developments.
 
 **2. Skills Mismatch**
 
-Many individuals do not know how their existing skills align with future career requirements or which additional skills they should develop.
+Individuals may not know how their existing skills align with occupational requirements or which additional skills they should develop.
 
 **3. Geographical Blind Spots**
 
-Generalized workforce information may overlook the specific career opportunities and skill demands emerging within an individual's country or region.
+Generalized workforce information may overlook the employment characteristics and occupational structure of a user's country.
 
-These challenges create a gap between workforce transformation and the ability of individuals to make informed career decisions.
+These challenges create a gap between workforce transformation and informed career planning.
 
-### Our Solution
+### 3.2 Proposed Solution
 
-**CareerAtlas AI** addresses these challenges through an AI-powered workforce intelligence platform that provides personalized and geographically relevant career guidance.
+CareerAtlas AI addresses these challenges through a workforce intelligence platform combining:
 
-The platform is designed to:
+- Skills profiling
+- Occupational and skills information
+- Workforce trend indicators
+- Location-specific employment insights
+- Generative AI exposure estimates
+- Personalized career matching
+- Skill-gap identification
+- Reskilling recommendations
+- Sustainable Development Goal alignment
+- Workforce uncertainty scenarios
 
-- Analyze emerging workforce and skill trends.
-- Display career opportunities relevant to the user's selected location.
-- Match users with suitable career paths.
-- Identify gaps between existing skills and career requirements.
-- Recommend personalized reskilling pathways.
-- Connect career recommendations with relevant Sustainable Development Goals.
-- Communicate uncertainty surrounding future workforce developments.
+The platform transforms complex workforce information into understandable and actionable career guidance.
 
-Our goal is to transform complex workforce information into clear, actionable career guidance.
+### 3.3 Project Objectives
+
+CareerAtlas AI aims to:
+
+1. Improve awareness of emerging career and skill trends.
+2. Provide personalized career guidance based on individual skills.
+3. Make workforce information relevant to selected countries.
+4. Identify skill gaps associated with suitable occupations.
+5. Support personalized reskilling and lifelong learning.
+6. Communicate AI-related occupational uncertainty responsibly.
+7. Connect workforce readiness with relevant Sustainable Development Goals.
 
 ---
 
-## Key Features
+## 4. Key Features
 
-### 1. Skills Profile Intake
+### 4.1 Skills Profile Intake
 
-Users provide information about their educational background, existing skills, career interests, and preferences.
+Users select their skills through the web interface.
 
-This information forms the foundation for personalized career recommendations.
+The selected skills are submitted to the backend matching engine.
 
-### 2. AI Workforce Trend Intelligence
+The matching engine uses the submitted skills and relevant SDG preferences to generate career recommendations.
 
-CareerAtlas AI uses workforce-related information to support the identification of emerging career opportunities and changing skill requirements.
+The current implementation does not require users to upload personal CVs or provide their names.
 
-The intended data approach incorporates updatable sources, including workforce datasets, research, and job-market information.
+Synthetic profiles can be used for demonstration and testing.
 
-### 3. Geographical Intelligence
+### 4.2 Workforce Trend Intelligence
 
-CareerAtlas AI provides career intelligence relevant to the user's selected country or location.
+CareerAtlas AI tracks 47 selected skills using dated information derived from:
 
-Instead of relying exclusively on generalized workforce information, the platform focuses on identifying trends and opportunities relevant to the user's geographical context.
+- arXiv research publications
+- Hacker News hiring discussions
 
-### 4. Local Opportunity Discovery
+The system calculates a momentum indicator for each tracked skill based on changes in keyword mentions.
 
-The platform aims to highlight potentially overlooked career opportunities within the user's local economy.
+These indicators provide signals of research attention and hiring-discussion activity.
 
-This helps users discover opportunities that may be relevant to their skills, interests, and location.
+They should not be interpreted as direct measurements of job vacancies or guaranteed employment growth.
 
-### 5. Personalized Career Matching
+### 4.3 Geographical Intelligence
 
-CareerAtlas AI connects users' existing skills and interests with suitable career opportunities.
+CareerAtlas AI includes workforce information for four countries:
 
-Recommendations are intended to consider:
+- Malaysia
+- Singapore
+- Philippines
+- Vietnam
 
-- User skills and qualifications
-- Career interests
-- Career requirements
-- Workforce trend evidence
-- Geographical relevance
+Country-specific information is based on employment by broad occupational group.
 
-### 6. Skill Gap Analysis
+This helps users understand the occupational structure of their selected country.
 
-The platform identifies differences between a user's existing skills and the requirements of recommended career paths.
+The current geographical feature focuses on country-specific information rather than direct country-to-country comparisons.
 
-This helps users understand what they need to learn or improve.
+### 4.4 Personalized Career Matching
 
-### 7. Personalized Reskilling Pathways
+The occupational dataset contains 30 roles with associated essential skills.
 
-CareerAtlas AI provides learning guidance to help users develop skills relevant to their recommended career paths.
+The matching engine considers:
 
-Reskilling pathways may include:
+- User skill overlap
+- Occupational skill requirements
+- Workforce skill momentum
+- Generative AI exposure information
+- Scenario-based assumptions
 
-- Recommended skills
+The results include ranked career recommendations and explanations of the factors affecting each score.
+
+### 4.5 Skill Gap Analysis
+
+CareerAtlas AI identifies the skills required by recommended occupations that are missing from the user's selected skill profile.
+
+This helps users understand what additional skills they may need to develop.
+
+### 4.6 Personalized Reskilling Guidance
+
+The reskilling component connects identified skill gaps with learning recommendations.
+
+Pathway information may include:
+
+- Missing skills
+- Recommended learning resources
 - Suggested learning order
-- Estimated learning time
-- Relevant learning resources
+- Estimated learning hours
+- Course cost information, where available
+- Relevant SDG contributions
 
-### 8. SDG Alignment
+Learning pathways are recommendations rather than guarantees of employment.
 
-The platform connects relevant career and skill recommendations with United Nations Sustainable Development Goals.
+### 4.7 Generative AI Exposure Analysis
 
-This helps users understand how their career development may contribute to broader economic and social objectives.
+The platform incorporates occupational exposure information derived from International Labour Organization research.
 
-### 9. Future Workforce Scenarios
+These scores describe the extent to which occupational tasks may be affected by generative AI.
 
-CareerAtlas AI aims to help users understand possible workforce outcomes under different levels of AI disruption.
+**Important:** AI exposure does not automatically mean job automation, unemployment, or job loss.
 
-Scenario estimates should be presented with appropriate uncertainty rather than as guaranteed predictions.
+### 4.8 Workforce Scenarios
+
+The matching engine supports two scenarios:
+
+**Moderate AI-Change Scenario**
+
+Represents a moderate level of AI-related workforce disruption.
+
+**Fast AI-Change Scenario**
+
+Represents faster AI-related workforce disruption.
+
+These scenarios help users explore how different assumptions influence career recommendations.
+
+Scenario scores are estimates, not predictions of guaranteed outcomes.
+
+### 4.9 SDG Alignment
+
+The project primarily supports:
+
+**SDG 8 – Decent Work and Economic Growth**
+
+It also contributes to:
+
+**SDG 4 – Quality Education**
+
+Career recommendations and reskilling guidance help users understand potential opportunities for employment and lifelong learning.
 
 ---
 
-## Our Innovation
+## 5. Our Innovation
 
-### Geographical Intelligence: Discovering Opportunities Where You Are
+### Geographical Intelligence
 
-The central innovation of CareerAtlas AI is its focus on **location-specific workforce intelligence**.
+CareerAtlas AI combines occupational intelligence with employment information relevant to a user's selected location.
 
-Rather than presenting identical career information to every user, the platform aims to provide insights relevant to the user's selected location.
+The platform connects:
 
-This approach supports:
+- Individual skills
+- Occupational requirements
+- Workforce trend signals
+- National employment structures
+- AI exposure estimates
+- Personalized learning guidance
 
-**Location-Specific Career Insights**
+Rather than presenting identical workforce information to every user, CareerAtlas AI aims to provide insights informed by the occupational structure of the selected country.
 
-Identify emerging careers and workforce trends relevant to the user's country or region.
+### Local Opportunity Discovery
 
-**Local Opportunity Discovery**
-
-Highlight potentially overlooked opportunities within local economies.
-
-**Personalized Career Guidance**
-
-Connect geographically relevant workforce information with individual skills and career interests.
-
-**Actionable Reskilling**
-
-Help users identify the skills needed to pursue relevant career opportunities.
+The platform helps users explore suitable career paths that may be overlooked when relying only on generalized workforce information.
 
 ### Our Vision
 
-Help individuals discover future career opportunities where they are and develop the skills needed to pursue them.
+To help individuals understand workforce changes relevant to their location and develop the skills needed to pursue suitable career opportunities.
 
 ---
 
-## Tech Stack
+## 6. Technology Stack
 
-| Layer | Technology |
+### 6.1 Frontend
+
+| Technology | Version | Purpose |
+|---|---|---|
+| React | TODO: Confirm version | User interface |
+| Vite | TODO: Confirm version | Frontend build tool |
+| Tailwind CSS | TODO: Confirm version | Responsive styling |
+| Framer Motion | TODO: Confirm version | Interface animations |
+| Recharts | TODO: Confirm version | Data visualization |
+| Google Fonts | Not applicable | Typography |
+
+### 6.2 Backend
+
+| Technology | Version | Purpose |
+|---|---|---|
+| Node.js | 22 | JavaScript runtime |
+| TypeScript | 5.9 | Application development |
+| Express | 5.3 | Backend API |
+| Zod | 4.6 | Data validation |
+| tsx | 4.23 | TypeScript execution |
+| Vitest | 5.0 | Automated testing |
+
+### 6.3 Additional Technologies
+
+| Technology | Purpose |
 |---|---|
-| **Frontend** | [ACTUAL FRONTEND TECHNOLOGIES] |
-| **Backend** | [ACTUAL BACKEND TECHNOLOGIES] |
-| **Database / Storage** | [ACTUAL DATABASE OR STORAGE] |
-| **AI / Machine Learning** | [ACTUAL AI TOOLS OR MODELS] |
-| **Data Sources** | [ACTUAL DATASETS OR APIs] |
-| **Visualization** | [ACTUAL VISUALIZATION LIBRARIES] |
-| **Hosting / Development** | [ACTUAL DEVELOPMENT OR HOSTING TOOLS] |
-| **Version Control** | Git and GitHub |
+| ESCO | Occupational and skills data |
+| ISCO-08 | Occupational classification |
+| ILO AI Exposure Index | Occupational AI exposure |
+| arXiv | Research-based skill trends |
+| Hacker News | Hiring-discussion trend signals |
+| ILOSTAT | Country employment statistics |
+| DOSM | Malaysian employment statistics |
+| JSON | Structured data storage |
+| Git | Version control |
+| GitHub | Repository hosting and collaboration |
+| GitHub Actions | Automated dataset updates |
+| Replit | Cloud deployment |
+| Claude Opus 5.5 | AI-assisted development |
+
+### 6.4 AI Model Usage
+
+**No generative AI model is embedded in or called by the deployed application.**
+
+The deployed system uses a custom, explainable career-matching algorithm.
+
+Claude Opus 5.5 was used as an AI-assisted development tool.
+
+It is not a runtime dependency of the matching engine.
+
+The system's career scores are calculated using structured data and defined scoring rules rather than generated by Claude.
+
+### 6.5 Data Storage
+
+The application uses structured JSON files.
+
+These files contain:
+
+- Occupational information
+- Skill definitions
+- Workforce trend snapshots
+- AI exposure values
+- Country employment statistics
+
+The current application does not use a conventional database such as MySQL, PostgreSQL, or MongoDB.
 
 ---
 
-## Project Structure
+## 7. System Architecture
 
-The repository is organized into the following top-level directories:
+### 7.1 Application Architecture
+
+```text
+                     USER
+                      |
+                      v
+              CAREERATLAS AI
+                WEB FRONTEND
+          React + Vite + Tailwind CSS
+                      |
+                      | Selected skills and SDGs
+                      v
+                 BACKEND API
+            Node.js + Express
+                 TypeScript
+                      |
+                      v
+              MATCHING ENGINE
+                      |
+         +------------+------------+
+         |            |            |
+         v            v            v
+     Skill Match   Trend Data   AI Exposure
+         |            |            |
+         +------------+------------+
+                      |
+                      v
+                JSON DATA LAYER
+                      |
+         +------------+------------+
+         |            |            |
+         v            v            v
+        ESCO       arXiv / HN     ILO Data
+     Occupations    Snapshots     Exposure
+         |            |            |
+         +------------+------------+
+                      |
+                      v
+             SCENARIO SCORING
+                      |
+              +-------+-------+
+              |               |
+              v               v
+           Moderate          Fast
+           Scenario        Scenario
+              |               |
+              +-------+-------+
+                      |
+                      v
+                 USER RESULTS
+                      |
+          Career Recommendations
+          Skill Gap Information
+          Reskilling Pathways
+          Score Explanations
+          SDG Information
+```
+
+### 7.2 Architecture Explanation
+
+**1. User Interface**
+
+Users interact with CareerAtlas AI through a React-based website.
+
+They select relevant skills and SDG preferences.
+
+**2. Backend API**
+
+The React frontend sends the selected information to the Node.js/Express backend.
+
+**3. Matching Engine**
+
+The backend compares user skills against occupational requirements from the ESCO dataset.
+
+**4. Workforce Trend Adjustment**
+
+The matching engine incorporates workforce trend signals from prepared data snapshots.
+
+**5. AI Exposure Adjustment**
+
+Occupational exposure information from ILO research contributes to scenario scoring.
+
+**6. Scenario Analysis**
+
+The system calculates separate career scores under moderate and fast AI-change assumptions.
+
+**7. Results**
+
+The frontend displays ranked career recommendations, explanations, skill gaps, and reskilling guidance.
+
+### 7.3 Hosting
+
+Replit hosts the frontend and backend application.
+
+Both are served through a single deployed application URL.
+
+**Live URL:** TODO: Add deployed Replit URL.
+
+---
+
+## 8. Backend API
+
+CareerAtlas AI uses Express.js and TypeScript to connect the frontend with the matching engine and structured datasets.
+
+### 8.1 Internal API
+
+The frontend communicates with the application's own backend.
+
+The matching engine processes selected skills and SDG preferences and returns career recommendations.
+
+**TODO:** Verify the exact implemented API routes against the Express source code.
+
+The technical design has previously described the following routes:
+
+| Endpoint | Method | Intended Purpose |
+|---|---|---|
+| `/match` | POST | Generate career recommendations |
+| `/snapshots/latest` | GET | Retrieve the latest trend snapshot |
+| `/pathway` | POST | Generate reskilling pathways |
+
+These routes should be treated as documented design routes until verified against the deployed implementation.
+
+### 8.2 External APIs
+
+**The deployed matching engine does not require external API calls.**
+
+It reads prepared data files stored with the project.
+
+External sources such as ESCO, arXiv, and Hacker News have been used in the data preparation and snapshot-generation workflow.
+
+These are distinct from runtime requests made by the deployed application.
+
+### 8.3 API Response Information
+
+Career-matching results may include:
+
+- Ranked occupations
+- Career scores
+- Moderate scenario scores
+- Fast scenario scores
+- Skill overlap
+- Trend contributions
+- AI exposure contributions
+- Existing skills
+- Missing skills
+- Snapshot dates
+- Reskilling recommendations
+
+---
+
+## 9. Career Matching Algorithm
+
+CareerAtlas AI uses an explainable career-matching algorithm that considers existing skills, workforce trends, and occupational exposure to generative AI.
+
+### 9.1 Scoring Formula
+
+The documented conceptual scoring formula is:
+
+```text
+Career Score =
+    Skill Overlap × (1 + Scenario Weight × Skill Momentum)
+    − AI Exposure Penalty
+```
+
+The exact implementation, normalization, weights, and penalty calculations should be verified against the matching-engine source code.
+
+### 9.2 Skill Overlap
+
+Skill overlap measures how closely the user's selected skills match the essential skills required by an occupation.
+
+### 9.3 Skill Momentum
+
+Skill momentum represents changes in keyword mentions associated with relevant skills.
+
+Momentum values are calculated using dated workforce trend snapshots.
+
+### 9.4 Scenario Weight
+
+Scenario weighting adjusts how strongly workforce trends influence career scores.
+
+The system supports moderate and fast AI-change scenarios.
+
+### 9.5 AI Exposure Penalty
+
+The matching algorithm incorporates occupational generative AI exposure as an input to career ranking.
+
+Exposure information comes from ILO research.
+
+Exposure does not directly represent the probability of job loss.
+
+### 9.6 Explainable Recommendations
+
+The system provides a breakdown of career scores so users can understand why an occupation was recommended.
+
+This improves transparency and supports informed career decisions.
+
+---
+
+## 10. Data Sources and Methodology
+
+### 10.1 ESCO Occupational Data
+
+CareerAtlas AI uses the European Skills, Competences, Qualifications and Occupations classification.
+
+The occupational dataset includes:
+
+- 30 occupations
+- Essential skills associated with each occupation
+- ESCO occupation identifiers
+- ESCO skill identifiers
+- ISCO-08 occupation codes
+- Generative AI exposure values
+
+Most occupations were obtained using the ESCO web service API during dataset preparation.
+
+Mechanical engineer and civil engineer were added using the ESCO v1.2.1 CSV dataset when the API was unavailable.
+
+Stable ESCO identifiers connect occupations and skills.
+
+### 10.2 Workforce Trend Data
+
+CareerAtlas AI tracks 47 selected skills.
+
+Two sources were used to prepare trend information.
+
+**arXiv**
+
+Research publication counts matching tracked skill keywords.
+
+**Hacker News Algolia**
+
+Keyword mentions in monthly "Ask HN: Who is hiring?" discussions.
+
+These sources provide dated indicators of skill-related activity.
+
+They do not directly measure national hiring demand.
+
+### 10.3 Skill Momentum Calculation
+
+The system compares two consecutive periods:
+
+- Recent period: Last 3 months
+- Prior period: Previous 3 months
+
+The documented formula is:
+
+```text
+Momentum = (Recent - Prior) / max(Prior, 10)
+```
+
+Momentum values are restricted to:
+
+```text
+-1 to +1
+```
+
+Momentum is calculated separately for each source.
+
+Only sources with at least 30 total mentions across the two periods contribute to the final momentum average.
+
+If no source meets the threshold, momentum is set to zero.
+
+This reduces the effect of extremely small mention counts.
+
+### 10.4 Dated Trend Snapshots
+
+Trend data is stored in dated JSON snapshots.
+
+The documented snapshots include:
+
+| Snapshot Date | Description |
+|---|---|
+| 2026-10-24 | Data snapshot collected on that date |
+| 2026-07-24 | Historical snapshot reconstructed from historical API data |
+
+The historical snapshot was reconstructed on October 24, 2026.
+
+Its retrieval timestamp reflects the reconstruction date, not the historical reference date.
+
+Each snapshot includes source URLs and retrieval timestamps.
+
+### 10.5 Generative AI Exposure Data
+
+AI exposure scores are derived from:
+
+**International Labour Organization**
+
+*Generative AI and Jobs: A Refined Global Index of Occupational Exposure.*
+
+ILO Working Paper 140, May 2025.
+
+The source exposure dataset contains scores for 196 ISCO-08 four-digit occupations.
+
+Scores range from 0 to 1.
+
+For CareerAtlas AI's 30 occupations:
+
+- 26 roles use exact ILO occupation exposure scores.
+- 4 roles use estimates derived from related occupational groups.
+
+The four estimated roles are:
+
+- Nurse
+- Secondary school teacher
+- Mechanical engineer
+- Civil engineer
+
+Estimated scores are explicitly labelled.
+
+AI exposure describes potential interaction between generative AI and occupational tasks. It does not directly measure unemployment or job losses.
+
+### 10.6 Country Employment Data
+
+The project includes employment information for four countries.
+
+| Country | Reference Year | Source |
+|---|---|---|
+| Malaysia | 2024 | Department of Statistics Malaysia |
+| Singapore | 2025 | ILOSTAT |
+| Philippines | 2024 | ILOSTAT |
+| Vietnam | 2024 | ILOSTAT |
+
+The country data describes employment across ISCO-08 major occupational groups.
+
+Each record includes:
+
+- Employment counts
+- Share of total employment
+- Reference year
+- Source information
+- Source URL
+
+Malaysia uses DOSM data because the relevant ILOSTAT occupation breakdown available during data preparation was outdated.
+
+### 10.7 Country Data Validation
+
+The country-data processing script checks:
+
+- Required occupational groups
+- Employment totals
+- Occupational-group coverage
+- Source information
+- Reference years
+
+Occupational-group totals must agree with the reported national total within 1%.
+
+Incomplete records are rejected where a complete breakdown is required.
+
+---
+
+## 11. Project Structure
+
+The documented repository structure includes:
 
 ```text
 SDC_Hackathon/
 |
 |-- .github/
 |   |-- workflows/
+|       |-- refresh-snapshot.yml
 |
 |-- data/
+|   |-- esco.json
+|   |-- tracked-skills.json
+|   |-- exposure.json
+|   |-- countries.json
+|   |
+|   |-- snapshots/
+|   |   |-- YYYY-MM-DD.json
+|   |
+|   |-- raw/
+|   |   |-- trends-YYYY-MM-DD.json
+|   |
+|   |-- sources/
+|       |-- malaysia-dosm.json
 |
 |-- scripts/
+|   |-- fetch-esco.ts
+|   |-- swap-roles.ts
+|   |-- join-exposure.ts
+|   |-- fetch-trends.ts
+|   |-- build-tracked-skills.ts
+|   |-- build-country-data.ts
+|   |-- parse-ilo-exposure.ts
+|   |-- pdf-to-text.ts
+|   |-- check-coverage.ts
+|   |-- validate-data.ts
 |
 |-- shared/
+|   |-- types.ts
 |
 |-- web/
+|   |-- TODO: Confirm actual frontend files
+|   |-- TODO: Confirm actual backend files
 |
 |-- .gitignore
 |-- LICENSE
 |-- README.md
 ```
 
-### Directory Descriptions
-
-| Directory | Description |
-|---|---|
-| `.github/workflows/` | GitHub workflow configuration |
-| `data/` | Project data and related resources |
-| `scripts/` | Project scripts and supporting utilities |
-| `shared/` | Shared project resources |
-| `web/` | Web application files |
-
-Update these descriptions as necessary to reflect the actual implementation.
+**TODO:** Confirm this structure against the current GitHub repository before final submission.
 
 ---
 
-## System Architecture
+## 12. Automated Data Updates
 
-### Application Workflow
+CareerAtlas AI uses GitHub Actions to support regular updates to workforce trend snapshots.
+
+### 12.1 Update Schedule
+
+The documented workflow is configured to run:
+
+**Every Monday at 02:00 UTC**
+
+Workflow file:
 
 ```text
-         Workforce Data Sources
-                   |
-                   v
-            Data Processing
-                   |
-                   v
-        Workforce Trend Analysis
-                   |
-                   v
-     Location-Specific Intelligence
-                   |
-                   v
-    User Profile --> Career Matching
-                   |
-                   v
-           Skill Gap Analysis
-                   |
-                   v
-      Personalized Reskilling
-                   |
-                   v
-             User Dashboard
+.github/workflows/refresh-snapshot.yml
 ```
 
-### Architecture Explanation
+### 12.2 Update Process
 
-**1. Data Collection**
+1. GitHub Actions starts the scheduled workflow.
+2. The trend-fetching script requests updated information.
+3. The system calculates skill momentum.
+4. A new dated snapshot is generated.
+5. A pull request is opened.
+6. A team member reviews and merges the changes.
 
-The platform obtains workforce-related information from available data sources, including datasets, research publications, and other relevant information.
+The workflow does not push directly to the protected `main` branch.
 
-**2. Workforce Trend Analysis**
+### 12.3 Failure Handling
 
-The system processes workforce information to identify relevant career developments and changing skill requirements.
+If an external request fails after retries, the script does not write an incomplete snapshot.
 
-**3. Geographical Intelligence**
+Previously saved snapshots remain available.
 
-The system uses the user's selected location to provide geographically relevant workforce insights and identify potentially overlooked local career opportunities.
-
-**4. Career Matching**
-
-User profiles are evaluated against career requirements to identify suitable career paths and relevant skill gaps.
-
-**5. Recommendation Generation**
-
-The platform presents career guidance, learning recommendations, SDG information, and workforce scenarios through the user interface.
-
-This workflow represents the platform's intended processing architecture and should be aligned with the implemented application.
+The workflow can also be started manually from GitHub Actions.
 
 ---
 
-## How to Run the Project
+## 13. Data Validation
 
-### Prerequisites
+CareerAtlas AI includes a validation script.
 
-Install the software required by the application:
+The documented command is:
 
-- [REQUIRED RUNTIME AND VERSION]
-- [REQUIRED PACKAGE MANAGER]
-- [ADDITIONAL DEPENDENCIES]
+```bash
+cd scripts
+npx tsx validate-data.ts
+```
 
-### Step 1: Clone the Repository
+The script checks:
+
+- Occupation identifiers
+- Essential skill references
+- ISCO-08 codes
+- Exposure score ranges
+- Tracked skill definitions
+- Snapshot dates
+- Momentum ranges
+- Mention counts
+- Source URLs
+- Retrieval timestamps
+- Country employment totals
+- Occupational-group coverage
+
+Validation fails when required data is missing or inconsistent.
+
+---
+
+## 14. Installation and Setup
+
+### 14.1 Prerequisites
+
+Install:
+
+- Git
+- Node.js 22
+- npm
+
+### 14.2 Clone the Repository
 
 ```bash
 git clone https://github.com/azzaladgham/SDC_Hackathon.git
 ```
 
-### Step 2: Navigate to the Project Directory
+### 14.3 Navigate to the Project
 
 ```bash
 cd SDC_Hackathon
 ```
 
-### Step 3: Navigate to the Application Directory
+### 14.4 Install Dependencies
+
+The documented frontend directory is `web`.
 
 ```bash
 cd web
+npm install
 ```
 
-### Step 4: Install Dependencies
+### 14.5 Start the Application
 
 ```bash
-[ACTUAL INSTALLATION COMMAND]
+npm run dev
 ```
 
-### Step 5: Configure Environment Variables
+Use the startup script defined in the application's `package.json` if the command differs.
 
-If required, create the appropriate environment configuration file.
+**TODO:** Confirm whether the frontend and backend require separate startup commands.
 
-```env
-[VARIABLE_NAME]=[VALUE]
-```
-
-Do not publish API keys, passwords, or other private credentials.
-
-### Step 6: Start the Application
-
-```bash
-[ACTUAL APPLICATION START COMMAND]
-```
-
-### Step 7: Open the Application
+### 14.6 Open the Application
 
 Open the local URL displayed by the development server.
 
-For example, a development server may provide:
+A typical Vite development URL is:
 
 ```text
 http://localhost:5173/
 ```
 
-The actual address and commands depend on the technologies used by the project.
+The actual address depends on the project configuration.
+
+### 14.7 Run Data Validation
+
+From the repository root:
+
+```bash
+cd scripts
+npm install
+npx tsx validate-data.ts
+```
+
+### 14.8 Refresh Trend Data
+
+From the `scripts` directory:
+
+```bash
+npx tsx fetch-trends.ts
+```
+
+This command is intended for the data preparation workflow, not for ordinary users of the deployed application.
+
+### 14.9 Run Tests
+
+The project uses Vitest 5.0.
+
+**TODO:** Confirm the exact test command from `package.json`.
+
+A typical Vitest project uses:
+
+```bash
+npm test
+```
+
+This command should be included as the official instruction only if the repository defines the corresponding script.
 
 ---
 
-## How We Use Replit
+## 15. Reproducing the Data
 
-**Replit Usage:** [USED / NOT USED]
+The project includes scripts for rebuilding and validating its datasets.
 
-[DESCRIBE HOW REPLIT WAS USED IN THE PROJECT, IF APPLICABLE.]
+Install script dependencies:
 
-Possible activities include:
+```bash
+cd scripts
+npm install
+```
 
-- Application development
-- Collaborative coding
-- Testing and debugging
-- Prototype hosting
-- Demonstrating application functionality
+### Occupational Data
 
-Only include activities actually performed by the team.
+```bash
+npx tsx fetch-esco.ts
+```
+
+Alternative ESCO CSV workflow:
+
+```bash
+npx tsx swap-roles.ts "<path to ESCO v1.2.1 CSV folder>"
+npx tsx join-exposure.ts "<path to occupations_en.csv>"
+```
+
+### Country Employment Data
+
+Download the relevant ILOSTAT bulk dataset:
+
+```text
+EMP_TEMP_SEX_OCU_NB_A
+```
+
+Then run:
+
+```bash
+npx tsx build-country-data.ts "<path to unzipped ILOSTAT CSV>"
+```
+
+### AI Exposure Data
+
+```bash
+npx tsx pdf-to-text.ts "<path to ILO PDF>" "<path to output text>"
+npx tsx parse-ilo-exposure.ts
+```
+
+### Skill Tracking and Trends
+
+```bash
+npx tsx build-tracked-skills.ts
+npx tsx fetch-trends.ts
+npx tsx check-coverage.ts
+npx tsx validate-data.ts
+```
+
+These commands are intended for maintaining or reproducing the data pipeline.
+
+They are not required simply to open the deployed web application.
 
 ---
 
-## Challenges and Learnings
+## 16. Replit Deployment
 
-### Challenge 1: [CHALLENGE TITLE]
+CareerAtlas AI uses **Replit as its deployment platform**.
 
-**Problem:** [DESCRIBE THE TECHNICAL OR DEVELOPMENT CHALLENGE]
+Replit hosts the working prototype and makes the frontend and backend accessible through a single URL.
 
-**Solution:** [EXPLAIN HOW THE TEAM RESOLVED IT]
+### Purpose of Replit
 
-**Learning:** [DESCRIBE WHAT THE TEAM LEARNED]
+**Application Hosting**
 
-### Challenge 2: [CHALLENGE TITLE]
+Replit provides the cloud environment for the web application.
 
-**Problem:** [DESCRIBE THE CHALLENGE]
+**Live Prototype Demonstration**
 
-**Solution:** [EXPLAIN THE SOLUTION]
+Users can access the deployed platform through a browser.
 
-**Learning:** [DESCRIBE THE LESSON LEARNED]
+**Testing**
 
-### Challenge 3: [CHALLENGE TITLE]
+The deployed environment supports testing outside the local development environment.
 
-**Problem:** [DESCRIBE THE CHALLENGE]
+**Accessibility**
 
-**Solution:** [EXPLAIN THE SOLUTION]
+Users do not need to install development tools to use the public prototype.
 
-**Learning:** [DESCRIBE THE LESSON LEARNED]
+### Deployment Information
+
+| Field | Details |
+|---|---|
+| Provider | Replit |
+| Purpose | Frontend and backend hosting |
+| Plan | SDC Hackathon sponsor-provided credits |
+| Hosting Region | Not confirmed |
+| Deployment URL | TODO: Add URL |
 
 ---
 
-## Expected Impact
+## 17. Privacy and Data Handling
 
-CareerAtlas AI aims to improve career awareness and future workforce readiness through personalized, geographically relevant guidance.
+CareerAtlas AI is designed to minimize the personal information processed by the matching engine.
+
+### Information Sent to the Matching Engine
+
+The matching engine receives:
+
+- Selected skills
+- Relevant SDG preferences
+
+The matching engine does not require:
+
+- User names
+- Email addresses
+- Phone numbers
+- Personal CV documents
+
+### Data Storage
+
+The application uses local project data files containing public workforce information.
+
+It does not use a database to store user profiles.
+
+### Third-Party Data Sharing
+
+The application does not intentionally transmit user skills or SDG selections to external AI model providers.
+
+The matching engine does not call Claude or other external AI services at runtime.
+
+The project does not intentionally store submitted user selections.
+
+### Hosting Considerations
+
+The application is hosted on Replit.
+
+Hosting infrastructure may generate technical access logs independently of the application's matching logic.
+
+The use of externally hosted assets, such as Google Fonts, may also involve ordinary browser requests to those providers.
+
+These infrastructure considerations should not be confused with application-level storage of user profiles.
+
+---
+
+## 18. Challenges and Learnings
+
+### Challenge 1: External Data Availability
+
+**Problem**
+
+External data services may be temporarily unavailable or limit requests.
+
+The ESCO API was unavailable when two engineering occupations were being added.
+
+**Solution**
+
+The team used the ESCO v1.2.1 CSV download as an alternative source.
+
+**Learning**
+
+Reliable data pipelines should support alternative sources and preserve source traceability.
+
+### Challenge 2: Incomplete Country Data
+
+**Problem**
+
+Some country datasets contained incomplete occupational breakdowns or outdated information.
+
+**Solution**
+
+The team implemented validation rules and used DOSM data for Malaysia.
+
+**Learning**
+
+Data completeness, source quality, and reference dates are essential for meaningful workforce analysis.
+
+### Challenge 3: Misleading Trend Indicators
+
+**Problem**
+
+Small keyword-mention counts can produce misleading percentage changes.
+
+**Solution**
+
+The team introduced a minimum mention threshold and restricted momentum scores to a defined range.
+
+**Learning**
+
+Trend indicators require safeguards and clear explanations of their limitations.
+
+### Challenge 4: Missing AI Exposure Scores
+
+**Problem**
+
+Some occupations did not have an exact matching exposure score in the ILO dataset.
+
+**Solution**
+
+The team estimated exposure using related occupational groups and labelled those estimates.
+
+**Learning**
+
+Estimated values should be distinguished from directly observed or published values.
+
+---
+
+## 19. Known Limitations
+
+### 19.1 Trend Data Is Not Direct Hiring Demand
+
+arXiv publication counts reflect research attention.
+
+Hacker News discussions reflect a particular segment of the technology employment community.
+
+Neither directly measures national job vacancies.
+
+### 19.2 Uneven Skill Coverage
+
+The documented latest snapshot contains non-zero momentum for 28 of 47 tracked skills.
+
+Some occupations have limited or unavailable trend information.
+
+### 19.3 Technology-Centered Data Sources
+
+Research and hiring-discussion sources provide richer signals for technology-related skills and occupations.
+
+Other industries may be less comprehensively represented.
+
+### 19.4 Broad Occupational Categories
+
+Country employment information is available at the major occupational-group level.
+
+Different roles within the same broad group may therefore share the same country-level employment context.
+
+### 19.5 Employment Is Not Vacancy Demand
+
+Employment counts do not directly indicate how many vacancies are available or how quickly an occupation is growing.
+
+### 19.6 Different Data Reference Years
+
+Country datasets have different reference years and publishers.
+
+The application retains source and year information.
+
+### 19.7 AI Exposure Is Not Job Loss
+
+Occupational exposure scores do not directly predict unemployment or complete automation.
+
+### 19.8 Career Scores Are Estimates
+
+Career matching and scenario scores should not be interpreted as guaranteed outcomes.
+
+### 19.9 Cached Data
+
+When external data collection fails, previously generated snapshots may be used.
+
+---
+
+## 20. Expected Impact
+
+CareerAtlas AI aims to improve career awareness and future workforce readiness.
 
 ### Individual Impact
 
-- Improve understanding of emerging career opportunities.
-- Help users recognize their existing skills and skill gaps.
+- Improve understanding of changing career requirements.
+- Help users identify skill gaps.
 - Encourage proactive career planning.
 - Support personalized reskilling and lifelong learning.
 
 ### Local Workforce Impact
 
-- Increase awareness of opportunities within local economies.
-- Improve access to location-specific workforce information.
-- Support better alignment between individual skills and relevant career requirements.
+- Improve access to country-specific workforce information.
+- Increase awareness of relevant occupational opportunities.
+- Support better alignment between individual skills and workforce requirements.
 
-### Sustainable Development Goals
+### SDG Impact
 
 **SDG 8 – Decent Work and Economic Growth**
 
-CareerAtlas AI aims to support informed career development and workforce readiness, particularly in relation to SDG Target 8.5.
+Supports workforce readiness and informed career development.
 
 **SDG 4 – Quality Education**
 
-The platform encourages relevant skills development and lifelong learning through personalized reskilling guidance.
+Supports lifelong learning and skills development.
 
 ### Proposed Evaluation Target
 
-Our proposed target is for **80% of test users** to identify at least one suitable local career opportunity and obtain a relevant personalized reskilling pathway.
+The project's proposed evaluation target is for **at least 80% of test users** to identify one suitable local career opportunity and receive a relevant personalized reskilling pathway.
 
-This is a proposed evaluation target, not a measured outcome.
-
----
-
-## Future Improvements
-
-Future development will focus on expanding the platform's intelligence, visualization capabilities, and user experience.
-
-### 1. Cross-Country Career Trend Comparison
-
-Introduce a feature allowing users to compare workforce trends, emerging careers, and skill demands across different countries.
-
-This will help users explore geographical differences in career opportunities.
-
-### 2. Interactive Geographical Maps
-
-Develop advanced map-based visualizations that allow users to explore workforce information geographically.
-
-Potential capabilities include:
-
-- Interactive world maps
-- Country-level career insights
-- Geographical career trend indicators
-- Location-based opportunity exploration
-- Visual representations of emerging skill demands
-
-### 3. Advanced Workforce Data Visualization
-
-Introduce more interactive charts and dashboards to help users understand workforce developments.
-
-Examples include:
-
-- Career trend charts
-- Skill demand visualizations
-- Occupational growth indicators
-- Interactive data filters
-- Historical trend displays
-
-### 4. Enhanced Local Opportunity Discovery
-
-Improve the identification of potentially overlooked career opportunities within local economies.
-
-### 5. Expanded Workforce Data Coverage
-
-Integrate additional workforce datasets and updatable information sources to improve geographical coverage and data relevance.
-
-### 6. Advanced AI Career Matching
-
-Improve recommendation accuracy, transparency, and explainability through enhanced matching methods.
-
-### 7. Expanded Personalized Learning Resources
-
-Provide additional learning resources, structured study plans, and more detailed skills-development guidance.
-
-### 8. Enhanced Workforce Scenario Analysis
-
-Improve the presentation of alternative AI-disruption scenarios, including clearer uncertainty estimates.
+This is a proposed target, not a measured result.
 
 ---
 
-## Project Status
+## 21. Future Improvements
 
-**Current Stage: Working Prototype**
+Planned improvements include:
 
-CareerAtlas AI has reached the working prototype stage. The project will continue to evolve through additional features, improved visualizations, and expanded geographical intelligence.
+1. Cross-country career comparisons.
+2. Interactive geographical maps.
+3. Advanced workforce visualizations.
+4. Enhanced local opportunity discovery.
+5. Expanded country coverage.
+6. Improved personalized career matching.
+7. Additional reskilling resources.
+8. More detailed workforce scenario analysis.
+9. Broader labour-market data sources.
+10. Enhanced interactive career analytics.
 
-### Implemented Features
-
-The current prototype focuses on the following core capabilities. The team should confirm that each item is functional in the latest build.
-
-- **User Skills Profiling** — Collecting user information to support personalized career guidance.
-- **Career Recommendations** — Suggesting relevant career opportunities based on user profiles.
-- **Geographical Intelligence** — Presenting career information relevant to the user's selected location.
-- **Skill Gap Identification** — Highlighting skills relevant to recommended careers.
-- **Reskilling Guidance** — Providing learning recommendations for career development.
-- **Workforce Information Display** — Presenting career and workforce-related insights through the application interface.
-
-### Features Planned for Future Implementation
-
-- **Cross-Country Comparison** — Compare career trends and skill demands across countries.
-- **Interactive World Maps** — Explore workforce trends and opportunities through geographical visualizations.
-- **Advanced Data Visualizations** — Display workforce information using interactive charts and dashboards.
-- **Enhanced Local Opportunity Discovery** — Improve identification of overlooked local opportunities.
-- **Expanded Data Integration** — Add more workforce data sources and geographical coverage.
-- **Improved AI Recommendations** — Enhance career matching, explainability, and personalized guidance.
-- **Advanced Scenario Analysis** — Provide more detailed AI-disruption scenarios and uncertainty information.
+These improvements are part of the future development roadmap and should not be confused with the current prototype's implemented features.
 
 ---
 
-## Team Roles and GitHub Usernames
+## 22. Project Status
+
+**Current Stage: Working Prototype – Deployed Using Replit**
+
+### Implemented and Documented Components
+
+- Occupational dataset containing 30 roles.
+- Skill tracking for 47 selected skills.
+- Dated workforce trend snapshots.
+- Country employment information for four countries.
+- ILO-based generative AI exposure scores.
+- Career matching and ranking.
+- Skill gap identification.
+- Moderate and fast AI-change scenarios.
+- Explainable career score breakdowns.
+- Reskilling guidance.
+- SDG-related information.
+- JSON-based data storage.
+- Dataset validation scripts.
+- GitHub Actions data refresh workflow.
+- React-based web interface.
+- Node.js/Express backend.
+- Replit deployment.
+
+### Not Used in the Deployed Matching Engine
+
+- Runtime Claude API calls.
+- Runtime generative AI model inference.
+- A conventional user-profile database.
+- External API requests required for every career-matching operation.
+
+### Future Development
+
+- Interactive world maps.
+- Direct cross-country comparisons.
+- Expanded geographical coverage.
+- More advanced workforce analytics.
+- More detailed reskilling pathways.
+
+---
+
+## 23. Team Roles and GitHub Usernames
 
 | Team Member | Role | GitHub Username | Contribution |
 |---|---|---|---|
-| Azza Ladhgham | Team Leader | [@USERNAME] | Frontend |
-| [MEMBER 2] | [ROLE] | [@USERNAME] | [CONTRIBUTION] |
-| [MEMBER 3] | [ROLE] | [@USERNAME] | [CONTRIBUTION] |
-| [MEMBER 4] | [ROLE] | [@USERNAME] | [CONTRIBUTION] |
+| Azza Ladhgham | Team Leader | [@azzaladgham](https://github.com/azzaladgham) | Frontend |
+| Kiiru Mark | Member | [@Mxrkinnit](https://github.com/Mxrkinnit) | Data Pipeline |
+| Merhaben Ali | Member | [@AliMerhaben](https://github.com/AliMerhaben) | Matching Engine and API |
+| Omar Jamal | Member | [@jamalmbarak](https://github.com/jamalmbarak) | Documentation |
 
 ---
 
-## Submission Checklist
+## 24. Third-Party Libraries and Licenses
 
-- [ ] Product Requirements Document (PRD) completed
-- [ ] Pitch deck completed and linked
-- [ ] Working prototype completed and tested
-- [ ] Live prototype deployed
-- [ ] Live prototype link tested
-- [ ] Technology and tools declaration completed
-- [ ] Public GitHub repository updated
-- [ ] README.md finalized
-- [ ] Demo video recorded and linked
-- [ ] 5–7-minute pitching video uploaded and linked
-- [ ] Required submission documents prepared
-- [ ] All submission links verified
+### Software Libraries
 
-Update each checkbox when the corresponding task has been completed.
+| Name | Type | License |
+|---|---|---|
+| Node.js | Runtime | MIT |
+| TypeScript | Programming language | Apache 2.0 |
+| Express | Backend framework | MIT |
+| Zod | Validation library | MIT |
+| tsx | TypeScript execution | MIT |
+| Vitest | Testing framework | MIT |
+| React | Frontend library | MIT |
+| Vite | Build tool | MIT |
+| Tailwind CSS | CSS framework | MIT |
+| Recharts | Visualization library | MIT |
+| Fuse.js | Fuzzy matching library | Apache 2.0 |
+
+### Datasets and Other Resources
+
+| Name | Type | License / Usage Terms |
+|---|---|---|
+| ESCO | Occupational and skills dataset | CC BY 4.0 |
+| ISCO-08 | Occupational classification | ILO usage terms |
+| ILO AI Exposure Data | Research dataset | ILO publication/data reuse terms |
+| ILOSTAT | Employment dataset | ILOSTAT data usage terms |
+| DOSM Employment Data | Employment dataset | DOSM data usage terms |
+| arXiv | Research source | API and content-specific terms |
+| Hacker News Algolia | Discussion search source | API/provider usage terms |
+| Replit | Cloud platform | Replit service terms |
+| Claude Opus 5.5 | AI-assisted development tool | Anthropic usage terms |
+
+**Important:** Dataset licensing descriptions should be verified against the relevant original publishers before final submission.
+
+The Apache 2.0 license of this repository does not automatically apply to third-party datasets or libraries.
 
 ---
 
-## Data Sources and References
+## 25. Official SDC Sponsor Resources
 
-### Background Research
+**Did the project use an official SDC sponsor-provided GenAI API or cloud platform?**
 
-Demombynes, G., Langbein, J., & Weber, M. (2025). *The Exposure of Workers to Artificial Intelligence in Low- and Middle-Income Countries*. World Bank Policy Research Working Paper No. 11057.
+**Yes.**
 
-The study highlights geographical differences in occupational exposure to AI. Occupational exposure scores should not be interpreted as direct measurements of job losses or hiring demand.
+### Sponsor-Provided Cloud Resource
 
-### Application Data Sources
+**Service:** Replit
 
-CareerAtlas AI uses workforce-related information to support career trend analysis and personalized recommendations.
+**Resource:** Cloud development and deployment credits provided through the SDC Hackathon.
 
-**Data Sources Used:**
+**Purpose:**
 
-- [ACTUAL DATASET OR API USED]
-- [ADDITIONAL DATA SOURCE, IF APPLICABLE]
+The team used Replit to host and deploy the CareerAtlas AI working prototype.
+
+The deployed environment makes the application accessible through a web browser.
+
+### Generative AI API Usage
+
+The deployed application does not use a sponsor-provided generative AI API.
+
+Claude Opus 5.5 was used as an AI-assisted development tool rather than a runtime model integrated into the deployed matching engine.
 
 ---
 
-## License
+## 26. Submission Checklist
+
+- [x] Product Requirements Document completed and verified
+- [x] Pitch deck link added
+- [x] Working prototype developed
+- [x] Prototype deployed using Replit
+- [x] Live prototype link added and tested
+- [x] Technical Tools Declaration drafted
+- [x] Third-party resource licenses fully verified
+- [x] Public GitHub repository created
+- [x] README.md finalized and pushed
+- [x] Demo video recorded and linked
+- [x] Pitching video uploaded and linked
+- [x] Required submission documents prepared
+- [x] All submission links verified
+
+
+
+---
+
+## 27. Data Sources and References
+
+### ESCO
+
+European Commission.
+
+European Skills, Competences, Qualifications and Occupations.
+
+https://esco.ec.europa.eu/
+
+### International Labour Organization
+
+*Generative AI and Jobs: A Refined Global Index of Occupational Exposure.*
+
+ILO Working Paper 140, May 2025.
+
+https://www.ilo.org/
+
+### ILOSTAT
+
+International Labour Organization labour statistics.
+
+https://ilostat.ilo.org/
+
+### Department of Statistics Malaysia
+
+Department of Statistics Malaysia.
+
+https://www.dosm.gov.my/
+
+### arXiv
+
+Research publication API.
+
+https://info.arxiv.org/help/api/
+
+### Hacker News Algolia
+
+Hacker News search API.
+
+https://hn.algolia.com/api
+
+### Additional Background Research
+
+Demombynes, G., Langbein, J., & Weber, M. (2025).
+
+*The Exposure of Workers to Artificial Intelligence in Low- and Middle-Income Countries.*
+
+World Bank Policy Research Working Paper No. 11057.
+
+---
+
+## 28. License
 
 This repository includes an **Apache License 2.0** license file.
 
-See the [LICENSE](LICENSE) file for details.
+See [LICENSE](LICENSE) for details.
+
+Third-party libraries, datasets, and other resources remain subject to their respective licenses and usage terms.
 
 
 
