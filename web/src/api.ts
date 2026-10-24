@@ -39,7 +39,7 @@ export async function getSnapshots(): Promise<string[]> {
   return res.json();
 }
 
-export async function getMatches(profileId: string, snapshot: string, skills?: string[]): Promise<MatchResult[]> {
+async function getMatchesLive(profileId: string, snapshot: string, skills?: string[]): Promise<MatchResult[]>  {
   if (USE_MOCK) return MOCK_MATCHES[snapshot] ?? [];
   const res = await fetch(`/api/match?snapshot=${snapshot}`, {
     method: "POST",
@@ -69,4 +69,18 @@ export async function getTrends(snapshot: string): Promise<SkillTrend[]> {
   const res = await fetch(`/api/snapshots/${snapshot}`);
   const data = await res.json();
   return data.skills;
+}
+// Uses Role B's server when it answers; falls back to the mock roles so the list is never empty
+export async function getMatches(
+  profileId: string,
+  snapshot: string,
+  skills?: string[]
+): Promise<MatchResult[]> {
+  try {
+    const live = await getMatchesLive(profileId, snapshot, skills);
+    if (Array.isArray(live) && live.length > 0) return live;
+  } catch (e) {
+    console.warn("Match API unavailable, using mock matches", e);
+  }
+  return MOCK_MATCHES[snapshot] ?? [];
 }
