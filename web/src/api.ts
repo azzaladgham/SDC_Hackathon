@@ -3,6 +3,24 @@ import { MOCK_MATCHES, MOCK_PROFILES, MOCK_TRENDS, SNAPSHOT_DATES, mockPathway }
 import snap0721 from "./data/2026-07-21.json";
 import snap1021 from "./data/2026-10-21.json";
 
+import escoData from "./data/esco.json";
+import exposureData from "./data/exposure.json";
+
+export const EXPOSURE_SOURCE = {
+  name: "ILO Working Paper 140 (2025)",
+  date: exposureData.source.publishedAt,
+  url: exposureData.source.url,
+};
+
+// role title (lowercase) -> real ILO exposure score (0..1)
+const EXPOSURE_BY_TITLE: Record<string, number> = {};
+for (const r of escoData.roles as { title: string; automationExposure: number | null }[]) {
+  if (r.automationExposure != null) EXPOSURE_BY_TITLE[r.title.toLowerCase()] = r.automationExposure;
+}
+
+export function getExposure(title: string): number | null {
+  return EXPOSURE_BY_TITLE[title.toLowerCase()] ?? null;
+}
 // true = use Role A's real snapshots, false = use mock trends
 export const USE_REAL_TRENDS = true;
 
