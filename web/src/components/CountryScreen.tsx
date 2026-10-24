@@ -1,11 +1,29 @@
+import countriesData from "../data/countries.json";
+
 type Country = { code: string; name: string; note: string };
 
-export const COUNTRIES: Country[] = [
-  { code: "MY", name: "Malaysia", note: "HRD Corp courses available" },
-  { code: "SG", name: "Singapore", note: "Local data coming soon" },
-  { code: "ID", name: "Indonesia", note: "Local data coming soon" },
+const FALLBACK: Country[] = [
+  { code: "MY", name: "Malaysia", note: "Local data" },
   { code: "GLOBAL", name: "Global", note: "Worldwide trend data (arXiv + Hacker News)" },
 ];
+
+// Accepts a list, { countries: [...] }, or an object keyed by country code
+const raw: any = countriesData;
+const list: any[] = Array.isArray(raw)
+  ? raw
+  : Array.isArray(raw.countries)
+  ? raw.countries
+  : Object.entries(raw.countries ?? raw).map(([code, v]: [string, any]) => ({ code, ...v }));
+
+const fromData: Country[] = list
+  .filter((c) => c && typeof c === "object" && (c.name || c.label))
+  .map((c) => ({
+    code: String(c.code ?? c.iso ?? c.id ?? c.name),
+    name: String(c.name ?? c.label),
+    note: String(c.note ?? c.description ?? "Local data from public sources"),
+  }));
+
+export const COUNTRIES: Country[] = fromData.length > 0 ? fromData : FALLBACK;
 
 type Props = {
   name: string;
