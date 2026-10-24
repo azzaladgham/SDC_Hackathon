@@ -16,7 +16,7 @@ import { titleCase } from "./utils";
 
 function App() {
   const [dates, setDates] = useState<string[]>([]);
-  const [snapshot, setSnapshot] = useState("2026-10-21");
+  const [snapshot, setSnapshot] = useState("2026-10-24");
   const [scenario, setScenario] = useState<Scenario>("moderate");
   const [matches, setMatches] = useState<MatchResult[]>([]);
   const [selected, setSelected] = useState<string | null>(null);
