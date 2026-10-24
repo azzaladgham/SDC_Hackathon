@@ -35,7 +35,7 @@ The deployed prototype uses a custom matching engine rather than calling a gener
 | Resource | Link |
 |---|---|
 | GitHub Repository | https://github.com/azzaladgham/SDC_Hackathon |
-| Replit Project | TODO: Add Replit project URL |
+| Replit Project | https://replit.com/@jarmxl/SDCHackathon |
 | Live Prototype | https://sdc-hackathon-jarmxl.replit.app |
 | Slide Deck | https://canva.link/tvpr171cn8gx1d7 |
 | Demo Video | TODO: Add demo video URL |
@@ -247,11 +247,11 @@ To help individuals understand workforce changes relevant to their location and 
 
 | Technology | Version | Purpose |
 |---|---|---|
-| React | TODO: Confirm version | User interface |
-| Vite | TODO: Confirm version | Frontend build tool |
-| Tailwind CSS | TODO: Confirm version | Responsive styling |
-| Framer Motion | TODO: Confirm version | Interface animations |
-| Recharts | TODO: Confirm version | Data visualization |
+| React | ^19.3.1 | User interface |
+| Vite | ^8.3.4 | Frontend build tool |
+| Tailwind CSS | ^4.3.3 | Responsive styling |
+| Framer Motion | ^14.4.0 | Interface animations |
+| Recharts | ^3.10.1 | Data visualization |
 | Google Fonts | Not applicable | Typography |
 
 ### 6.2 Backend
