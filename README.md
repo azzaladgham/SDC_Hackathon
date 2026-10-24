@@ -1,9 +1,13 @@
 
 # CareerAtlas AI
 
-> **Discover Opportunities Beyond the Obvious.**
+### AI-Powered Future Workforce Intelligence Platform
 
-**CareerAtlas AI** is an AI-powered workforce intelligence platform designed to help students, graduates, and professionals discover emerging career opportunities, understand geographical workforce trends, and develop skills for the future of work.
+> **Mapping Tomorrow's Careers, Today.**
+
+**CareerAtlas AI** is an AI-powered workforce intelligence platform designed to help students, graduates, and professionals discover emerging career opportunities, understand workforce trends relevant to their locations, and develop the skills needed for the future of work.
+
+By combining workforce intelligence, geographical relevance, personalized career recommendations, and reskilling guidance, CareerAtlas AI helps users make informed decisions about their professional futures.
 
 **SDC Hackathon 2026 | Future-Ready Workforce**
 
@@ -13,12 +17,12 @@
 
 | Field | Details |
 |---|---|
-| **Team Name** | [CareerAtlas AI] |
-| **Team Domain** | Domain 1 : Future-Ready Workforce |
+| **Team Name** | CareerAtlas AI |
+| **Team Domain** | Domain 1: Future-Ready Workforce |
 | **SDG Track (1–17)** | SDG 8 – Decent Work and Economic Growth |
-| **Team Leader** | [Azza ladhgham] |
+| **Team Leader** | Azza Ladhgham |
 | **University** | Xiamen University Malaysia |
-| **Number of Members** | [4] |
+| **Number of Members** | 4 |
 
 ---
 
@@ -27,7 +31,7 @@
 | Resource | Link |
 |---|---|
 | **GitHub Repository** | https://github.com/azzaladgham/SDC_Hackathon |
-| **Replit Project** | [REPLIT PROJECT LINK OR N/A] |
+| **Replit Project** | [REPLIT LINK OR N/A] |
 | **Live Demo** | [LIVE DEMO LINK] |
 | **RunPod Endpoint** | [RUNPOD ENDPOINT OR N/A] |
 | **Slide Deck** | [SLIDE DECK LINK] |
@@ -38,43 +42,144 @@
 
 ## Overview
 
-### Problem
+### The Problem
 
-Artificial Intelligence is rapidly transforming occupations and the skills required in the workforce. However, students, graduates, and professionals often struggle to understand which career opportunities are emerging and how to prepare for them.
+Artificial Intelligence is transforming industries, occupations, and the skills required in the workforce.
 
-Existing career guidance may also overlook geographical differences, making it difficult for individuals to identify relevant opportunities within their own countries.
+However, many students, graduates, and professionals struggle to understand which career opportunities are emerging, what skills they need, and how to prepare for future workforce changes.
 
-This creates uncertainty, skill mismatches, and a gap between global workforce information and local career decisions.
+Three major challenges contribute to this problem:
 
-### Solution
+**1. Career Uncertainty**
 
-**CareerAtlas AI** aims to address these challenges by combining AI-powered workforce analysis, geographical intelligence, and personalized career guidance.
+Individuals often lack clear information about emerging career opportunities and changing workforce requirements.
 
-The platform is designed to analyze changing workforce trends, compare opportunities across countries, identify relevant career paths, and recommend actionable reskilling pathways.
+**2. Skills Mismatch**
 
-Our key innovation is **Geographical Intelligence**, which aims to reveal differences between global and local workforce trends and highlight potentially overlooked opportunities within local economies.
+Many individuals do not know how their existing skills align with future career requirements or which additional skills they should develop.
 
-### Key Features
+**3. Geographical Blind Spots**
 
-1. **Skills Profile Intake** — Collect users' skills, education, interests, and career preferences.
+Generalized workforce information may overlook the specific career opportunities and skill demands emerging within an individual's country or region.
 
-2. **AI Workforce Trend Intelligence** — Analyze updatable workforce information from dated datasets, research, and job-market sources.
+These challenges create a gap between workforce transformation and the ability of individuals to make informed career decisions.
 
-3. **Geographical Intelligence** — Compare career and skill trends across different countries.
+### Our Solution
 
-4. **Global–Local Trend Contradiction Detection** — Identify situations where local workforce evidence differs from broader global trends.
+**CareerAtlas AI** addresses these challenges through an AI-powered workforce intelligence platform that provides personalized and geographically relevant career guidance.
 
-5. **Personalized Career Matching** — Rank suitable career opportunities based on user profiles, workforce evidence, and skill requirements.
+The platform is designed to:
 
-6. **Skill Gap Analysis** — Identify skills users need to develop for recommended careers.
+- Analyze emerging workforce and skill trends.
+- Display career opportunities relevant to the user's selected location.
+- Match users with suitable career paths.
+- Identify gaps between existing skills and career requirements.
+- Recommend personalized reskilling pathways.
+- Connect career recommendations with relevant Sustainable Development Goals.
+- Communicate uncertainty surrounding future workforce developments.
 
-7. **Personalized Reskilling Pathways** — Suggest structured learning plans, estimated learning time, and relevant learning resources.
+Our goal is to transform complex workforce information into clear, actionable career guidance.
 
-8. **SDG Alignment** — Explain how recommended careers and skills relate to relevant United Nations Sustainable Development Goals.
+---
 
-9. **Future Workforce Scenarios** — Present alternative AI-disruption scenarios and communicate uncertainty.
+## Key Features
 
-**Implementation note:** Update the project status section below to distinguish working prototype features from planned capabilities.
+### 1. Skills Profile Intake
+
+Users provide information about their educational background, existing skills, career interests, and preferences.
+
+This information forms the foundation for personalized career recommendations.
+
+### 2. AI Workforce Trend Intelligence
+
+CareerAtlas AI uses workforce-related information to support the identification of emerging career opportunities and changing skill requirements.
+
+The intended data approach incorporates updatable sources, including workforce datasets, research, and job-market information.
+
+### 3. Geographical Intelligence
+
+CareerAtlas AI provides career intelligence relevant to the user's selected country or location.
+
+Instead of relying exclusively on generalized workforce information, the platform focuses on identifying trends and opportunities relevant to the user's geographical context.
+
+### 4. Local Opportunity Discovery
+
+The platform aims to highlight potentially overlooked career opportunities within the user's local economy.
+
+This helps users discover opportunities that may be relevant to their skills, interests, and location.
+
+### 5. Personalized Career Matching
+
+CareerAtlas AI connects users' existing skills and interests with suitable career opportunities.
+
+Recommendations are intended to consider:
+
+- User skills and qualifications
+- Career interests
+- Career requirements
+- Workforce trend evidence
+- Geographical relevance
+
+### 6. Skill Gap Analysis
+
+The platform identifies differences between a user's existing skills and the requirements of recommended career paths.
+
+This helps users understand what they need to learn or improve.
+
+### 7. Personalized Reskilling Pathways
+
+CareerAtlas AI provides learning guidance to help users develop skills relevant to their recommended career paths.
+
+Reskilling pathways may include:
+
+- Recommended skills
+- Suggested learning order
+- Estimated learning time
+- Relevant learning resources
+
+### 8. SDG Alignment
+
+The platform connects relevant career and skill recommendations with United Nations Sustainable Development Goals.
+
+This helps users understand how their career development may contribute to broader economic and social objectives.
+
+### 9. Future Workforce Scenarios
+
+CareerAtlas AI aims to help users understand possible workforce outcomes under different levels of AI disruption.
+
+Scenario estimates should be presented with appropriate uncertainty rather than as guaranteed predictions.
+
+---
+
+## Our Innovation
+
+### Geographical Intelligence: Discovering Opportunities Where You Are
+
+The central innovation of CareerAtlas AI is its focus on **location-specific workforce intelligence**.
+
+Rather than presenting identical career information to every user, the platform aims to provide insights relevant to the user's selected location.
+
+This approach supports:
+
+**Location-Specific Career Insights**
+
+Identify emerging careers and workforce trends relevant to the user's country or region.
+
+**Local Opportunity Discovery**
+
+Highlight potentially overlooked opportunities within local economies.
+
+**Personalized Career Guidance**
+
+Connect geographically relevant workforce information with individual skills and career interests.
+
+**Actionable Reskilling**
+
+Help users identify the skills needed to pursue relevant career opportunities.
+
+### Our Vision
+
+Help individuals discover future career opportunities where they are and develop the skills needed to pursue them.
 
 ---
 
@@ -85,17 +190,17 @@ Our key innovation is **Geographical Intelligence**, which aims to reveal differ
 | **Frontend** | [ACTUAL FRONTEND TECHNOLOGIES] |
 | **Backend** | [ACTUAL BACKEND TECHNOLOGIES] |
 | **Database / Storage** | [ACTUAL DATABASE OR STORAGE] |
-| **AI / Compute** | [ACTUAL AI MODELS, APIs, OR SERVICES] |
-| **Data Sources** | [DATASETS / APIs USED] |
-| **Visualization** | [CHARTING / MAPPING LIBRARIES] |
-| **Hosting / Development** | [ACTUAL HOSTING AND DEVELOPMENT TOOLS] |
+| **AI / Machine Learning** | [ACTUAL AI TOOLS OR MODELS] |
+| **Data Sources** | [ACTUAL DATASETS OR APIs] |
+| **Visualization** | [ACTUAL VISUALIZATION LIBRARIES] |
+| **Hosting / Development** | [ACTUAL DEVELOPMENT OR HOSTING TOOLS] |
 | **Version Control** | Git and GitHub |
 
 ---
 
 ## Project Structure
 
-The following top-level structure is visible in the public repository:
+The repository is organized into the following top-level directories:
 
 ```text
 SDC_Hackathon/
@@ -116,64 +221,72 @@ SDC_Hackathon/
 |-- README.md
 ```
 
-**Directory descriptions:** [ADD THE ACTUAL PURPOSE OF EACH DIRECTORY AND IMPORTANT SOURCE FILES.]
+### Directory Descriptions
 
-The repository structure may change as development progresses.
+| Directory | Description |
+|---|---|
+| `.github/workflows/` | GitHub workflow configuration |
+| `data/` | Project data and related resources |
+| `scripts/` | Project scripts and supporting utilities |
+| `shared/` | Shared project resources |
+| `web/` | Web application files |
+
+Update these descriptions as necessary to reflect the actual implementation.
 
 ---
 
 ## System Architecture
 
-### Proposed Processing Workflow
+### Application Workflow
 
 ```text
-       Workforce Data Sources
-                 |
-                 v
-         Data Processing
-                 |
-                 v
-          Trend Analysis
-                 |
-                 v
-     Geographical Intelligence
-                 |
-                 v
- User Profile --> Career Matching
-                 |
-                 v
-         Skill Gap Analysis
-                 |
-                 v
-      Reskilling Recommendations
-                 |
-                 v
-          User Dashboard
+         Workforce Data Sources
+                   |
+                   v
+            Data Processing
+                   |
+                   v
+        Workforce Trend Analysis
+                   |
+                   v
+     Location-Specific Intelligence
+                   |
+                   v
+    User Profile --> Career Matching
+                   |
+                   v
+           Skill Gap Analysis
+                   |
+                   v
+      Personalized Reskilling
+                   |
+                   v
+             User Dashboard
 ```
 
 ### Architecture Explanation
 
 **1. Data Collection**
 
-The system obtains workforce-related information from relevant sources, such as job-market datasets, research publications, and AI-related reports.
+The platform obtains workforce-related information from available data sources, including datasets, research publications, and other relevant information.
 
 **2. Workforce Trend Analysis**
 
-The collected information is processed to identify changes in career and skill demand, subject to the available evidence.
+The system processes workforce information to identify relevant career developments and changing skill requirements.
 
 **3. Geographical Intelligence**
 
-The system compares country-specific and global information to identify meaningful differences in workforce trends.
+The system uses the user's selected location to provide geographically relevant workforce insights and identify potentially overlooked local career opportunities.
 
 **4. Career Matching**
 
-The user's skills and interests are compared with career requirements to generate explainable recommendations and identify skill gaps.
+User profiles are evaluated against career requirements to identify suitable career paths and relevant skill gaps.
 
 **5. Recommendation Generation**
 
-The platform presents relevant career paths, reskilling recommendations, SDG explanations, and uncertainty scenarios.
+The platform presents career guidance, learning recommendations, SDG information, and workforce scenarios through the user interface.
 
-**Note:** This describes the intended architecture. Update it to match the implemented system before submission.
+This workflow represents the platform's intended processing architecture and should be aligned with the implemented application.
 
 ---
 
@@ -181,11 +294,11 @@ The platform presents relevant career paths, reskilling recommendations, SDG exp
 
 ### Prerequisites
 
-Install the software required by the current implementation:
+Install the software required by the application:
 
-- [RUNTIME AND VERSION]
-- [PACKAGE MANAGER]
-- [OTHER DEPENDENCIES]
+- [REQUIRED RUNTIME AND VERSION]
+- [REQUIRED PACKAGE MANAGER]
+- [ADDITIONAL DEPENDENCIES]
 
 ### Step 1: Clone the Repository
 
@@ -193,153 +306,217 @@ Install the software required by the current implementation:
 git clone https://github.com/azzaladgham/SDC_Hackathon.git
 ```
 
-### Step 2: Navigate to the Project
+### Step 2: Navigate to the Project Directory
 
 ```bash
 cd SDC_Hackathon
 ```
 
-### Step 3: Install Dependencies
+### Step 3: Navigate to the Application Directory
+
+```bash
+cd web
+```
+
+### Step 4: Install Dependencies
 
 ```bash
 [ACTUAL INSTALLATION COMMAND]
 ```
 
-### Step 4: Configure Environment Variables
+### Step 5: Configure Environment Variables
 
-If the application requires API keys or configuration values, create the appropriate local environment file.
+If required, create the appropriate environment configuration file.
 
 ```env
 [VARIABLE_NAME]=[VALUE]
 ```
 
-Never publish private API keys or credentials.
+Do not publish API keys, passwords, or other private credentials.
 
-### Step 5: Start the Application
+### Step 6: Start the Application
 
 ```bash
-[ACTUAL START COMMAND]
+[ACTUAL APPLICATION START COMMAND]
 ```
 
-### Step 6: Access the Application
+### Step 7: Open the Application
 
-Open the local URL displayed by the application, or visit:
+Open the local URL displayed by the development server.
 
-[LIVE DEMO LINK]
+For example, a development server may provide:
 
-**Setup verification:** [CONFIRM OPERATING SYSTEM, DEPENDENCY VERSIONS, AND TESTED RUN COMMANDS.]
+```text
+http://localhost:5173/
+```
+
+The actual address and commands depend on the technologies used by the project.
 
 ---
 
 ## How We Use Replit
 
-**Replit usage status:** [USED / NOT USED]
+**Replit Usage:** [USED / NOT USED]
 
-[DESCRIBE HOW THE TEAM ACTUALLY USES REPLIT.]
+[DESCRIBE HOW REPLIT WAS USED IN THE PROJECT, IF APPLICABLE.]
 
-If applicable, document:
+Possible activities include:
 
-- Development and testing activities
-- Collaboration between team members
-- Application deployment
-- Challenges encountered
-- Links to the relevant Replit project
+- Application development
+- Collaborative coding
+- Testing and debugging
+- Prototype hosting
+- Demonstrating application functionality
 
-If Replit is not part of the implementation, state that clearly rather than claiming its use.
+Only include activities actually performed by the team.
 
 ---
 
 ## Challenges and Learnings
 
-### Challenge 1: [ACTUAL CHALLENGE]
+### Challenge 1: [CHALLENGE TITLE]
 
-**Problem:** [DESCRIBE WHAT HAPPENED]
+**Problem:** [DESCRIBE THE TECHNICAL OR DEVELOPMENT CHALLENGE]
 
-**Solution:** [EXPLAIN HOW THE TEAM ADDRESSED IT]
+**Solution:** [EXPLAIN HOW THE TEAM RESOLVED IT]
 
-**Learning:** [STATE WHAT THE TEAM LEARNED]
+**Learning:** [DESCRIBE WHAT THE TEAM LEARNED]
 
-### Challenge 2: [ACTUAL CHALLENGE]
+### Challenge 2: [CHALLENGE TITLE]
 
-**Problem:** [DESCRIBE WHAT HAPPENED]
+**Problem:** [DESCRIBE THE CHALLENGE]
 
-**Solution:** [EXPLAIN HOW THE TEAM ADDRESSED IT]
+**Solution:** [EXPLAIN THE SOLUTION]
 
-**Learning:** [STATE WHAT THE TEAM LEARNED]
+**Learning:** [DESCRIBE THE LESSON LEARNED]
 
-### Challenge 3: [ACTUAL CHALLENGE]
+### Challenge 3: [CHALLENGE TITLE]
 
-**Problem:** [DESCRIBE WHAT HAPPENED]
+**Problem:** [DESCRIBE THE CHALLENGE]
 
-**Solution:** [EXPLAIN HOW THE TEAM ADDRESSED IT]
+**Solution:** [EXPLAIN THE SOLUTION]
 
-**Learning:** [STATE WHAT THE TEAM LEARNED]
+**Learning:** [DESCRIBE THE LESSON LEARNED]
 
 ---
 
 ## Expected Impact
 
-WorkWithin AI aims to:
+CareerAtlas AI aims to improve career awareness and future workforce readiness through personalized, geographically relevant guidance.
 
-- Improve awareness of emerging career opportunities.
-- Help individuals understand their existing skills and skill gaps.
-- Support informed career planning and reskilling.
-- Highlight relevant opportunities within local economies.
-- Improve access to geographically relevant workforce information.
-- Encourage lifelong learning and workforce readiness.
+### Individual Impact
+
+- Improve understanding of emerging career opportunities.
+- Help users recognize their existing skills and skill gaps.
+- Encourage proactive career planning.
+- Support personalized reskilling and lifelong learning.
+
+### Local Workforce Impact
+
+- Increase awareness of opportunities within local economies.
+- Improve access to location-specific workforce information.
+- Support better alignment between individual skills and relevant career requirements.
 
 ### Sustainable Development Goals
 
 **SDG 8 – Decent Work and Economic Growth**
 
-The platform aims to support informed employment decisions and workforce readiness, particularly in relation to Target 8.5.
+CareerAtlas AI aims to support informed career development and workforce readiness, particularly in relation to SDG Target 8.5.
 
 **SDG 4 – Quality Education**
 
-Personalized reskilling recommendations aim to support access to relevant learning and skills development.
+The platform encourages relevant skills development and lifelong learning through personalized reskilling guidance.
 
-### Prototype Evaluation Target
+### Proposed Evaluation Target
 
-Our proposed evaluation target is for **80% of test users** to identify at least one suitable local career opportunity and obtain a relevant personalized reskilling pathway.
+Our proposed target is for **80% of test users** to identify at least one suitable local career opportunity and obtain a relevant personalized reskilling pathway.
 
-This is a target, not an achieved result.
+This is a proposed evaluation target, not a measured outcome.
 
 ---
 
 ## Future Improvements
 
-Potential future enhancements include:
+Future development will focus on expanding the platform's intelligence, visualization capabilities, and user experience.
 
-1. Expanding country coverage and geographical comparisons.
-2. Integrating additional frequently updated workforce data sources.
-3. Improving AI-based career matching and recommendation explanations.
-4. Enhancing global–local trend contradiction detection.
-5. Providing more detailed skill-gap assessments.
-6. Expanding personalized learning resources.
-7. Improving uncertainty estimates and scenario analysis.
-8. Adding more interactive geographical visualizations.
+### 1. Cross-Country Career Trend Comparison
+
+Introduce a feature allowing users to compare workforce trends, emerging careers, and skill demands across different countries.
+
+This will help users explore geographical differences in career opportunities.
+
+### 2. Interactive Geographical Maps
+
+Develop advanced map-based visualizations that allow users to explore workforce information geographically.
+
+Potential capabilities include:
+
+- Interactive world maps
+- Country-level career insights
+- Geographical career trend indicators
+- Location-based opportunity exploration
+- Visual representations of emerging skill demands
+
+### 3. Advanced Workforce Data Visualization
+
+Introduce more interactive charts and dashboards to help users understand workforce developments.
+
+Examples include:
+
+- Career trend charts
+- Skill demand visualizations
+- Occupational growth indicators
+- Interactive data filters
+- Historical trend displays
+
+### 4. Enhanced Local Opportunity Discovery
+
+Improve the identification of potentially overlooked career opportunities within local economies.
+
+### 5. Expanded Workforce Data Coverage
+
+Integrate additional workforce datasets and updatable information sources to improve geographical coverage and data relevance.
+
+### 6. Advanced AI Career Matching
+
+Improve recommendation accuracy, transparency, and explainability through enhanced matching methods.
+
+### 7. Expanded Personalized Learning Resources
+
+Provide additional learning resources, structured study plans, and more detailed skills-development guidance.
+
+### 8. Enhanced Workforce Scenario Analysis
+
+Improve the presentation of alternative AI-disruption scenarios, including clearer uncertainty estimates.
 
 ---
 
 ## Project Status
 
-**Current Development Stage:** [CURRENT STATUS]
+**Current Stage: Working Prototype**
+
+CareerAtlas AI has reached the working prototype stage. The project will continue to evolve through additional features, improved visualizations, and expanded geographical intelligence.
 
 ### Implemented Features
 
-- [IMPLEMENTED FEATURE 1]
-- [IMPLEMENTED FEATURE 2]
-- [IMPLEMENTED FEATURE 3]
+The current prototype focuses on the following core capabilities. The team should confirm that each item is functional in the latest build.
 
-### Features in Progress
+- **User Skills Profiling** — Collecting user information to support personalized career guidance.
+- **Career Recommendations** — Suggesting relevant career opportunities based on user profiles.
+- **Geographical Intelligence** — Presenting career information relevant to the user's selected location.
+- **Skill Gap Identification** — Highlighting skills relevant to recommended careers.
+- **Reskilling Guidance** — Providing learning recommendations for career development.
+- **Workforce Information Display** — Presenting career and workforce-related insights through the application interface.
 
-- [FEATURE IN PROGRESS 1]
-- [FEATURE IN PROGRESS 2]
+### Features Planned for Future Implementation
 
-### Planned Features
-
-- [PLANNED FEATURE 1]
-- [PLANNED FEATURE 2]
+- **Cross-Country Comparison** — Compare career trends and skill demands across countries.
+- **Interactive World Maps** — Explore workforce trends and opportunities through geographical visualizations.
+- **Advanced Data Visualizations** — Display workforce information using interactive charts and dashboards.
+- **Enhanced Local Opportunity Discovery** — Improve identification of overlooked local opportunities.
+- **Expanded Data Integration** — Add more workforce data sources and geographical coverage.
+- **Improved AI Recommendations** — Enhance career matching, explainability, and personalized guidance.
+- **Advanced Scenario Analysis** — Provide more detailed AI-disruption scenarios and uncertainty information.
 
 ---
 
@@ -347,7 +524,7 @@ Potential future enhancements include:
 
 | Team Member | Role | GitHub Username | Contribution |
 |---|---|---|---|
-| [Azza Ladhgham] | [Leader] | [@USERNAME] | [frontend] |
+| Azza Ladhgham | Team Leader | [@USERNAME] | Frontend |
 | [MEMBER 2] | [ROLE] | [@USERNAME] | [CONTRIBUTION] |
 | [MEMBER 3] | [ROLE] | [@USERNAME] | [CONTRIBUTION] |
 | [MEMBER 4] | [ROLE] | [@USERNAME] | [CONTRIBUTION] |
@@ -358,7 +535,8 @@ Potential future enhancements include:
 
 - [ ] Product Requirements Document (PRD) completed
 - [ ] Pitch deck completed and linked
-- [ ] Working prototype deployed
+- [ ] Working prototype completed and tested
+- [ ] Live prototype deployed
 - [ ] Live prototype link tested
 - [ ] Technology and tools declaration completed
 - [ ] Public GitHub repository updated
@@ -368,7 +546,7 @@ Potential future enhancements include:
 - [ ] Required submission documents prepared
 - [ ] All submission links verified
 
-Update each checkbox only when the item is complete.
+Update each checkbox when the corresponding task has been completed.
 
 ---
 
@@ -378,15 +556,16 @@ Update each checkbox only when the item is complete.
 
 Demombynes, G., Langbein, J., & Weber, M. (2025). *The Exposure of Workers to Artificial Intelligence in Low- and Middle-Income Countries*. World Bank Policy Research Working Paper No. 11057.
 
-The study examines geographical differences in occupational exposure to AI. Its exposure index does not directly measure job losses or hiring demand.
+The study highlights geographical differences in occupational exposure to AI. Occupational exposure scores should not be interpreted as direct measurements of job losses or hiring demand.
 
 ### Application Data Sources
 
-| Source | Purpose | Link | Last Updated |
-|---|---|---|---|
-| [SOURCE 1] | [PURPOSE] | [URL] | [DATE] |
-| [SOURCE 2] | [PURPOSE] | [URL] | [DATE] |
-| [SOURCE 3] | [PURPOSE] | [URL] | [DATE] |
+CareerAtlas AI uses workforce-related information to support career trend analysis and personalized recommendations.
+
+**Data Sources Used:**
+
+- [ACTUAL DATASET OR API USED]
+- [ADDITIONAL DATA SOURCE, IF APPLICABLE]
 
 ---
 
@@ -394,12 +573,8 @@ The study examines geographical differences in occupational exposure to AI. Its 
 
 This repository includes an **Apache License 2.0** license file.
 
-See [LICENSE](LICENSE) for details.
+See the [LICENSE](LICENSE) file for details.
 
----
 
-## Acknowledgements
 
-Developed for **SDC Hackathon 2026**, under the **Future-Ready Workforce** domain.
 
-**WorkWithin AI — Discover Opportunities Beyond the Obvious.**
