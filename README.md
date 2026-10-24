@@ -409,7 +409,7 @@ Replit hosts the frontend and backend application.
 
 Both are served through a single deployed application URL.
 
-**Live URL:** TODO: Add deployed Replit URL.
+https://sdc-hackathon-jarmxl.replit.app
 
 ---
 
@@ -423,7 +423,7 @@ The frontend communicates with the application's own backend.
 
 The matching engine processes selected skills and SDG preferences and returns career recommendations.
 
-**TODO:** Verify the exact implemented API routes against the Express source code.
+
 
 The technical design has previously described the following routes:
 
@@ -713,7 +713,7 @@ SDC_Hackathon/
 |-- README.md
 ```
 
-**TODO:** Confirm this structure against the current GitHub repository before final submission.
+
 
 ---
 
@@ -823,7 +823,6 @@ npm run dev
 
 Use the startup script defined in the application's `package.json` if the command differs.
 
-**TODO:** Confirm whether the frontend and backend require separate startup commands.
 
 ### 14.6 Open the Application
 
@@ -859,9 +858,9 @@ This command is intended for the data preparation workflow, not for ordinary use
 
 ### 14.9 Run Tests
 
-The project uses Vitest 5.0.
+The project uses Vitest 5.0.5
 
-**TODO:** Confirm the exact test command from `package.json`.
+
 
 A typical Vitest project uses:
 
