@@ -1,0 +1,111 @@
+[
+  {
+    "id": "p1",
+    "name": "Aisha, fresh CS graduate",
+    "interests": [
+      "AI",
+      "Sustainability"
+    ],
+    "skills": [
+      "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97",
+      "http://data.europa.eu/esco/skill/2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1",
+      "http://data.europa.eu/esco/skill/2b7a79e5-84d8-4880-be66-3d9bb05bea17",
+      "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+      "http://data.europa.eu/esco/skill/9cf681c7-89ec-470c-b651-7fe03786f586",
+      "http://data.europa.eu/esco/skill/fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5",
+      "http://data.europa.eu/esco/skill/925463a7-d51f-4d5b-9f79-4d28cf30acde",
+      "http://data.europa.eu/esco/skill/69bbd53f-fbb0-4476-b4b2-ef7844464e28",
+      "http://data.europa.eu/esco/skill/8b94aa1e-89c9-459d-b3b4-1dfab8dec2df",
+      "http://data.europa.eu/esco/skill/6014921e-1d25-4039-adc2-04852d61880e",
+      "http://data.europa.eu/esco/skill/797a4416-0b8d-44f3-8fcd-eb10bd0be6b4",
+      "http://data.europa.eu/esco/skill/25f0ea33-b4a2-4f31-b7b4-7d20e827b180",
+      "http://data.europa.eu/esco/skill/50b100ea-74fd-4706-99db-3e4ca55e51b8",
+      "http://data.europa.eu/esco/skill/901105f8-3a08-453e-b1dc-23619e317fd3",
+      "http://data.europa.eu/esco/skill/0e0c9c11-b39e-43cf-ba95-2fe646f5de64"
+    ]
+  },
+  {
+    "id": "p2",
+    "name": "Raj, shared-services accountant",
+    "interests": [
+      "Finance",
+      "Automation"
+    ],
+    "skills": [
+      "http://data.europa.eu/esco/skill/99b163e8-7815-43e2-83f3-a47f3076354c",
+      "http://data.europa.eu/esco/skill/4a460161-eaea-4fe2-bd0e-164ccc635be1",
+      "http://data.europa.eu/esco/skill/2ff405ec-f59c-4a7b-84b6-9776a49582c4",
+      "http://data.europa.eu/esco/skill/60f51172-37c0-4933-a27a-cbf55dcd7580",
+      "http://data.europa.eu/esco/skill/d669af41-756c-48d9-a286-1443253f54b1",
+      "http://data.europa.eu/esco/skill/faf8943c-72ff-4736-a587-25508695d6f0",
+      "http://data.europa.eu/esco/skill/a0d79341-8398-4019-ad1b-27888ec35aaa",
+      "http://data.europa.eu/esco/skill/207f87c4-ac68-4987-990c-636ca19c2626",
+      "http://data.europa.eu/esco/skill/9d916d7c-89b3-4084-a6d9-e2b0b3091404",
+      "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+      "http://data.europa.eu/esco/skill/5f1d1319-7954-4a9b-90c7-57668e3a0d4b",
+      "http://data.europa.eu/esco/skill/dc417e19-edb4-4401-883a-2375f67a162f",
+      "http://data.europa.eu/esco/skill/880c54f9-866e-4f37-b5fa-25ef8a7d49b6",
+      "http://data.europa.eu/esco/skill/8a326ee1-169c-4c44-b38b-8f1bb20ec79b",
+      "http://data.europa.eu/esco/skill/5f1ebff6-98ec-411f-a1d4-0bf04bd03bdf",
+      "http://data.europa.eu/esco/skill/2ecf90f1-c511-464b-b26f-598d69182c70"
+    ]
+  },
+  {
+    "id": "p3",
+    "name": "Mei Ling, career switcher from teaching",
+    "interests": [
+      "Education",
+      "Technology"
+    ],
+    "skills": [
+      "http://data.europa.eu/esco/skill/20f57a7f-b90e-4403-8c77-5ddd89b5835b",
+      "http://data.europa.eu/esco/skill/6fe019dd-027f-45f3-b19c-d27f7ae00980",
+      "http://data.europa.eu/esco/skill/b9bb1f03-15e2-4079-943e-7e483b21725b",
+      "http://data.europa.eu/esco/skill/2f0a426f-3b95-455b-a872-ef6dee168114",
+      "http://data.europa.eu/esco/skill/0da516ee-e70e-4384-be13-f5ff80be8127",
+      "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388",
+      "http://data.europa.eu/esco/skill/f0699875-51da-48d2-bc92-54b0749baef1",
+      "http://data.europa.eu/esco/skill/59eb177a-2f30-4943-8b30-5f87dd51a80d",
+      "http://data.europa.eu/esco/skill/cedd0710-62ae-4ff4-89ae-ac52375f86ec",
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+      "http://data.europa.eu/esco/skill/adf6bcb1-6fbb-4b77-8be4-65ce20ee04e2",
+      "http://data.europa.eu/esco/skill/d15ce60f-ddab-41ce-ba56-398451b77b60",
+      "http://data.europa.eu/esco/skill/b32e593b-cc7f-4f38-bf50-e69431ec7ada",
+      "http://data.europa.eu/esco/skill/732cb4dd-af91-4c88-9a9f-5fc62144e500"
+    ]
+  },
+  {
+    "id": "p4",
+    "name": "Siti, customer service rep learning marketing",
+    "skills": [
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+      "http://data.europa.eu/esco/skill/adf6bcb1-6fbb-4b77-8be4-65ce20ee04e2",
+      "http://data.europa.eu/esco/skill/e0607ffd-586e-4d70-ae88-5998bfa21dda",
+      "http://data.europa.eu/esco/skill/debb8d81-ed7f-447d-853a-5d107fda6fcf",
+      "http://data.europa.eu/esco/skill/15a33d76-4640-438d-ae64-fdc0c1d3eebc",
+      "http://data.europa.eu/esco/skill/946c1229-1171-40d4-82cc-fe3f483ca100",
+      "http://data.europa.eu/esco/skill/732cb4dd-af91-4c88-9a9f-5fc62144e500",
+      "http://data.europa.eu/esco/skill/0da516ee-e70e-4384-be13-f5ff80be8127",
+      "http://data.europa.eu/esco/skill/ec66b111-d8d0-4516-88ba-ee0b6fe6f695",
+      "http://data.europa.eu/esco/skill/6e16f998-7648-4ed0-8232-1b03722d1a53",
+      "http://data.europa.eu/esco/skill/0ee94af1-b445-4973-9c3f-459fab250342",
+      "http://data.europa.eu/esco/skill/1954f68c-74be-4727-b127-1025ab39bfcc",
+      "http://data.europa.eu/esco/skill/e5635e02-2d34-4a8c-b8ca-556d45e9b20e",
+      "http://data.europa.eu/esco/skill/660060e4-c418-4049-836b-beade5f8a4a8",
+      "http://data.europa.eu/esco/skill/a9c205ef-365a-4ae4-b905-cb48ba761ff0",
+      "http://data.europa.eu/esco/skill/08fd2839-670c-4f16-8024-97437f2035ab",
+      "http://data.europa.eu/esco/skill/c5d018ca-f6fa-4cc0-b209-43df46e56d48",
+      "http://data.europa.eu/esco/skill/9242ad54-dc3d-41b3-9cfe-142fa8582511",
+      "http://data.europa.eu/esco/skill/91816e1a-d026-4d21-9b1c-59ca5cf488de",
+      "http://data.europa.eu/esco/skill/7a986287-84f2-4e5d-9ab4-fd7ec424ecf3",
+      "http://data.europa.eu/esco/skill/3d96dc4c-d812-4015-b1f9-8307c086c595",
+      "http://data.europa.eu/esco/skill/ff862044-d49e-4417-bf65-1ae2c0a47e5a",
+      "http://data.europa.eu/esco/skill/750caee5-12a0-46ba-b8aa-1e56370deaf9",
+      "http://data.europa.eu/esco/skill/9c6e951f-aa88-4890-983d-e7a6ee49f5bb"
+    ],
+    "interests": [
+      "Marketing",
+      "Customer experience"
+    ]
+  }
+]

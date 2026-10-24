@@ -1,0 +1,199 @@
+{
+  "_note": "MOCK values until A (cited exposure) and D (sdg-map.json) deliver",
+  "source": {
+    "name": "MOCK exposure estimate",
+    "url": "https://example.com/mock",
+    "fetchedAt": "2026-10-21T00:00:00Z"
+  },
+  "roles": {
+    "software developer": {
+      "automationExposure": 0.3,
+      "sdgs": [
+        8,
+        9
+      ]
+    },
+    "web developer": {
+      "automationExposure": 0.35,
+      "sdgs": [
+        8,
+        9
+      ]
+    },
+    "data scientist": {
+      "automationExposure": 0.2,
+      "sdgs": [
+        3,
+        9
+      ]
+    },
+    "data analyst": {
+      "automationExposure": 0.4,
+      "sdgs": [
+        8,
+        9
+      ]
+    },
+    "database administrator": {
+      "automationExposure": 0.35,
+      "sdgs": [
+        8,
+        9
+      ]
+    },
+    "ICT security consultant": {
+      "automationExposure": 0.15,
+      "sdgs": [
+        9,
+        16
+      ]
+    },
+    "ICT business analyst": {
+      "automationExposure": 0.35,
+      "sdgs": [
+        8,
+        9
+      ]
+    },
+    "ICT project manager": {
+      "automationExposure": 0.25,
+      "sdgs": [
+        8,
+        9
+      ]
+    },
+    "ICT help desk agent": {
+      "automationExposure": 0.65,
+      "sdgs": [
+        8,
+        9
+      ]
+    },
+    "user interface designer": {
+      "automationExposure": 0.35,
+      "sdgs": [
+        8,
+        9
+      ]
+    },
+    "accountant": {
+      "automationExposure": 0.65,
+      "sdgs": [
+        8
+      ]
+    },
+    "financial analyst": {
+      "automationExposure": 0.5,
+      "sdgs": [
+        8
+      ]
+    },
+    "financial auditor": {
+      "automationExposure": 0.55,
+      "sdgs": [
+        8
+      ]
+    },
+    "bookkeeper": {
+      "automationExposure": 0.85,
+      "sdgs": [
+        8
+      ]
+    },
+    "payroll clerk": {
+      "automationExposure": 0.85,
+      "sdgs": [
+        8
+      ]
+    },
+    "credit analyst": {
+      "automationExposure": 0.6,
+      "sdgs": [
+        8
+      ]
+    },
+    "administrative assistant": {
+      "automationExposure": 0.75,
+      "sdgs": [
+        8
+      ]
+    },
+    "customer service representative": {
+      "automationExposure": 0.7,
+      "sdgs": [
+        8
+      ]
+    },
+    "human resources assistant": {
+      "automationExposure": 0.6,
+      "sdgs": [
+        4,
+        8
+      ]
+    },
+    "purchasing manager": {
+      "automationExposure": 0.35,
+      "sdgs": [
+        8
+      ]
+    },
+    "project manager": {
+      "automationExposure": 0.2,
+      "sdgs": [
+        8
+      ]
+    },
+    "marketing manager": {
+      "automationExposure": 0.25,
+      "sdgs": [
+        8,
+        12
+      ]
+    },
+    "marketeer": {
+      "automationExposure": 0.4,
+      "sdgs": [
+        8
+      ]
+    },
+    "supply chain manager": {
+      "automationExposure": 0.25,
+      "sdgs": [
+        9,
+        12
+      ]
+    },
+    "logistics analyst": {
+      "automationExposure": 0.45,
+      "sdgs": [
+        9,
+        12
+      ]
+    },
+    "paper engineer": {
+      "automationExposure": 0.3,
+      "sdgs": [
+        9,
+        12
+      ]
+    },
+    "nurse responsible for general care": {
+      "automationExposure": 0.1,
+      "sdgs": [
+        3
+      ]
+    },
+    "secondary school teacher": {
+      "automationExposure": 0.15,
+      "sdgs": [
+        4
+      ]
+    },
+    "graphic designer": {
+      "automationExposure": 0.45,
+      "sdgs": [
+        8
+      ]
+    }
+  }
+}

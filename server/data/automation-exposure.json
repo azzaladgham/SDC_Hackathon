@@ -1,0 +1,276 @@
+{
+  "_note": "GenAI exposure per role: the role's ESCO occupation is mapped to its ISCO-08 4-digit group (ESCO API), then the ILO mean task-level exposure score for that group is used (0 = not exposed, 1 = fully exposed).",
+  "source": {
+    "name": "ILO Working Paper 140 (Gmyrek et al., 2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+    "url": "https://www.ilo.org/sites/default/files/2025-05/WP140_web.pdf",
+    "fetchedAt": "2026-10-23T00:00:00Z"
+  },
+  "mappingSource": {
+    "name": "ESCO API (broaderIscoGroup)",
+    "url": "https://ec.europa.eu/esco/api",
+    "fetchedAt": "2026-10-23T00:00:00Z"
+  },
+  "roles": [
+    {
+      "title": "software developer",
+      "escoUri": "http://data.europa.eu/esco/occupation/f2b15a0e-e65a-438a-affb-29b9d50b77d1",
+      "isco08": "2512",
+      "iscoTitle": "Software Developers",
+      "automationExposure": 0.53,
+      "sd": 0.07,
+      "gradient": "Gradient 3"
+    },
+    {
+      "title": "web developer",
+      "escoUri": "http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d",
+      "isco08": "2513",
+      "iscoTitle": "Web and Multimedia Developers",
+      "automationExposure": 0.6,
+      "sd": 0.08,
+      "gradient": "Gradient 4"
+    },
+    {
+      "title": "data scientist",
+      "escoUri": "http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30",
+      "isco08": "2511",
+      "iscoTitle": "Systems Analysts",
+      "automationExposure": 0.49,
+      "sd": 0.05,
+      "gradient": "Gradient 2"
+    },
+    {
+      "title": "data analyst",
+      "escoUri": "http://data.europa.eu/esco/occupation/d3edb8f8-3a06-47a0-8fb9-9b212c006aa2",
+      "isco08": "2511",
+      "iscoTitle": "Systems Analysts",
+      "automationExposure": 0.49,
+      "sd": 0.05,
+      "gradient": "Gradient 2"
+    },
+    {
+      "title": "database administrator",
+      "escoUri": "http://data.europa.eu/esco/occupation/8c57af09-719c-42b3-be40-6ed4946236cc",
+      "isco08": "2521",
+      "iscoTitle": "Database Designers and Administrators",
+      "automationExposure": 0.57,
+      "sd": 0.08,
+      "gradient": "Gradient 3"
+    },
+    {
+      "title": "ICT security consultant",
+      "escoUri": "http://data.europa.eu/esco/occupation/0ce5a9f4-e00a-4bbe-b255-3c63407167a4",
+      "isco08": "2529",
+      "iscoTitle": "Database and Network Professionals Not Elsewhere Classified",
+      "automationExposure": 0.49,
+      "sd": 0.06,
+      "gradient": "Gradient 2"
+    },
+    {
+      "title": "ICT business analyst",
+      "escoUri": "http://data.europa.eu/esco/occupation/fe0fa514-b48d-4a53-9757-a283c0baacf0",
+      "isco08": "2511",
+      "iscoTitle": "Systems Analysts",
+      "automationExposure": 0.49,
+      "sd": 0.05,
+      "gradient": "Gradient 2"
+    },
+    {
+      "title": "ICT project manager",
+      "escoUri": "http://data.europa.eu/esco/occupation/8b6388a4-4904-471b-9331-d3b1211f5525",
+      "isco08": "1330",
+      "iscoTitle": "Information and Communications Technology Service Managers",
+      "automationExposure": 0.44,
+      "sd": 0.07,
+      "gradient": "Gradient 2"
+    },
+    {
+      "title": "ICT help desk agent",
+      "escoUri": "http://data.europa.eu/esco/occupation/aaeec9a7-dc57-4485-890c-86b3eef735f9",
+      "isco08": "3512",
+      "iscoTitle": "Information and Communications Technology User Support Technicians",
+      "automationExposure": 0.47,
+      "sd": 0.19,
+      "gradient": "Gradient 2"
+    },
+    {
+      "title": "user interface designer",
+      "escoUri": "http://data.europa.eu/esco/occupation/96e20037-0a25-4bf6-a25e-808d1605d890",
+      "isco08": "2513",
+      "iscoTitle": "Web and Multimedia Developers",
+      "automationExposure": 0.6,
+      "sd": 0.08,
+      "gradient": "Gradient 4"
+    },
+    {
+      "title": "accountant",
+      "escoUri": "http://data.europa.eu/esco/occupation/eda0d957-3c3c-4139-b89a-a18bc9e18897",
+      "isco08": "2411",
+      "iscoTitle": "Accountants",
+      "automationExposure": 0.51,
+      "sd": 0.08,
+      "gradient": "Gradient 3"
+    },
+    {
+      "title": "financial analyst",
+      "escoUri": "http://data.europa.eu/esco/occupation/8d586ee9-0ab1-4155-a3b0-2ca786c8e48c",
+      "isco08": "2413",
+      "iscoTitle": "Financial Analysts",
+      "automationExposure": 0.62,
+      "sd": 0.06,
+      "gradient": "Gradient 4"
+    },
+    {
+      "title": "financial auditor",
+      "escoUri": "http://data.europa.eu/esco/occupation/1ad59946-d13e-441e-9b36-56e1df055e21",
+      "isco08": "2411",
+      "iscoTitle": "Accountants",
+      "automationExposure": 0.51,
+      "sd": 0.08,
+      "gradient": "Gradient 3"
+    },
+    {
+      "title": "bookkeeper",
+      "escoUri": "http://data.europa.eu/esco/occupation/c3aae59e-1441-4b3e-bdd1-6da50dc7cf42",
+      "isco08": "3313",
+      "iscoTitle": "Accounting Associate Professionals",
+      "automationExposure": 0.49,
+      "sd": 0.13,
+      "gradient": "Gradient 2"
+    },
+    {
+      "title": "payroll clerk",
+      "escoUri": "http://data.europa.eu/esco/occupation/ade351da-7bda-424e-8682-bbdcab2a25be",
+      "isco08": "4313",
+      "iscoTitle": "Payroll Clerks",
+      "automationExposure": 0.61,
+      "sd": 0.08,
+      "gradient": "Gradient 4"
+    },
+    {
+      "title": "credit analyst",
+      "escoUri": "http://data.europa.eu/esco/occupation/075e4d25-74b3-46fb-9b6e-6b53cdb196e7",
+      "isco08": "3312",
+      "iscoTitle": "Credit and Loans Officers",
+      "automationExposure": 0.6,
+      "sd": 0.04,
+      "gradient": "Gradient 4"
+    },
+    {
+      "title": "administrative assistant",
+      "escoUri": "http://data.europa.eu/esco/occupation/044d78cc-f62f-4532-83a5-8e04f2889652",
+      "isco08": "3343",
+      "iscoTitle": "Administrative and Executive Secretaries",
+      "automationExposure": 0.54,
+      "sd": 0.14,
+      "gradient": "Gradient 3"
+    },
+    {
+      "title": "customer service representative",
+      "escoUri": "http://data.europa.eu/esco/occupation/13d1b2b4-99dd-44da-9734-c9f74bae18f7",
+      "isco08": "4225",
+      "iscoTitle": "Inquiry Clerks",
+      "automationExposure": 0.57,
+      "sd": 0.09,
+      "gradient": "Gradient 3"
+    },
+    {
+      "title": "human resources assistant",
+      "escoUri": "http://data.europa.eu/esco/occupation/d8ed1703-9c03-4ea0-83cc-b6169bc54ffd",
+      "isco08": "4416",
+      "iscoTitle": "Personnel Clerks",
+      "automationExposure": 0.6,
+      "sd": 0.09,
+      "gradient": "Gradient 4"
+    },
+    {
+      "title": "purchasing manager",
+      "escoUri": "http://data.europa.eu/esco/occupation/377865f0-c327-4599-8c7e-d428c6588edf",
+      "isco08": "1324",
+      "iscoTitle": "Supply, Distribution and Related Managers",
+      "automationExposure": 0.38,
+      "sd": 0.05,
+      "gradient": "Minimal Exposure"
+    },
+    {
+      "title": "project manager",
+      "escoUri": "http://data.europa.eu/esco/occupation/bea99fea-0383-4c63-b944-70d4799de2c5",
+      "isco08": "1219",
+      "iscoTitle": "Business Services and Administration Managers Not Elsewhere Classified",
+      "automationExposure": 0.42,
+      "sd": 0.1,
+      "gradient": "Gradient 2"
+    },
+    {
+      "title": "marketing manager",
+      "escoUri": "http://data.europa.eu/esco/occupation/6fcf4638-e7c7-4978-9302-9a7b63a3d57c",
+      "isco08": "1221",
+      "iscoTitle": "Sales and Marketing Managers",
+      "automationExposure": 0.41,
+      "sd": 0.09,
+      "gradient": "Gradient 2"
+    },
+    {
+      "title": "marketeer",
+      "escoUri": "http://data.europa.eu/esco/occupation/4791e217-d607-40d5-9f84-df1d0a071cbc",
+      "isco08": "2431",
+      "iscoTitle": "Advertising and Marketing Professionals",
+      "automationExposure": 0.55,
+      "sd": 0.09,
+      "gradient": "Gradient 3"
+    },
+    {
+      "title": "supply chain manager",
+      "escoUri": "http://data.europa.eu/esco/occupation/aacc3918-b5d3-484b-9480-5d29aa550d74",
+      "isco08": "1324",
+      "iscoTitle": "Supply, Distribution and Related Managers",
+      "automationExposure": 0.38,
+      "sd": 0.05,
+      "gradient": "Minimal Exposure"
+    },
+    {
+      "title": "logistics analyst",
+      "escoUri": "http://data.europa.eu/esco/occupation/51cd3a7a-eae6-4dc6-9f24-179d7ec6d230",
+      "isco08": "2141",
+      "iscoTitle": "Industrial and Production Engineers",
+      "automationExposure": 0.37,
+      "sd": 0.07,
+      "gradient": "Minimal Exposure"
+    },
+    {
+      "title": "paper engineer",
+      "escoUri": "http://data.europa.eu/esco/occupation/c44c078d-85e4-40a3-9598-2c333d7a24ca",
+      "isco08": "2145",
+      "iscoTitle": "Chemical Engineers",
+      "automationExposure": 0.35,
+      "sd": 0.12,
+      "gradient": "Minimal Exposure"
+    },
+    {
+      "title": "nurse responsible for general care",
+      "escoUri": "http://data.europa.eu/esco/occupation/8d3e8aaa-791b-4c75-a465-f3f827028f50",
+      "isco08": "2221",
+      "iscoTitle": "Nursing Professionals",
+      "automationExposure": 0.25,
+      "sd": 0.13,
+      "gradient": "Not Exposed"
+    },
+    {
+      "title": "secondary school teacher",
+      "escoUri": "http://data.europa.eu/esco/occupation/5efb2c08-ba3a-4659-a2e4-1883f54e77b6",
+      "isco08": "2330",
+      "iscoTitle": "Secondary Education Teachers",
+      "automationExposure": 0.3,
+      "sd": 0.07,
+      "gradient": "Not Exposed"
+    },
+    {
+      "title": "graphic designer",
+      "escoUri": "http://data.europa.eu/esco/occupation/69bcbb0a-8d80-4ecd-b0a4-9adea2a40de2",
+      "isco08": "2166",
+      "iscoTitle": "Graphic and Multimedia Designers",
+      "automationExposure": 0.49,
+      "sd": 0.09,
+      "gradient": "Gradient 2"
+    }
+  ]
+}
