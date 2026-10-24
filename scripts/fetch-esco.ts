@@ -94,6 +94,7 @@ async function main() {
       roles.push({
         escoUri: hit.uri,
         title: occ?.title ?? hit.title,
+        iscoCode: String(occ?.code ?? "").split(".")[0], // e.g. "2512.1" -> "2512"
         group,
         essentialSkills: essential.map((s) => s.uri).filter(Boolean),
         // Filled in later by other steps (Day 2 exposure data, SDG map). Not real values yet.
@@ -108,6 +109,12 @@ async function main() {
     }
     await sleep(300); // be polite to the API
   }
+
+
+  if (roles.length === 0) {
+  console.error("No occupations fetched. Not overwriting existing esco.json.");
+  process.exit(1);
+}
 
   await mkdir(path.dirname(OUT), { recursive: true });
   await writeFile(OUT, JSON.stringify({ fetchedAt, roles, skillLabels }, null, 2));

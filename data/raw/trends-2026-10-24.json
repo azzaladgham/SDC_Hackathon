@@ -1,14 +1,14 @@
 {
-  "asOf": "2026-10-21",
-  "fetchedAt": "2026-10-21T17:11:42.260Z",
+  "asOf": "2026-10-24",
+  "fetchedAt": "2026-10-24T04:19:04.743Z",
   "windows": {
     "recent": [
-      "2026-07-21",
-      "2026-10-21"
+      "2026-07-24",
+      "2026-10-24"
     ],
     "prior": [
-      "2026-04-21",
-      "2026-07-21"
+      "2026-04-24",
+      "2026-07-24"
     ]
   },
   "hnThreads": {
@@ -49,13 +49,13 @@
       ],
       "arxiv": {
         "recent": 88,
-        "prior": 127
+        "prior": 126
       },
       "hn": {
         "recent": 1,
         "prior": 3
       },
-      "momentum": -0.31
+      "momentum": -0.3
     },
     {
       "label": "query languages",
@@ -65,14 +65,14 @@
         "SPARQL"
       ],
       "arxiv": {
-        "recent": 280,
-        "prior": 233
+        "recent": 272,
+        "prior": 235
       },
       "hn": {
         "recent": 65,
         "prior": 56
       },
-      "momentum": 0.18
+      "momentum": 0.16
     },
     {
       "label": "data models",
@@ -81,14 +81,14 @@
         "knowledge graph"
       ],
       "arxiv": {
-        "recent": 578,
+        "recent": 581,
         "prior": 588
       },
       "hn": {
         "recent": 8,
         "prior": 19
       },
-      "momentum": -0.02
+      "momentum": -0.01
     },
     {
       "label": "statistics",
@@ -97,14 +97,14 @@
         "Bayesian"
       ],
       "arxiv": {
-        "recent": 1971,
-        "prior": 2005
+        "recent": 1960,
+        "prior": 2011
       },
       "hn": {
         "recent": 2,
         "prior": 5
       },
-      "momentum": -0.02
+      "momentum": -0.03
     },
     {
       "label": "computer programming",
@@ -114,14 +114,14 @@
         "TypeScript"
       ],
       "arxiv": {
-        "recent": 1029,
-        "prior": 982
+        "recent": 1021,
+        "prior": 1000
       },
       "hn": {
-        "recent": 434,
+        "recent": 433,
         "prior": 522
       },
-      "momentum": -0.06
+      "momentum": -0.07
     },
     {
       "label": "web programming",
@@ -131,14 +131,14 @@
         "web development"
       ],
       "arxiv": {
-        "recent": 328,
-        "prior": 235
+        "recent": 334,
+        "prior": 231
       },
       "hn": {
         "recent": 205,
         "prior": 281
       },
-      "momentum": 0.06
+      "momentum": 0.09
     },
     {
       "label": "debug software",
@@ -147,8 +147,8 @@
         "fault localization"
       ],
       "arxiv": {
-        "recent": 31,
-        "prior": 32
+        "recent": 32,
+        "prior": 33
       },
       "hn": {
         "recent": 0,
@@ -163,14 +163,14 @@
         "database schema"
       ],
       "arxiv": {
-        "recent": 64,
-        "prior": 53
+        "recent": 62,
+        "prior": 58
       },
       "hn": {
         "recent": 66,
         "prior": 67
       },
-      "momentum": 0.1
+      "momentum": 0.03
     },
     {
       "label": "use software design patterns",
@@ -179,14 +179,14 @@
         "microservices"
       ],
       "arxiv": {
-        "recent": 111,
-        "prior": 146
+        "recent": 106,
+        "prior": 141
       },
       "hn": {
         "recent": 4,
         "prior": 13
       },
-      "momentum": -0.24
+      "momentum": -0.25
     },
     {
       "label": "analyse big data",
@@ -196,14 +196,14 @@
         "data lake"
       ],
       "arxiv": {
-        "recent": 158,
-        "prior": 169
+        "recent": 160,
+        "prior": 165
       },
       "hn": {
         "recent": 6,
         "prior": 13
       },
-      "momentum": -0.07
+      "momentum": -0.03
     },
     {
       "label": "data quality assessment",
@@ -212,14 +212,14 @@
         "data observability"
       ],
       "arxiv": {
-        "recent": 182,
-        "prior": 198
+        "recent": 175,
+        "prior": 201
       },
       "hn": {
         "recent": 2,
         "prior": 4
       },
-      "momentum": -0.08
+      "momentum": -0.13
     },
     {
       "label": "perform data cleansing",
@@ -229,13 +229,13 @@
       ],
       "arxiv": {
         "recent": 31,
-        "prior": 37
+        "prior": 40
       },
       "hn": {
         "recent": 10,
         "prior": 13
       },
-      "momentum": -0.16
+      "momentum": -0.22
     },
     {
       "label": "information extraction",
@@ -244,14 +244,14 @@
         "named entity recognition"
       ],
       "arxiv": {
-        "recent": 158,
+        "recent": 154,
         "prior": 162
       },
       "hn": {
         "recent": 1,
         "prior": 1
       },
-      "momentum": -0.02
+      "momentum": -0.05
     },
     {
       "label": "tools for software configuration management",
@@ -261,14 +261,14 @@
         "Terraform"
       ],
       "arxiv": {
-        "recent": 106,
+        "recent": 108,
         "prior": 97
       },
       "hn": {
         "recent": 74,
         "prior": 75
       },
-      "momentum": 0.04
+      "momentum": 0.05
     },
     {
       "label": "integrated development environment software",
@@ -278,14 +278,14 @@
         "Cursor"
       ],
       "arxiv": {
-        "recent": 98,
-        "prior": 104
+        "recent": 91,
+        "prior": 110
       },
       "hn": {
         "recent": 27,
         "prior": 40
       },
-      "momentum": -0.19
+      "momentum": -0.25
     },
     {
       "label": "ICT security legislation",
@@ -294,14 +294,14 @@
         "cybersecurity compliance"
       ],
       "arxiv": {
-        "recent": 58,
+        "recent": 56,
         "prior": 59
       },
       "hn": {
         "recent": 4,
         "prior": 0
       },
-      "momentum": -0.02
+      "momentum": -0.05
     },
     {
       "label": "design graphics",
@@ -310,14 +310,14 @@
         "Figma"
       ],
       "arxiv": {
-        "recent": 74,
-        "prior": 59
+        "recent": 73,
+        "prior": 56
       },
       "hn": {
         "recent": 7,
         "prior": 1
       },
-      "momentum": 0.25
+      "momentum": 0.3
     },
     {
       "label": "supply chain management",
@@ -326,14 +326,14 @@
         "supply chain optimization"
       ],
       "arxiv": {
-        "recent": 167,
-        "prior": 240
+        "recent": 162,
+        "prior": 243
       },
       "hn": {
         "recent": 13,
         "prior": 9
       },
-      "momentum": -0.3
+      "momentum": -0.33
     },
     {
       "label": "analyse supply chain trends",
@@ -342,14 +342,14 @@
         "demand forecasting"
       ],
       "arxiv": {
-        "recent": 34,
-        "prior": 29
+        "recent": 35,
+        "prior": 28
       },
       "hn": {
-        "recent": 1,
+        "recent": 0,
         "prior": 0
       },
-      "momentum": 0.17
+      "momentum": 0.25
     },
     {
       "label": "perform risk analysis",
@@ -358,14 +358,14 @@
         "risk modelling"
       ],
       "arxiv": {
-        "recent": 90,
-        "prior": 107
+        "recent": 86,
+        "prior": 104
       },
       "hn": {
         "recent": 1,
         "prior": 1
       },
-      "momentum": -0.16
+      "momentum": -0.17
     },
     {
       "label": "project management",
@@ -374,14 +374,14 @@
         "agile"
       ],
       "arxiv": {
-        "recent": 141,
-        "prior": 169
+        "recent": 138,
+        "prior": 168
       },
       "hn": {
         "recent": 6,
         "prior": 10
       },
-      "momentum": -0.17
+      "momentum": -0.18
     },
     {
       "label": "manage inventory",
@@ -406,8 +406,8 @@
         "consumer insights"
       ],
       "arxiv": {
-        "recent": 9,
-        "prior": 7
+        "recent": 8,
+        "prior": 8
       },
       "hn": {
         "recent": 0,
@@ -422,14 +422,14 @@
         "pricing optimization"
       ],
       "arxiv": {
-        "recent": 32,
-        "prior": 37
+        "recent": 31,
+        "prior": 35
       },
       "hn": {
         "recent": 0,
         "prior": 0
       },
-      "momentum": -0.14
+      "momentum": -0.11
     },
     {
       "label": "corporate social responsibility",
@@ -470,8 +470,8 @@
         "API documentation"
       ],
       "arxiv": {
-        "recent": 9,
-        "prior": 16
+        "recent": 12,
+        "prior": 14
       },
       "hn": {
         "recent": 0,
@@ -486,8 +486,8 @@
         "corporate training"
       ],
       "arxiv": {
-        "recent": 9,
-        "prior": 4
+        "recent": 8,
+        "prior": 5
       },
       "hn": {
         "recent": 0,
@@ -502,14 +502,14 @@
         "chatbot"
       ],
       "arxiv": {
-        "recent": 159,
-        "prior": 199
+        "recent": 164,
+        "prior": 195
       },
       "hn": {
         "recent": 4,
         "prior": 1
       },
-      "momentum": -0.2
+      "momentum": -0.16
     },
     {
       "label": "analyse financial risk",
@@ -519,13 +519,13 @@
       ],
       "arxiv": {
         "recent": 45,
-        "prior": 41
+        "prior": 42
       },
       "hn": {
         "recent": 0,
         "prior": 0
       },
-      "momentum": 0.1
+      "momentum": 0.07
     },
     {
       "label": "accounting",
@@ -551,13 +551,13 @@
       ],
       "arxiv": {
         "recent": 17,
-        "prior": 19
+        "prior": 17
       },
       "hn": {
         "recent": 0,
         "prior": 1
       },
-      "momentum": -0.11
+      "momentum": 0
     },
     {
       "label": "tax legislation",
@@ -566,12 +566,235 @@
         "tax automation"
       ],
       "arxiv": {
+        "recent": 3,
+        "prior": 0
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "manage payroll",
+      "keywords": [
+        "payroll automation",
+        "payroll software"
+      ],
+      "arxiv": {
+        "recent": 0,
+        "prior": 0
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "use microsoft office",
+      "keywords": [
+        "Microsoft Copilot",
+        "Microsoft 365"
+      ],
+      "arxiv": {
+        "recent": 5,
+        "prior": 4
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 2
+      },
+      "momentum": 0
+    },
+    {
+      "label": "ensure proper document management",
+      "keywords": [
+        "document management",
+        "intelligent document processing"
+      ],
+      "arxiv": {
+        "recent": 2,
+        "prior": 3
+      },
+      "hn": {
+        "recent": 1,
+        "prior": 1
+      },
+      "momentum": 0
+    },
+    {
+      "label": "draft corporate emails",
+      "keywords": [
+        "email automation",
+        "AI email assistant"
+      ],
+      "arxiv": {
+        "recent": 0,
+        "prior": 0
+      },
+      "hn": {
+        "recent": 1,
+        "prior": 2
+      },
+      "momentum": 0
+    },
+    {
+      "label": "perform office routine activities",
+      "keywords": [
+        "robotic process automation"
+      ],
+      "arxiv": {
+        "recent": 1,
+        "prior": 2
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "manage payroll reports",
+      "keywords": [
+        "HR analytics",
+        "people analytics"
+      ],
+      "arxiv": {
+        "recent": 0,
+        "prior": 1
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 1
+      },
+      "momentum": 0
+    },
+    {
+      "label": "profile people",
+      "keywords": [
+        "talent assessment",
+        "AI recruiting"
+      ],
+      "arxiv": {
         "recent": 2,
         "prior": 0
       },
       "hn": {
         "recent": 0,
         "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "job market offers",
+      "keywords": [
+        "labor market",
+        "job matching"
+      ],
+      "arxiv": {
+        "recent": 27,
+        "prior": 48
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": -0.44
+    },
+    {
+      "label": "business process modelling",
+      "keywords": [
+        "BPMN",
+        "process mining"
+      ],
+      "arxiv": {
+        "recent": 22,
+        "prior": 22
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 1
+      },
+      "momentum": 0
+    },
+    {
+      "label": "analyse business requirements",
+      "keywords": [
+        "requirements engineering",
+        "user stories"
+      ],
+      "arxiv": {
+        "recent": 42,
+        "prior": 49
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": -0.14
+    },
+    {
+      "label": "apply change management",
+      "keywords": [
+        "change management",
+        "digital transformation"
+      ],
+      "arxiv": {
+        "recent": 22,
+        "prior": 24
+      },
+      "hn": {
+        "recent": 1,
+        "prior": 0
+      },
+      "momentum": -0.08
+    },
+    {
+      "label": "use accounting systems",
+      "keywords": [
+        "accounting software",
+        "enterprise resource planning"
+      ],
+      "arxiv": {
+        "recent": 7,
+        "prior": 3
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "identify accounting errors",
+      "keywords": [
+        "accounting fraud",
+        "financial fraud detection"
+      ],
+      "arxiv": {
+        "recent": 6,
+        "prior": 10
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "customer service",
+      "keywords": [
+        "customer experience",
+        "contact center"
+      ],
+      "arxiv": {
+        "recent": 16,
+        "prior": 6
+      },
+      "hn": {
+        "recent": 3,
+        "prior": 2
       },
       "momentum": 0
     }

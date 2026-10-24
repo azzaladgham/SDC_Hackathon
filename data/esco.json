@@ -30,12 +30,24 @@
         "http://data.europa.eu/esco/skill/2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1",
         "http://data.europa.eu/esco/skill/0e0c9c11-b39e-43cf-ba95-2fe646f5de64"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.53,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2Ff2b15a0e-e65a-438a-affb-29b9d50b77d1&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "2512",
+      "exposure": {
+        "value": 0.53,
+        "iscoCode": "2512",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Software Developers",
+        "gradient": "Gradient 3",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -64,12 +76,24 @@
         "http://data.europa.eu/esco/skill/797a4416-0b8d-44f3-8fcd-eb10bd0be6b4",
         "http://data.europa.eu/esco/skill/e74f4f21-8d45-412c-b5c3-652e6167ee32"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.6,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2Fc40a2919-48a9-40ea-b506-1f34f693496d&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "2513",
+      "exposure": {
+        "value": 0.6,
+        "iscoCode": "2513",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Web and Multimedia Developers",
+        "gradient": "Gradient 4",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -101,12 +125,24 @@
         "http://data.europa.eu/esco/skill/6c08403c-a5bb-4868-b8c2-b7d039c0e511",
         "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.49,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2F258e46f9-0075-4a2e-adae-1ff0477e0f30&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "2511",
+      "exposure": {
+        "value": 0.49,
+        "iscoCode": "2511",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Systems Analysts",
+        "gradient": "Gradient 2",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -143,12 +179,24 @@
         "http://data.europa.eu/esco/skill/50b100ea-74fd-4706-99db-3e4ca55e51b8",
         "http://data.europa.eu/esco/skill/cc7370dd-69fa-4c67-a96f-d4d135d38700"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.49,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2Fd3edb8f8-3a06-47a0-8fb9-9b212c006aa2&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "2511",
+      "exposure": {
+        "value": 0.49,
+        "iscoCode": "2511",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Systems Analysts",
+        "gradient": "Gradient 2",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -182,12 +230,24 @@
         "http://data.europa.eu/esco/skill/29fb0fb5-dfc4-4098-ac9b-3a712000f48f",
         "http://data.europa.eu/esco/skill/85c11255-469f-41bd-a6d1-382bc4a87783"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.57,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2F8c57af09-719c-42b3-be40-6ed4946236cc&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "2521",
+      "exposure": {
+        "value": 0.57,
+        "iscoCode": "2521",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Database Designers and Administrators",
+        "gradient": "Gradient 3",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -220,12 +280,24 @@
         "http://data.europa.eu/esco/skill/6aef2baa-5fa7-4c16-bd28-3e070ec4e4df",
         "http://data.europa.eu/esco/skill/3ff589b7-68df-4ea5-ae41-b395bdb2378f"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.49,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2F0ce5a9f4-e00a-4bbe-b255-3c63407167a4&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "2529",
+      "exposure": {
+        "value": 0.49,
+        "iscoCode": "2529",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Database and Network Professionals Not Elsewhere Classified",
+        "gradient": "Gradient 2",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -251,12 +323,24 @@
         "http://data.europa.eu/esco/skill/3c03ee71-4a23-448f-b79e-81fd75d27dca",
         "http://data.europa.eu/esco/skill/2d6d4784-0992-48e7-b100-22d7229b3f0a"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.49,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2Ffe0fa514-b48d-4a53-9757-a283c0baacf0&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "2511",
+      "exposure": {
+        "value": 0.49,
+        "iscoCode": "2511",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Systems Analysts",
+        "gradient": "Gradient 2",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -285,12 +369,24 @@
         "http://data.europa.eu/esco/skill/0daaf096-1639-461c-bf1a-bbeea77e6b67",
         "http://data.europa.eu/esco/skill/cd5efa8c-e44d-4cbc-91c6-796018dbed68"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.44,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2F8b6388a4-4904-471b-9331-d3b1211f5525&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "1330",
+      "exposure": {
+        "value": 0.44,
+        "iscoCode": "1330",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Information and Communications Technology Service Managers",
+        "gradient": "Gradient 2",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -318,12 +414,24 @@
         "http://data.europa.eu/esco/skill/1585fc98-bfe4-461f-97fc-734055a2c3ce",
         "http://data.europa.eu/esco/skill/9e06bac6-6b91-48ca-8b7d-c1f48cdecd7c"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.47,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2Faaeec9a7-dc57-4485-890c-86b3eef735f9&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "3512",
+      "exposure": {
+        "value": 0.47,
+        "iscoCode": "3512",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Information and Communications Technology User Support Technicians",
+        "gradient": "Gradient 2",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -357,12 +465,24 @@
         "http://data.europa.eu/esco/skill/c1f29568-f2bb-49d2-b6c2-28748bd1629b",
         "http://data.europa.eu/esco/skill/7364cc39-b9c0-449f-9416-57723e2fd9c4"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.6,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2F96e20037-0a25-4bf6-a25e-808d1605d890&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "2513",
+      "exposure": {
+        "value": 0.6,
+        "iscoCode": "2513",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Web and Multimedia Developers",
+        "gradient": "Gradient 4",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -397,12 +517,24 @@
         "http://data.europa.eu/esco/skill/e2e15494-65b9-4af5-8b86-53fb51e7e022",
         "http://data.europa.eu/esco/skill/83e97138-899a-4af8-9187-47823e875841"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.51,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2Feda0d957-3c3c-4139-b89a-a18bc9e18897&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "2411",
+      "exposure": {
+        "value": 0.51,
+        "iscoCode": "2411",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Accountants",
+        "gradient": "Gradient 3",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -426,12 +558,24 @@
         "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa",
         "http://data.europa.eu/esco/skill/7cacd304-996d-47d1-88ef-4ddb9ce102bd"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.62,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2F8d586ee9-0ab1-4155-a3b0-2ca786c8e48c&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "2413",
+      "exposure": {
+        "value": 0.62,
+        "iscoCode": "2413",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Financial Analysts",
+        "gradient": "Gradient 4",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -462,12 +606,24 @@
         "http://data.europa.eu/esco/skill/d77d7685-04fb-43a4-a1ac-09a10811f646",
         "http://data.europa.eu/esco/skill/99b163e8-7815-43e2-83f3-a47f3076354c"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.51,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2F1ad59946-d13e-441e-9b36-56e1df055e21&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "2411",
+      "exposure": {
+        "value": 0.51,
+        "iscoCode": "2411",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Accountants",
+        "gradient": "Gradient 3",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -494,12 +650,24 @@
         "http://data.europa.eu/esco/skill/8a326ee1-169c-4c44-b38b-8f1bb20ec79b",
         "http://data.europa.eu/esco/skill/880c54f9-866e-4f37-b5fa-25ef8a7d49b6"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.49,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2Fc3aae59e-1441-4b3e-bdd1-6da50dc7cf42&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "3313",
+      "exposure": {
+        "value": 0.49,
+        "iscoCode": "3313",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Accounting Associate Professionals",
+        "gradient": "Gradient 2",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -518,12 +686,24 @@
         "http://data.europa.eu/esco/skill/734187e4-650e-4a0a-a7f8-826cd4757229",
         "http://data.europa.eu/esco/skill/9d916d7c-89b3-4084-a6d9-e2b0b3091404"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.61,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2Fade351da-7bda-424e-8682-bbdcab2a25be&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "4313",
+      "exposure": {
+        "value": 0.61,
+        "iscoCode": "4313",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Payroll Clerks",
+        "gradient": "Gradient 4",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -548,12 +728,24 @@
         "http://data.europa.eu/esco/skill/5c99d21a-9d02-4638-9b52-a6ba840dcb0a",
         "http://data.europa.eu/esco/skill/0efbe2dc-2770-47ec-b8f4-d1bdff6ac0a4"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.6,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2F075e4d25-74b3-46fb-9b6e-6b53cdb196e7&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "3312",
+      "exposure": {
+        "value": 0.6,
+        "iscoCode": "3312",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Credit and Loans Officers",
+        "gradient": "Gradient 4",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -579,12 +771,24 @@
         "http://data.europa.eu/esco/skill/8d49f760-3765-4612-8d40-a2bdd50738fe",
         "http://data.europa.eu/esco/skill/3d427a49-4f85-42cd-8a92-62d4a34f41a1"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.54,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2F044d78cc-f62f-4532-83a5-8e04f2889652&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "3343",
+      "exposure": {
+        "value": 0.54,
+        "iscoCode": "3343",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Administrative and Executive Secretaries",
+        "gradient": "Gradient 3",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -615,12 +819,24 @@
         "http://data.europa.eu/esco/skill/0b144726-21c2-46ed-8d13-c03d27f61604",
         "http://data.europa.eu/esco/skill/a0e23745-6ba4-45e2-9510-df6e71ed1230"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.57,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2F13d1b2b4-99dd-44da-9734-c9f74bae18f7&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "4225",
+      "exposure": {
+        "value": 0.57,
+        "iscoCode": "4225",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Inquiry Clerks",
+        "gradient": "Gradient 3",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -645,12 +861,24 @@
         "http://data.europa.eu/esco/skill/8ebb2c0a-0baa-43bf-95cf-094047c57427",
         "http://data.europa.eu/esco/skill/918f5211-b99f-4b29-9a34-6e475583ef55"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.6,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2Fd8ed1703-9c03-4ea0-83cc-b6169bc54ffd&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "4416",
+      "exposure": {
+        "value": 0.6,
+        "iscoCode": "4416",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Personnel Clerks",
+        "gradient": "Gradient 4",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -684,12 +912,24 @@
         "http://data.europa.eu/esco/skill/11747665-0e98-4f27-bd0d-536862cd5746",
         "http://data.europa.eu/esco/skill/8d4271ca-c9fd-40b3-875f-15f78332a49e"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.38,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2F377865f0-c327-4599-8c7e-d428c6588edf&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "1324",
+      "exposure": {
+        "value": 0.38,
+        "iscoCode": "1324",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Supply, Distribution and Related Managers",
+        "gradient": "Minimal Exposure",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -726,12 +966,24 @@
         "http://data.europa.eu/esco/skill/48b68726-0fd6-4e03-a5eb-82236516ee7a",
         "http://data.europa.eu/esco/skill/b9bf9e17-ae47-417b-bbb1-e8b7c263ccac"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.42,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2Fbea99fea-0383-4c63-b944-70d4799de2c5&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "1219",
+      "exposure": {
+        "value": 0.42,
+        "iscoCode": "1219",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Business Services and Administration Managers Not Elsewhere Classified",
+        "gradient": "Gradient 2",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -768,12 +1020,24 @@
         "http://data.europa.eu/esco/skill/d3e585e9-3a73-4511-b533-90f095e5aa09",
         "http://data.europa.eu/esco/skill/8dcbcabe-09f7-4d11-940d-125af57bbc40"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.41,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2F6fcf4638-e7c7-4978-9302-9a7b63a3d57c&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "1221",
+      "exposure": {
+        "value": 0.41,
+        "iscoCode": "1221",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Sales and Marketing Managers",
+        "gradient": "Gradient 2",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -804,12 +1068,24 @@
         "http://data.europa.eu/esco/skill/d9e5349e-8791-49c2-8ba4-839fdd1606c2",
         "http://data.europa.eu/esco/skill/78482aac-638e-42da-a7a9-5eefe1bffdea"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.55,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2F4791e217-d607-40d5-9f84-df1d0a071cbc&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "2431",
+      "exposure": {
+        "value": 0.55,
+        "iscoCode": "2431",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Advertising and Marketing Professionals",
+        "gradient": "Gradient 3",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -835,12 +1111,24 @@
         "http://data.europa.eu/esco/skill/b7e57889-a84f-440c-9e60-459aa69979e9",
         "http://data.europa.eu/esco/skill/f14ff4b7-be1e-4b55-b39b-520005f8a97e"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.38,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2Faacc3918-b5d3-484b-9480-5d29aa550d74&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "1324",
+      "exposure": {
+        "value": 0.38,
+        "iscoCode": "1324",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Supply, Distribution and Related Managers",
+        "gradient": "Minimal Exposure",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -870,44 +1158,24 @@
         "http://data.europa.eu/esco/skill/473a8b64-a05c-4d49-962d-b9d9219950bc",
         "http://data.europa.eu/esco/skill/d41262ae-eca1-4ede-89a8-46d2d99a7a31"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.46,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2F51cd3a7a-eae6-4dc6-9f24-179d7ec6d230&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
-      }
-    },
-    {
-      "escoUri": "http://data.europa.eu/esco/occupation/c44c078d-85e4-40a3-9598-2c333d7a24ca",
-      "title": "paper engineer",
-      "group": "Engineering",
-      "essentialSkills": [
-        "http://data.europa.eu/esco/skill/8d4271ca-c9fd-40b3-875f-15f78332a49e",
-        "http://data.europa.eu/esco/skill/72a74f69-5cf1-43c5-99b9-62a444578919",
-        "http://data.europa.eu/esco/skill/608a5d9d-0007-4797-bd51-361e3aa51a48",
-        "http://data.europa.eu/esco/skill/4fabca9a-7435-4f33-b1da-3cdb00340fdc",
-        "http://data.europa.eu/esco/skill/3786b61f-f22e-48d1-af8d-ad4c354534db",
-        "http://data.europa.eu/esco/skill/695b888d-cdcf-4ba8-8425-53da04ebf063",
-        "http://data.europa.eu/esco/skill/798d427e-51b3-4cd4-8b24-1357015e9ae7",
-        "http://data.europa.eu/esco/skill/0625e737-2b29-4835-ac28-aeec4a8dc0f2",
-        "http://data.europa.eu/esco/skill/a93011ca-e6ab-4182-8a05-4d4b282cff27",
-        "http://data.europa.eu/esco/skill/4f012a77-a344-467f-9f54-70f48e090095",
-        "http://data.europa.eu/esco/skill/7dcda7b8-afa9-4504-b7d9-95a51e8ee96d",
-        "http://data.europa.eu/esco/skill/dc2a04ca-61b6-4e37-a8b1-ff9f6f208c49",
-        "http://data.europa.eu/esco/skill/9148c1e4-beae-433c-bd72-e4a009440744",
-        "http://data.europa.eu/esco/skill/c095e69a-dee5-4a58-afb0-3c330d2bb276",
-        "http://data.europa.eu/esco/skill/209a5498-3449-4689-8ed9-bd08cab4fd78",
-        "http://data.europa.eu/esco/skill/233be639-bdb5-4099-ab40-96d537d6c1f3",
-        "http://data.europa.eu/esco/skill/267b9417-9d05-4731-a877-bfb978fb50eb",
-        "http://data.europa.eu/esco/skill/631f70b6-d431-456d-8262-cb8c79fdb2f2"
-      ],
-      "automationExposure": null,
-      "sdgs": [],
-      "source": {
-        "name": "ESCO API (resource/occupation)",
-        "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2Fc44c078d-85e4-40a3-9598-2c333d7a24ca&language=en",
-        "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "2421",
+      "exposure": {
+        "value": 0.46,
+        "iscoCode": "2421",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Management and Organization Analysts",
+        "gradient": "Gradient 2",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -1006,12 +1274,24 @@
         "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac",
         "http://data.europa.eu/esco/skill/79c012c7-4b09-497e-8152-e73e5d1d3384"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.33,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2F8d3e8aaa-791b-4c75-a465-f3f827028f50&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "2221",
+      "exposure": {
+        "value": 0.33,
+        "iscoCode": "2221",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-group-average-2digit",
+        "detail": "average of 5 ILO occupations starting 22",
+        "gradient": null,
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -1044,12 +1324,24 @@
         "http://data.europa.eu/esco/skill/3377f3b2-4ba2-457f-b29d-8df59e8cfba8",
         "http://data.europa.eu/esco/skill/731101d9-94bc-4805-bff4-9578d1bf03b5"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.37,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2F5efb2c08-ba3a-4659-a2e4-1883f54e77b6&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "2330",
+      "exposure": {
+        "value": 0.37,
+        "iscoCode": "2330",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-group-average-2digit",
+        "detail": "average of 8 ILO occupations starting 23",
+        "gradient": null,
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     },
     {
@@ -1073,12 +1365,146 @@
         "http://data.europa.eu/esco/skill/25f4c955-e429-44a6-98a7-7d8cb3b6b690",
         "http://data.europa.eu/esco/skill/8c4c49d4-9708-433f-8ca7-bf2c5211ee49"
       ],
-      "automationExposure": null,
+      "automationExposure": 0.49,
       "sdgs": [],
       "source": {
         "name": "ESCO API (resource/occupation)",
         "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2F69bcbb0a-8d80-4ecd-b0a4-9adea2a40de2&language=en",
         "fetchedAt": "2026-10-20T17:17:39.970Z"
+      },
+      "iscoCode": "2166",
+      "exposure": {
+        "value": 0.49,
+        "iscoCode": "2166",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-exact",
+        "detail": "Graphic and Multimedia Designers",
+        "gradient": "Gradient 2",
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
+      }
+    },
+    {
+      "escoUri": "http://data.europa.eu/esco/occupation/579254cf-6d69-4889-9000-9c79dc568644",
+      "title": "mechanical engineer",
+      "group": "Engineering",
+      "essentialSkills": [
+        "http://data.europa.eu/esco/skill/0823ccef-813f-4f22-afef-ac0d68615e8f",
+        "http://data.europa.eu/esco/skill/209a5498-3449-4689-8ed9-bd08cab4fd78",
+        "http://data.europa.eu/esco/skill/2964011e-f828-4c6c-b98b-51e984d66365",
+        "http://data.europa.eu/esco/skill/303c6ab0-21c3-4b09-ac77-d405936857d9",
+        "http://data.europa.eu/esco/skill/54804209-6aac-4ca4-bf3c-aef4fbe18f8c",
+        "http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532",
+        "http://data.europa.eu/esco/skill/6709e92c-7546-46a4-aa57-5e951bd4cb0f",
+        "http://data.europa.eu/esco/skill/72a74f69-5cf1-43c5-99b9-62a444578919",
+        "http://data.europa.eu/esco/skill/7566f0b4-7f6e-455c-abb5-ec58e57f7e17",
+        "http://data.europa.eu/esco/skill/82313e12-9d39-47d1-b7c9-78bbd6bb50e2",
+        "http://data.europa.eu/esco/skill/87b1c959-236d-4761-b3be-b1c729497f75",
+        "http://data.europa.eu/esco/skill/97965983-0da4-4902-9daf-d5cd2693ef73",
+        "http://data.europa.eu/esco/skill/9c071f1d-eac3-449d-b004-c14775b5a3b9",
+        "http://data.europa.eu/esco/skill/9ccb56ee-3d5f-4d48-8692-8f96fe1e4adb",
+        "http://data.europa.eu/esco/skill/a1816dfd-dbdc-4499-bef3-ff81dd895b33",
+        "http://data.europa.eu/esco/skill/a4557e97-d7f9-4669-88b0-c57591acce80",
+        "http://data.europa.eu/esco/skill/af0bbc31-b54d-4e8d-82b1-2e91a1115523",
+        "http://data.europa.eu/esco/skill/bf419e00-8548-491a-a06f-d72ab439df2f",
+        "http://data.europa.eu/esco/skill/d88cb3f1-8e02-4618-bf32-4b0488066934",
+        "http://data.europa.eu/esco/skill/e3bcd26a-d16d-4f60-ae65-d41364931551",
+        "http://data.europa.eu/esco/skill/efa141df-f382-418f-9121-bd88fd735669",
+        "http://data.europa.eu/esco/skill/f03a3387-c4a7-41e3-a5d4-dd4577147940",
+        "http://data.europa.eu/esco/skill/17446f6d-d8b0-4945-a37b-9ad0dfc9f3e8",
+        "http://data.europa.eu/esco/skill/1e3222fa-724d-41f0-9b0a-e88d1003cd35",
+        "http://data.europa.eu/esco/skill/2ac4b20b-bf0f-44e4-910e-090de3d4bbab",
+        "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c",
+        "http://data.europa.eu/esco/skill/42b23922-1c40-4dbe-9e0c-7a568dfdf06b",
+        "http://data.europa.eu/esco/skill/4fabca9a-7435-4f33-b1da-3cdb00340fdc",
+        "http://data.europa.eu/esco/skill/541561bc-510c-4a99-881c-2d8bf5a85462",
+        "http://data.europa.eu/esco/skill/5c98825f-146d-4d35-97cf-207b2afd9ae2",
+        "http://data.europa.eu/esco/skill/6561f116-70de-47d8-80b8-f0e2a1d2cf11",
+        "http://data.europa.eu/esco/skill/7af6e9e8-1e11-4c0b-b7c6-ac96bbbbc674",
+        "http://data.europa.eu/esco/skill/87434439-c07d-48be-af34-b0cdd03121c4",
+        "http://data.europa.eu/esco/skill/a8d41cca-3bc9-4d2a-ae09-436dabe86e21",
+        "http://data.europa.eu/esco/skill/a99c6783-50c0-4f7a-99df-bf93429ef6dc",
+        "http://data.europa.eu/esco/skill/acc74047-f59f-4935-afc0-45ec43b9b57a",
+        "http://data.europa.eu/esco/skill/bacbfc27-4b5d-47de-8bfd-af5fa27562a2",
+        "http://data.europa.eu/esco/skill/d80ebb29-7b20-4343-b7c9-0e3ef9f2e1f2",
+        "http://data.europa.eu/esco/skill/d9e5349e-8791-49c2-8ba4-839fdd1606c2",
+        "http://data.europa.eu/esco/skill/f54c10e4-630d-4e50-95e9-4e9e268e8f12"
+      ],
+      "automationExposure": 0.37,
+      "sdgs": [],
+      "source": {
+        "name": "ESCO classification v1.2.1 (CSV: occupations_en, occupationSkillRelations_en)",
+        "url": "https://esco.ec.europa.eu/en/use-esco/download",
+        "fetchedAt": "2026-10-24T03:15:21.475Z"
+      },
+      "iscoCode": "2144",
+      "exposure": {
+        "value": 0.37,
+        "iscoCode": "2144",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-group-average-3digit",
+        "detail": "average of 3 ILO occupations starting 214",
+        "gradient": null,
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
+      }
+    },
+    {
+      "escoUri": "http://data.europa.eu/esco/occupation/d7d986e1-7333-431b-9719-0c5c6939e360",
+      "title": "civil engineer",
+      "group": "Engineering",
+      "essentialSkills": [
+        "http://data.europa.eu/esco/skill/209a5498-3449-4689-8ed9-bd08cab4fd78",
+        "http://data.europa.eu/esco/skill/3eb03076-6fb4-48a1-8b36-36b5a5031ead",
+        "http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532",
+        "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388",
+        "http://data.europa.eu/esco/skill/72a74f69-5cf1-43c5-99b9-62a444578919",
+        "http://data.europa.eu/esco/skill/7d35602d-bc94-4975-aa7c-f4e8e05ce8e0",
+        "http://data.europa.eu/esco/skill/82887396-e5bf-4306-af51-3fe8d82790b2",
+        "http://data.europa.eu/esco/skill/9be758b6-a45d-403c-8943-68390ee2c961",
+        "http://data.europa.eu/esco/skill/cc173f61-3386-44c5-a048-3889e1ec9114",
+        "http://data.europa.eu/esco/skill/ce4990a4-bf69-4f5f-becb-e4fd96da3a74",
+        "http://data.europa.eu/esco/skill/f03a3387-c4a7-41e3-a5d4-dd4577147940",
+        "http://data.europa.eu/esco/skill/08b04e53-ed25-41a2-9f90-0b9cd939ba3d",
+        "http://data.europa.eu/esco/skill/1de548e0-9535-4d2e-9d20-d4474c1ea813",
+        "http://data.europa.eu/esco/skill/20a8fe89-d4eb-4698-8521-8881c13377e0",
+        "http://data.europa.eu/esco/skill/233be639-bdb5-4099-ab40-96d537d6c1f3",
+        "http://data.europa.eu/esco/skill/267b9417-9d05-4731-a877-bfb978fb50eb",
+        "http://data.europa.eu/esco/skill/2b34764d-637c-48f5-aa70-31e15c965db6",
+        "http://data.europa.eu/esco/skill/4134622c-c3fb-4a41-beb6-6d58ba5107db",
+        "http://data.europa.eu/esco/skill/42b23922-1c40-4dbe-9e0c-7a568dfdf06b",
+        "http://data.europa.eu/esco/skill/541561bc-510c-4a99-881c-2d8bf5a85462",
+        "http://data.europa.eu/esco/skill/5a19182a-7f24-4b34-91ed-9c342787f821",
+        "http://data.europa.eu/esco/skill/6a899482-8bcf-40ca-ae67-579a1cc467ab",
+        "http://data.europa.eu/esco/skill/76415d7f-0fde-4364-b45f-5c044580d2aa",
+        "http://data.europa.eu/esco/skill/92721092-fe7c-4689-96bd-4f02385bc0e7",
+        "http://data.europa.eu/esco/skill/9a58cd26-58eb-4a1c-b1b6-64037fe9cfa1",
+        "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612",
+        "http://data.europa.eu/esco/skill/cd5efa8c-e44d-4cbc-91c6-796018dbed68",
+        "http://data.europa.eu/esco/skill/d74df140-eb69-43e2-bac9-1cafc824d702",
+        "http://data.europa.eu/esco/skill/f54c10e4-630d-4e50-95e9-4e9e268e8f12",
+        "http://data.europa.eu/esco/skill/f715be1d-5fc4-49d3-82a5-0b8090d12849"
+      ],
+      "automationExposure": 0.37,
+      "sdgs": [],
+      "source": {
+        "name": "ESCO classification v1.2.1 (CSV: occupations_en, occupationSkillRelations_en)",
+        "url": "https://esco.ec.europa.eu/en/use-esco/download",
+        "fetchedAt": "2026-10-24T03:15:21.475Z"
+      },
+      "iscoCode": "2142",
+      "exposure": {
+        "value": 0.37,
+        "iscoCode": "2142",
+        "iscoMatchedBy": "uri",
+        "method": "ilo-group-average-3digit",
+        "detail": "average of 3 ILO occupations starting 214",
+        "gradient": null,
+        "source": "ILO Working Paper 140 (2025), Generative AI and Jobs: A Refined Global Index of Occupational Exposure, Table A1",
+        "url": "https://www.ilo.org/node/706766",
+        "publishedAt": "2025-05"
       }
     }
   ],
@@ -1600,6 +2026,58 @@
     "http://data.europa.eu/esco/skill/e2103a1d-4a84-47a9-b4f7-774787573449": "copyright legislation",
     "http://data.europa.eu/esco/skill/bacbfc27-4b5d-47de-8bfd-af5fa27562a2": "design prototypes",
     "http://data.europa.eu/esco/skill/7abf5b24-8f18-49c5-a64b-5a5870a03a56": "convert scribbles into virtual sketches",
-    "http://data.europa.eu/esco/skill/25f4c955-e429-44a6-98a7-7d8cb3b6b690": "follow a brief"
+    "http://data.europa.eu/esco/skill/25f4c955-e429-44a6-98a7-7d8cb3b6b690": "follow a brief",
+    "http://data.europa.eu/esco/skill/0823ccef-813f-4f22-afef-ac0d68615e8f": "computer simulation",
+    "http://data.europa.eu/esco/skill/2964011e-f828-4c6c-b98b-51e984d66365": "material mechanics",
+    "http://data.europa.eu/esco/skill/303c6ab0-21c3-4b09-ac77-d405936857d9": "sustainable installation materials",
+    "http://data.europa.eu/esco/skill/54804209-6aac-4ca4-bf3c-aef4fbe18f8c": "principles of mechanical engineering",
+    "http://data.europa.eu/esco/skill/6709e92c-7546-46a4-aa57-5e951bd4cb0f": "building automation",
+    "http://data.europa.eu/esco/skill/7566f0b4-7f6e-455c-abb5-ec58e57f7e17": "mechanics of motor vehicles",
+    "http://data.europa.eu/esco/skill/82313e12-9d39-47d1-b7c9-78bbd6bb50e2": "CAE software",
+    "http://data.europa.eu/esco/skill/87b1c959-236d-4761-b3be-b1c729497f75": "fluid mechanics",
+    "http://data.europa.eu/esco/skill/97965983-0da4-4902-9daf-d5cd2693ef73": "3D modelling",
+    "http://data.europa.eu/esco/skill/9c071f1d-eac3-449d-b004-c14775b5a3b9": "mechanical engineering",
+    "http://data.europa.eu/esco/skill/9ccb56ee-3d5f-4d48-8692-8f96fe1e4adb": "solar absorption cooling system",
+    "http://data.europa.eu/esco/skill/a1816dfd-dbdc-4499-bef3-ff81dd895b33": "industrial engineering",
+    "http://data.europa.eu/esco/skill/a4557e97-d7f9-4669-88b0-c57591acce80": "solid mechanics",
+    "http://data.europa.eu/esco/skill/af0bbc31-b54d-4e8d-82b1-2e91a1115523": "mechanics of trains",
+    "http://data.europa.eu/esco/skill/bf419e00-8548-491a-a06f-d72ab439df2f": "pneumatics",
+    "http://data.europa.eu/esco/skill/d88cb3f1-8e02-4618-bf32-4b0488066934": "mechatronics",
+    "http://data.europa.eu/esco/skill/e3bcd26a-d16d-4f60-ae65-d41364931551": "continuum mechanics",
+    "http://data.europa.eu/esco/skill/efa141df-f382-418f-9121-bd88fd735669": "mechanics",
+    "http://data.europa.eu/esco/skill/f03a3387-c4a7-41e3-a5d4-dd4577147940": "integrated design",
+    "http://data.europa.eu/esco/skill/17446f6d-d8b0-4945-a37b-9ad0dfc9f3e8": "design a solar absorption cooling system",
+    "http://data.europa.eu/esco/skill/1e3222fa-724d-41f0-9b0a-e88d1003cd35": "perform a feasibility study on solar absorption cooling",
+    "http://data.europa.eu/esco/skill/2ac4b20b-bf0f-44e4-910e-090de3d4bbab": "manage engine-room resources",
+    "http://data.europa.eu/esco/skill/42b23922-1c40-4dbe-9e0c-7a568dfdf06b": "adjust engineering designs",
+    "http://data.europa.eu/esco/skill/5c98825f-146d-4d35-97cf-207b2afd9ae2": "create technical plans",
+    "http://data.europa.eu/esco/skill/6561f116-70de-47d8-80b8-f0e2a1d2cf11": "perform feasibility study on solar heating",
+    "http://data.europa.eu/esco/skill/7af6e9e8-1e11-4c0b-b7c6-ac96bbbbc674": "coordinate engineering teams",
+    "http://data.europa.eu/esco/skill/87434439-c07d-48be-af34-b0cdd03121c4": "design engineering components",
+    "http://data.europa.eu/esco/skill/a8d41cca-3bc9-4d2a-ae09-436dabe86e21": "draft design specifications",
+    "http://data.europa.eu/esco/skill/a99c6783-50c0-4f7a-99df-bf93429ef6dc": "use precision tools",
+    "http://data.europa.eu/esco/skill/acc74047-f59f-4935-afc0-45ec43b9b57a": "define part requirements",
+    "http://data.europa.eu/esco/skill/d80ebb29-7b20-4343-b7c9-0e3ef9f2e1f2": "design heating and cooling emission systems",
+    "http://data.europa.eu/esco/skill/f54c10e4-630d-4e50-95e9-4e9e268e8f12": "approve engineering design",
+    "http://data.europa.eu/esco/skill/3eb03076-6fb4-48a1-8b36-36b5a5031ead": "bridge engineering",
+    "http://data.europa.eu/esco/skill/7d35602d-bc94-4975-aa7c-f4e8e05ce8e0": "cost management",
+    "http://data.europa.eu/esco/skill/82887396-e5bf-4306-af51-3fe8d82790b2": "civil engineering",
+    "http://data.europa.eu/esco/skill/9be758b6-a45d-403c-8943-68390ee2c961": "quantity surveying",
+    "http://data.europa.eu/esco/skill/cc173f61-3386-44c5-a048-3889e1ec9114": "construction methods",
+    "http://data.europa.eu/esco/skill/ce4990a4-bf69-4f5f-becb-e4fd96da3a74": "mining, construction and civil engineering machinery products",
+    "http://data.europa.eu/esco/skill/08b04e53-ed25-41a2-9f90-0b9cd939ba3d": "manage research data",
+    "http://data.europa.eu/esco/skill/1de548e0-9535-4d2e-9d20-d4474c1ea813": "oversee construction project",
+    "http://data.europa.eu/esco/skill/20a8fe89-d4eb-4698-8521-8881c13377e0": "interact professionally in research and professional environments",
+    "http://data.europa.eu/esco/skill/2b34764d-637c-48f5-aa70-31e15c965db6": "operate open source software",
+    "http://data.europa.eu/esco/skill/4134622c-c3fb-4a41-beb6-6d58ba5107db": "demonstrate disciplinary expertise",
+    "http://data.europa.eu/esco/skill/5a19182a-7f24-4b34-91ed-9c342787f821": "liaise with architects",
+    "http://data.europa.eu/esco/skill/76415d7f-0fde-4364-b45f-5c044580d2aa": "create CAD drawings",
+    "http://data.europa.eu/esco/skill/9a58cd26-58eb-4a1c-b1b6-64037fe9cfa1": "think abstractly",
+    "http://data.europa.eu/esco/skill/d74df140-eb69-43e2-bac9-1cafc824d702": "execute feasibility study",
+    "http://data.europa.eu/esco/skill/f715be1d-5fc4-49d3-82a5-0b8090d12849": "synthesise information"
+  },
+  "iscoSource": {
+    "name": "ESCO classification v1.2.1 (occupations_en.csv, iscoGroup column)",
+    "url": "https://esco.ec.europa.eu/en/use-esco/download"
   }
 }

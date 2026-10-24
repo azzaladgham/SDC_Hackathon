@@ -267,5 +267,116 @@
       "tax compliance",
       "tax automation"
     ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/9d916d7c-89b3-4084-a6d9-e2b0b3091404",
+    "label": "manage payroll",
+    "keywords": [
+      "payroll automation",
+      "payroll software"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/f683ae1d-cb7c-4aa1-b9fe-205e1bd23535",
+    "label": "use microsoft office",
+    "keywords": [
+      "Microsoft Copilot",
+      "Microsoft 365"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/c241f5a5-e23f-47bf-ad24-d83ea0010166",
+    "label": "ensure proper document management",
+    "keywords": [
+      "document management",
+      "intelligent document processing"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/ec0bbf39-0edd-4015-a2c3-82ad563ce3a8",
+    "label": "draft corporate emails",
+    "keywords": [
+      "email automation",
+      "AI email assistant"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/7c3865d1-e5a9-4043-a7a4-2e9e30468c0b",
+    "label": "perform office routine activities",
+    "keywords": [
+      "robotic process automation"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/3ee090a1-9d1c-44ed-bd93-f6b7c9b68a97",
+    "label": "manage payroll reports",
+    "keywords": [
+      "HR analytics",
+      "people analytics"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/e49c4d19-dea6-42a1-bde2-30d69dc0ca24",
+    "label": "profile people",
+    "keywords": [
+      "talent assessment",
+      "AI recruiting"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/38a5c459-c591-4f76-a358-37de342bb11d",
+    "label": "job market offers",
+    "keywords": [
+      "labor market",
+      "job matching"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/98301d4a-2cc3-439d-8d7f-0b6ac76302bb",
+    "label": "business process modelling",
+    "keywords": [
+      "BPMN",
+      "process mining"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/b04f377b-ee80-4b38-aca1-19d266a23b17",
+    "label": "analyse business requirements",
+    "keywords": [
+      "requirements engineering",
+      "user stories"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/3c03ee71-4a23-448f-b79e-81fd75d27dca",
+    "label": "apply change management",
+    "keywords": [
+      "change management",
+      "digital transformation"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/a0d79341-8398-4019-ad1b-27888ec35aaa",
+    "label": "use accounting systems",
+    "keywords": [
+      "accounting software",
+      "enterprise resource planning"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/8a326ee1-169c-4c44-b38b-8f1bb20ec79b",
+    "label": "identify accounting errors",
+    "keywords": [
+      "accounting fraud",
+      "financial fraud detection"
+    ]
+  },
+  {
+    "escoUri": "http://data.europa.eu/esco/skill/15a33d76-4640-438d-ae64-fdc0c1d3eebc",
+    "label": "customer service",
+    "keywords": [
+      "customer experience",
+      "contact center"
+    ]
   }
 ]
