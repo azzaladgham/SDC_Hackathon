@@ -35,7 +35,7 @@ The deployed prototype uses a custom matching engine rather than calling a gener
 | Resource | Link |
 |---|---|
 | GitHub Repository | https://github.com/azzaladgham/SDC_Hackathon |
-| Replit Project | https://replit.com/@jarmxl/SDCHackathon |
+| Replit Project | https://replit.com/join#t=affrgmxnruqoqrk-jarmxl |
 | Live Prototype | https://sdc-hackathon-jarmxl.replit.app |
 | Slide Deck | https://canva.link/tvpr171cn8gx1d7 |
 | Demo Video | TODO: Add demo video URL |
