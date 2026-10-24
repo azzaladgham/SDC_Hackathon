@@ -740,6 +740,11 @@ SDC_Hackathon/
 |-- shared/
 |   |-- types.ts
 |
+|--submissions/
+    |--1. SDC2026_Africoders_Preliminary.pdf
+    |--ProofOfReplitUSE.pdf
+    |--SDC2026_Africoders_TechnicalDeclaration.pdf
+|
 |-- web/
 |   |-- public/
 |   |   |-- characters/
