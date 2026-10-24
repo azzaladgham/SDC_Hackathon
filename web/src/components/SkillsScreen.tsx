@@ -2,14 +2,24 @@ import { useState } from "react";
 import type { Profile } from "../../../shared/types";
 import { INTEREST_OPTIONS } from "../mocks/skills";
 
-// PLACEHOLDER fields and skills. Replace with ESCO skill groups once Role A provides labels.
-const FIELDS: Record<string, string[]> = {
-  "ICT": ["Python", "Git", "SQL", "Machine learning", "Cloud deployment", "Software testing", "Networking", "Risk assessment", "Incident response", "Data visualisation", "Statistics"],
-  "Finance": ["Excel", "Financial reporting", "Bookkeeping", "Forecasting", "Payroll software", "Statistics"],
-  "Education": ["Presentation", "Communication", "Digital pedagogy"],
-  "Creative": ["Visual design", "Motion graphics", "Presentation"],
-  "Customer & admin": ["Communication", "CRM tools", "Excel"],
-};
+import escoData from "../data/esco.json";
+
+// Fields and skills come from Role A's ESCO data, so the server recognises every skill.
+// Each field lists the 12 skills most often required by its roles.
+const FIELDS: Record<string, string[]> = {};
+{
+  const labels = escoData.skillLabels as Record<string, string>;
+  const counts: Record<string, Record<string, number>> = {};
+  for (const r of escoData.roles) {
+    const c = (counts[r.group] ??= {});
+    for (const uri of r.essentialSkills) if (labels[uri]) c[labels[uri]] = (c[labels[uri]] ?? 0) + 1;
+  }
+  for (const [group, c] of Object.entries(counts)) {
+    FIELDS[group] = Object.keys(c)
+      .sort((a, b) => c[b] - c[a] || a.localeCompare(b))
+      .slice(0, 12);
+  }
+}
 
 type Props = {
   name: string;
