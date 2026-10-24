@@ -32,7 +32,9 @@ function App() {
     if (profile) getMatches(profile.id, snapshot, profile.skills).then(setMatches);
   }, [profile, snapshot]);
   useEffect(() => { getTrends(snapshot).then(setTrends); }, [snapshot]);
-
+  useEffect(() => {
+  window.scrollTo({ top: 0, left: 0 });
+  }, [name, country, profile, selected]);
   const adjusted = (m: MatchResult) => m.score[scenario] + sdgWeight * m.breakdown.sdgBoost;
   const ranked = [...matches].sort((a, b) => adjusted(b) - adjusted(a));
   const selectedMatch = ranked.find((r) => r.role.title === selected);
