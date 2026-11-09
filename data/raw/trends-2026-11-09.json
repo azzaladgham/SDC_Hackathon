@@ -1,0 +1,802 @@
+{
+  "asOf": "2026-11-09",
+  "fetchedAt": "2026-11-09T09:34:53.779Z",
+  "windows": {
+    "recent": [
+      "2026-08-09",
+      "2026-11-09"
+    ],
+    "prior": [
+      "2026-05-09",
+      "2026-08-09"
+    ]
+  },
+  "hnThreads": {
+    "recent": [
+      {
+        "id": "50338728",
+        "title": "Ask HN: Who is hiring? (November 2026)"
+      },
+      {
+        "id": "49922569",
+        "title": "Ask HN: Who is hiring? (October 2026)"
+      },
+      {
+        "id": "49522897",
+        "title": "Ask HN: Who is hiring? (September 2026)"
+      }
+    ],
+    "prior": [
+      {
+        "id": "49156683",
+        "title": "Ask HN: Who is hiring? (August 2026)"
+      },
+      {
+        "id": "48747976",
+        "title": "Ask HN: Who is hiring? (July 2026)"
+      },
+      {
+        "id": "48357725",
+        "title": "Ask HN: Who is hiring? (June 2026)"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "label": "data mining",
+      "keywords": [
+        "data mining"
+      ],
+      "arxiv": {
+        "recent": 87,
+        "prior": 135
+      },
+      "hn": {
+        "recent": 1,
+        "prior": 3
+      },
+      "momentum": -0.36
+    },
+    {
+      "label": "query languages",
+      "keywords": [
+        "SQL",
+        "GraphQL",
+        "SPARQL"
+      ],
+      "arxiv": {
+        "recent": 277,
+        "prior": 234
+      },
+      "hn": {
+        "recent": 53,
+        "prior": 65
+      },
+      "momentum": 0
+    },
+    {
+      "label": "data models",
+      "keywords": [
+        "data modeling",
+        "knowledge graph"
+      ],
+      "arxiv": {
+        "recent": 554,
+        "prior": 617
+      },
+      "hn": {
+        "recent": 8,
+        "prior": 16
+      },
+      "momentum": -0.1
+    },
+    {
+      "label": "statistics",
+      "keywords": [
+        "statistical modeling",
+        "Bayesian"
+      ],
+      "arxiv": {
+        "recent": 1992,
+        "prior": 1990
+      },
+      "hn": {
+        "recent": 1,
+        "prior": 3
+      },
+      "momentum": 0
+    },
+    {
+      "label": "computer programming",
+      "keywords": [
+        "Python",
+        "Rust",
+        "TypeScript"
+      ],
+      "arxiv": {
+        "recent": 1079,
+        "prior": 995
+      },
+      "hn": {
+        "recent": 397,
+        "prior": 476
+      },
+      "momentum": -0.04
+    },
+    {
+      "label": "web programming",
+      "keywords": [
+        "React",
+        "Next.js",
+        "web development"
+      ],
+      "arxiv": {
+        "recent": 322,
+        "prior": 248
+      },
+      "hn": {
+        "recent": 188,
+        "prior": 258
+      },
+      "momentum": 0.01
+    },
+    {
+      "label": "debug software",
+      "keywords": [
+        "automated debugging",
+        "fault localization"
+      ],
+      "arxiv": {
+        "recent": 35,
+        "prior": 35
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "design database scheme",
+      "keywords": [
+        "PostgreSQL",
+        "database schema"
+      ],
+      "arxiv": {
+        "recent": 61,
+        "prior": 58
+      },
+      "hn": {
+        "recent": 55,
+        "prior": 71
+      },
+      "momentum": -0.09
+    },
+    {
+      "label": "use software design patterns",
+      "keywords": [
+        "design patterns",
+        "microservices"
+      ],
+      "arxiv": {
+        "recent": 92,
+        "prior": 141
+      },
+      "hn": {
+        "recent": 4,
+        "prior": 8
+      },
+      "momentum": -0.35
+    },
+    {
+      "label": "analyse big data",
+      "keywords": [
+        "big data",
+        "Spark",
+        "data lake"
+      ],
+      "arxiv": {
+        "recent": 166,
+        "prior": 173
+      },
+      "hn": {
+        "recent": 3,
+        "prior": 11
+      },
+      "momentum": -0.04
+    },
+    {
+      "label": "data quality assessment",
+      "keywords": [
+        "data quality",
+        "data observability"
+      ],
+      "arxiv": {
+        "recent": 165,
+        "prior": 201
+      },
+      "hn": {
+        "recent": 1,
+        "prior": 5
+      },
+      "momentum": -0.18
+    },
+    {
+      "label": "perform data cleansing",
+      "keywords": [
+        "data cleaning",
+        "ETL"
+      ],
+      "arxiv": {
+        "recent": 25,
+        "prior": 44
+      },
+      "hn": {
+        "recent": 4,
+        "prior": 16
+      },
+      "momentum": -0.43
+    },
+    {
+      "label": "information extraction",
+      "keywords": [
+        "information extraction",
+        "named entity recognition"
+      ],
+      "arxiv": {
+        "recent": 142,
+        "prior": 161
+      },
+      "hn": {
+        "recent": 2,
+        "prior": 1
+      },
+      "momentum": -0.12
+    },
+    {
+      "label": "tools for software configuration management",
+      "keywords": [
+        "Git",
+        "infrastructure as code",
+        "Terraform"
+      ],
+      "arxiv": {
+        "recent": 117,
+        "prior": 102
+      },
+      "hn": {
+        "recent": 63,
+        "prior": 77
+      },
+      "momentum": -0.02
+    },
+    {
+      "label": "integrated development environment software",
+      "keywords": [
+        "AI coding assistant",
+        "Copilot",
+        "Cursor"
+      ],
+      "arxiv": {
+        "recent": 81,
+        "prior": 122
+      },
+      "hn": {
+        "recent": 25,
+        "prior": 35
+      },
+      "momentum": -0.31
+    },
+    {
+      "label": "ICT security legislation",
+      "keywords": [
+        "GDPR",
+        "cybersecurity compliance"
+      ],
+      "arxiv": {
+        "recent": 44,
+        "prior": 62
+      },
+      "hn": {
+        "recent": 4,
+        "prior": 1
+      },
+      "momentum": -0.29
+    },
+    {
+      "label": "design graphics",
+      "keywords": [
+        "generative design",
+        "Figma"
+      ],
+      "arxiv": {
+        "recent": 67,
+        "prior": 62
+      },
+      "hn": {
+        "recent": 7,
+        "prior": 3
+      },
+      "momentum": 0.08
+    },
+    {
+      "label": "supply chain management",
+      "keywords": [
+        "supply chain",
+        "supply chain optimization"
+      ],
+      "arxiv": {
+        "recent": 156,
+        "prior": 233
+      },
+      "hn": {
+        "recent": 11,
+        "prior": 10
+      },
+      "momentum": -0.33
+    },
+    {
+      "label": "analyse supply chain trends",
+      "keywords": [
+        "supply chain forecasting",
+        "demand forecasting"
+      ],
+      "arxiv": {
+        "recent": 31,
+        "prior": 35
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": -0.11
+    },
+    {
+      "label": "perform risk analysis",
+      "keywords": [
+        "risk analysis",
+        "risk modelling"
+      ],
+      "arxiv": {
+        "recent": 89,
+        "prior": 102
+      },
+      "hn": {
+        "recent": 2,
+        "prior": 1
+      },
+      "momentum": -0.13
+    },
+    {
+      "label": "project management",
+      "keywords": [
+        "project management",
+        "agile"
+      ],
+      "arxiv": {
+        "recent": 143,
+        "prior": 157
+      },
+      "hn": {
+        "recent": 6,
+        "prior": 8
+      },
+      "momentum": -0.09
+    },
+    {
+      "label": "manage inventory",
+      "keywords": [
+        "inventory management",
+        "inventory optimization"
+      ],
+      "arxiv": {
+        "recent": 15,
+        "prior": 11
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "perform market research",
+      "keywords": [
+        "market research",
+        "consumer insights"
+      ],
+      "arxiv": {
+        "recent": 8,
+        "prior": 9
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "pricing strategies",
+      "keywords": [
+        "dynamic pricing",
+        "pricing optimization"
+      ],
+      "arxiv": {
+        "recent": 33,
+        "prior": 31
+      },
+      "hn": {
+        "recent": 1,
+        "prior": 0
+      },
+      "momentum": 0.06
+    },
+    {
+      "label": "corporate social responsibility",
+      "keywords": [
+        "ESG",
+        "sustainability reporting"
+      ],
+      "arxiv": {
+        "recent": 17,
+        "prior": 21
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": -0.19
+    },
+    {
+      "label": "manage budgets",
+      "keywords": [
+        "budget forecasting",
+        "financial planning and analysis"
+      ],
+      "arxiv": {
+        "recent": 3,
+        "prior": 0
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "provide technical documentation",
+      "keywords": [
+        "software documentation",
+        "API documentation"
+      ],
+      "arxiv": {
+        "recent": 16,
+        "prior": 10
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "train employees",
+      "keywords": [
+        "upskilling",
+        "corporate training"
+      ],
+      "arxiv": {
+        "recent": 9,
+        "prior": 3
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "communicate with customers",
+      "keywords": [
+        "customer support automation",
+        "chatbot"
+      ],
+      "arxiv": {
+        "recent": 158,
+        "prior": 191
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 4
+      },
+      "momentum": -0.17
+    },
+    {
+      "label": "analyse financial risk",
+      "keywords": [
+        "financial risk",
+        "credit risk"
+      ],
+      "arxiv": {
+        "recent": 42,
+        "prior": 45
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": -0.07
+    },
+    {
+      "label": "accounting",
+      "keywords": [
+        "accounting automation",
+        "bookkeeping automation"
+      ],
+      "arxiv": {
+        "recent": 0,
+        "prior": 2
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "interpret financial statements",
+      "keywords": [
+        "financial statement analysis",
+        "financial reporting"
+      ],
+      "arxiv": {
+        "recent": 14,
+        "prior": 20
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": -0.3
+    },
+    {
+      "label": "tax legislation",
+      "keywords": [
+        "tax compliance",
+        "tax automation"
+      ],
+      "arxiv": {
+        "recent": 3,
+        "prior": 0
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "manage payroll",
+      "keywords": [
+        "payroll automation",
+        "payroll software"
+      ],
+      "arxiv": {
+        "recent": 0,
+        "prior": 0
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "use microsoft office",
+      "keywords": [
+        "Microsoft Copilot",
+        "Microsoft 365"
+      ],
+      "arxiv": {
+        "recent": 4,
+        "prior": 7
+      },
+      "hn": {
+        "recent": 1,
+        "prior": 2
+      },
+      "momentum": 0
+    },
+    {
+      "label": "ensure proper document management",
+      "keywords": [
+        "document management",
+        "intelligent document processing"
+      ],
+      "arxiv": {
+        "recent": 1,
+        "prior": 3
+      },
+      "hn": {
+        "recent": 1,
+        "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "draft corporate emails",
+      "keywords": [
+        "email automation",
+        "AI email assistant"
+      ],
+      "arxiv": {
+        "recent": 0,
+        "prior": 0
+      },
+      "hn": {
+        "recent": 1,
+        "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "perform office routine activities",
+      "keywords": [
+        "robotic process automation"
+      ],
+      "arxiv": {
+        "recent": 2,
+        "prior": 2
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "manage payroll reports",
+      "keywords": [
+        "HR analytics",
+        "people analytics"
+      ],
+      "arxiv": {
+        "recent": 0,
+        "prior": 1
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 1
+      },
+      "momentum": 0
+    },
+    {
+      "label": "profile people",
+      "keywords": [
+        "talent assessment",
+        "AI recruiting"
+      ],
+      "arxiv": {
+        "recent": 2,
+        "prior": 0
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "job market offers",
+      "keywords": [
+        "labor market",
+        "job matching"
+      ],
+      "arxiv": {
+        "recent": 23,
+        "prior": 43
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": -0.47
+    },
+    {
+      "label": "business process modelling",
+      "keywords": [
+        "BPMN",
+        "process mining"
+      ],
+      "arxiv": {
+        "recent": 22,
+        "prior": 20
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": 0.1
+    },
+    {
+      "label": "analyse business requirements",
+      "keywords": [
+        "requirements engineering",
+        "user stories"
+      ],
+      "arxiv": {
+        "recent": 38,
+        "prior": 51
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": -0.25
+    },
+    {
+      "label": "apply change management",
+      "keywords": [
+        "change management",
+        "digital transformation"
+      ],
+      "arxiv": {
+        "recent": 23,
+        "prior": 23
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "use accounting systems",
+      "keywords": [
+        "accounting software",
+        "enterprise resource planning"
+      ],
+      "arxiv": {
+        "recent": 7,
+        "prior": 4
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "identify accounting errors",
+      "keywords": [
+        "accounting fraud",
+        "financial fraud detection"
+      ],
+      "arxiv": {
+        "recent": 8,
+        "prior": 7
+      },
+      "hn": {
+        "recent": 0,
+        "prior": 0
+      },
+      "momentum": 0
+    },
+    {
+      "label": "customer service",
+      "keywords": [
+        "customer experience",
+        "contact center"
+      ],
+      "arxiv": {
+        "recent": 14,
+        "prior": 9
+      },
+      "hn": {
+        "recent": 1,
+        "prior": 3
+      },
+      "momentum": 0
+    }
+  ]
+}
